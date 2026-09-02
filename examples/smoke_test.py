@@ -48,6 +48,7 @@ def main() -> int:
         anchor_seed=0,
         preprocess=PreprocessConfig(n_components=10, source="X"),
         train=TrainConfig(
+            embedding_dim=8,
             max_epochs=3,
             batch_size=32,
             early_stopping_patience=3,
@@ -55,12 +56,10 @@ def main() -> int:
         device="cpu",
     )
 
-    # NOTE: the "solar_orthogonal" variant fixes embedding_dim=128 (the
-    # manuscript's primary configuration) regardless of TrainConfig, because
-    # its anchor bank is generated at a fixed 128 dimensions -- see
-    # SOLAR/benchmark/variants.py.
-    assert result.reference_embedding.shape == (240, 128), result.reference_embedding.shape
-    assert result.query_embedding.shape == (80, 128), result.query_embedding.shape
+    # A non-default dimension is intentional: this assertion guards against
+    # variant-level kwargs silently overriding TrainConfig.embedding_dim.
+    assert result.reference_embedding.shape == (240, 8), result.reference_embedding.shape
+    assert result.query_embedding.shape == (80, 8), result.query_embedding.shape
     assert not np.isnan(result.reference_embedding).any()
     assert not np.isnan(result.query_embedding).any()
 

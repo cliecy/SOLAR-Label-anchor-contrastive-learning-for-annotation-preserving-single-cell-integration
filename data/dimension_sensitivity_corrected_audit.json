@@ -1,0 +1,63 @@
+{
+  "datasets": [
+    "immune_cell_human",
+    "lung_atlas",
+    "pancreas",
+    "simulation_1",
+    "simulation_2"
+  ],
+  "dimension_values_match_run_labels": true,
+  "dimensions": [
+    30,
+    64,
+    128
+  ],
+  "exact_equality_check": {
+    "ARI": {
+      "complete_triplets": 25,
+      "exactly_equal_across_all_dimensions": 0
+    },
+    "Graph connectivity": {
+      "complete_triplets": 25,
+      "exactly_equal_across_all_dimensions": 10
+    },
+    "Label ASW": {
+      "complete_triplets": 25,
+      "exactly_equal_across_all_dimensions": 0
+    },
+    "NMI": {
+      "complete_triplets": 25,
+      "exactly_equal_across_all_dimensions": 0
+    },
+    "PCR": {
+      "complete_triplets": 25,
+      "exactly_equal_across_all_dimensions": 0
+    },
+    "Trajectory": {
+      "complete_triplets": 5,
+      "exactly_equal_across_all_dimensions": 0
+    },
+    "iLISI": {
+      "complete_triplets": 25,
+      "exactly_equal_across_all_dimensions": 0
+    }
+  },
+  "paired_csv": "dimension_sensitivity_corrected_paired.csv",
+  "rows": 75,
+  "schema_version": 1,
+  "seeds": [
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "source": "data/raw_scib_metrics_all_runs.csv",
+  "source_runs": {
+    "128": "solar_scib_rebuttal_v1",
+    "30": "solar_scib_rebuttal_dim30_v2",
+    "64": "solar_scib_rebuttal_dim64_v2"
+  },
+  "summary_csv": "dimension_sensitivity_corrected_summary.csv",
+  "unique_dataset_seed_dimension_keys": 75
+}

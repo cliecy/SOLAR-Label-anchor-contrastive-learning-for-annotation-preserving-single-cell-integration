@@ -1,0 +1,1141 @@
+{
+  "cross_dimension": {
+    "all_embedding_files_distinct": true,
+    "paired_jobs": 25,
+    "pairs": [
+      {
+        "dataset_id": "immune_cell_human",
+        "files_distinct": true,
+        "seed": 40,
+        "sha256_dim30": "c0200687830e7f9a5f1fc8580d81f54f1a61172b4e79b466c6bd5cdd14f1a788",
+        "sha256_dim64": "57de6f354e42b4ac3daf161540b548d69f2ed1264df2fbf09f813642b60b5cce"
+      },
+      {
+        "dataset_id": "immune_cell_human",
+        "files_distinct": true,
+        "seed": 41,
+        "sha256_dim30": "a3025edc7ed35e42233ead4b8c0bf9b0d6f563e87f1b8b3a9bce80e9cc0eaac2",
+        "sha256_dim64": "1a38f8df7bfb759139b8e0c4481d4242dc9f049dae8244d2071ff689cacfb5e9"
+      },
+      {
+        "dataset_id": "immune_cell_human",
+        "files_distinct": true,
+        "seed": 42,
+        "sha256_dim30": "ba5d4c46250fd114fc45b0ecb74b0427a4bc48565e32f33473e95d37ea223199",
+        "sha256_dim64": "48dc9b666e36eaeaab713681078f31e956cad0bd6d196fadb0f92320f8003ebe"
+      },
+      {
+        "dataset_id": "immune_cell_human",
+        "files_distinct": true,
+        "seed": 43,
+        "sha256_dim30": "6b92dc98c2e28f9bc1d77f6de5ff6b9a2e1ab7d70fc4f2819bace44e953480a6",
+        "sha256_dim64": "f5bd5686b24ea6d82ab263754e9cf17e72d0f9a154fb03a9ed986e90b7dc8014"
+      },
+      {
+        "dataset_id": "immune_cell_human",
+        "files_distinct": true,
+        "seed": 44,
+        "sha256_dim30": "436284a7846af863e7eb991a57d7b1a292917312766b103f3f0d53eb6a16bcd1",
+        "sha256_dim64": "e31cac5a8a95a6097e5da37915a5ea91ab89f44bc474f0f8511de0345264b471"
+      },
+      {
+        "dataset_id": "lung_atlas",
+        "files_distinct": true,
+        "seed": 40,
+        "sha256_dim30": "2f3dabe2cbd81bb87e48b67cf5f25331a5e41bcefa4c35cc3e19c36f464376d1",
+        "sha256_dim64": "e82a31f6c5aadf143ee9f0eedec4b633c468dad82f12e70abed07dfab343d2da"
+      },
+      {
+        "dataset_id": "lung_atlas",
+        "files_distinct": true,
+        "seed": 41,
+        "sha256_dim30": "7d63281311f0f7616171217b9a7d92f4e88dde14ab474e2b46944ad31bb17e3a",
+        "sha256_dim64": "f3a14b033eae8691302250059d202d74b74ef8fd6ec9723f5345aa0ca63a8f37"
+      },
+      {
+        "dataset_id": "lung_atlas",
+        "files_distinct": true,
+        "seed": 42,
+        "sha256_dim30": "cc8a79a678221e090a92201ba14efe0c872215edd07fb9e29cac0bab133bfa75",
+        "sha256_dim64": "64ed526053d4584dc1a3aac8b36021e43cc70ad116bed4d908ac5e47e7fb61b3"
+      },
+      {
+        "dataset_id": "lung_atlas",
+        "files_distinct": true,
+        "seed": 43,
+        "sha256_dim30": "31c879ccf6a002d53b73220ab1ded093e4c34d9d1e1df142f9c2e99e6773af65",
+        "sha256_dim64": "f610ad2ff33e4ab04c29bc434dabda2b385116bfd849bc56b7241d1dd52894a4"
+      },
+      {
+        "dataset_id": "lung_atlas",
+        "files_distinct": true,
+        "seed": 44,
+        "sha256_dim30": "63d704fe2b5490496eba58369be5773482c6a0a208d94d5e9b1780f0d2f813fd",
+        "sha256_dim64": "b9ec9e76f804f6b28a42f06da0b7324b2304b7dadea764bf1682597e02757b62"
+      },
+      {
+        "dataset_id": "pancreas",
+        "files_distinct": true,
+        "seed": 40,
+        "sha256_dim30": "a4f528983084aa83d3d08761a799da19d650fdab80c37f62493e1f0cc3637c91",
+        "sha256_dim64": "dc6e09980c69d4f909ada0c3464b8c7afcfd9c1819132d21200d8e5611707631"
+      },
+      {
+        "dataset_id": "pancreas",
+        "files_distinct": true,
+        "seed": 41,
+        "sha256_dim30": "35e411ea4a6ec724c1f9a2188bdfb5ba7e776d8014a0ca4e910be2676885ab80",
+        "sha256_dim64": "994941d31cdb7d2aeaef92147ac15d0c3a3c17315699bf3729370cc0e84a435a"
+      },
+      {
+        "dataset_id": "pancreas",
+        "files_distinct": true,
+        "seed": 42,
+        "sha256_dim30": "8833242d94c96b4afc2c1cddf3ddd283a47286b8d80cd772a49628d204f20544",
+        "sha256_dim64": "a0f0737b5899169c4be2c84ce406f2eac6874a0073a4ddd79627272dc57d1d06"
+      },
+      {
+        "dataset_id": "pancreas",
+        "files_distinct": true,
+        "seed": 43,
+        "sha256_dim30": "985f697112bd783a135a4208fcefaf20d0ae9d7a71355a44aefbaebb36ac6407",
+        "sha256_dim64": "bd4a83762d0aae48d6930bb68bb4c16ce5c7059c8604dc89204914d0f9d83d78"
+      },
+      {
+        "dataset_id": "pancreas",
+        "files_distinct": true,
+        "seed": 44,
+        "sha256_dim30": "c277a0bc0a3d7ef85fb396a8226a8596d6eca99e40c95bf821b8e9650482a4d6",
+        "sha256_dim64": "3a2296c64118ef638fb15b5a78ec593e3a17d9a19660d7b5355b5c1907c93265"
+      },
+      {
+        "dataset_id": "simulation_1",
+        "files_distinct": true,
+        "seed": 40,
+        "sha256_dim30": "623d5d5db8641d62a4b6a7f2789cd88e32017d8f1207d679231ed4a94655cd06",
+        "sha256_dim64": "8dcca3af7d67096a763796a86a6c6a67bbe5c05f3518da564e806b033c322074"
+      },
+      {
+        "dataset_id": "simulation_1",
+        "files_distinct": true,
+        "seed": 41,
+        "sha256_dim30": "00cf88e02615f3a06b5b63e8af97c7006da4d244f78e410d8cfc46aa7bab09e8",
+        "sha256_dim64": "ecf7079d9ba9f4b307bc5f8fbea154e1813e2aaecd556a8e2c861acbbc2b1bb4"
+      },
+      {
+        "dataset_id": "simulation_1",
+        "files_distinct": true,
+        "seed": 42,
+        "sha256_dim30": "39e11a94f6f00d02a4487e219efd1569006433aabcca6f0d6c22fb26e58090f8",
+        "sha256_dim64": "996a095122c06906d98f0505828dee229d70c9608a89bf5ddacca52c96d5183c"
+      },
+      {
+        "dataset_id": "simulation_1",
+        "files_distinct": true,
+        "seed": 43,
+        "sha256_dim30": "6540801edaa0e6e9b8dc1536c8b2c5b22c8f43bbdb6ca0649ea15393603b6265",
+        "sha256_dim64": "bfe798a88601938283ea2ea06d6bfb59ef31b2474d3ca3b15479b3472407d228"
+      },
+      {
+        "dataset_id": "simulation_1",
+        "files_distinct": true,
+        "seed": 44,
+        "sha256_dim30": "762640a7ce26a9a49494b86d9501bc11bdcbbff30757d9c02c1c9f86f7b61d38",
+        "sha256_dim64": "e86f3e9c47bd94b666d12330ff56bdb88aee682b7e295f0c846d0ddba4b987e6"
+      },
+      {
+        "dataset_id": "simulation_2",
+        "files_distinct": true,
+        "seed": 40,
+        "sha256_dim30": "300cb2f004a2863dd730edb661d173919410e3a1664590819fdc478eec058835",
+        "sha256_dim64": "2863ae7ed6259e40e30f50c2188509fd522f72c473ef21c1348856ab0d21840a"
+      },
+      {
+        "dataset_id": "simulation_2",
+        "files_distinct": true,
+        "seed": 41,
+        "sha256_dim30": "b63ad2c8b949c12547fb2e698f91262a8b7570d2677f436f1b609dd0c2589f3f",
+        "sha256_dim64": "f1da3afb1004b109469ed8d9df670c698d94ff3605adc0e684666e8d6aadfa5d"
+      },
+      {
+        "dataset_id": "simulation_2",
+        "files_distinct": true,
+        "seed": 42,
+        "sha256_dim30": "7707292a1c5ac585d8332bb050893d0ed0fbb726c24b19373e7e6848963dbb74",
+        "sha256_dim64": "9cbbc82bf099062b490f2bc75a4570a60bfe514d2b902566bf8ab42da665714e"
+      },
+      {
+        "dataset_id": "simulation_2",
+        "files_distinct": true,
+        "seed": 43,
+        "sha256_dim30": "e13f035d66c1cb8b26e0d6ffeee2728fc1d2261f048b993f6a7f7b0a9c5a92aa",
+        "sha256_dim64": "562ea87004d97495416c9026c76aefec363a660f4885c15be476ea2a08894e47"
+      },
+      {
+        "dataset_id": "simulation_2",
+        "files_distinct": true,
+        "seed": 44,
+        "sha256_dim30": "87f4d88338fac531af80ca88ca40933225caed62c9fbe43df6196d30ca2c19a8",
+        "sha256_dim64": "788f45c343f7159cfcd71f1631728771fca39a8840e116e6c433a489f1684ad2"
+      }
+    ]
+  },
+  "expected_upstream_sha256": "d000915f9d39ed95a8b5c5422ebe2a60b7054d16ec79951d77d487c6ab0a704c",
+  "git_commit": "ed7f12f1e664a989d511b3d4f0d344a2205ffd6a",
+  "purpose": "Corrected SOLAR latent-dimension sweep training audit",
+  "runs": {
+    "solar_scib_rebuttal_dim30_v2": {
+      "completed_jobs": 25,
+      "dataset_counts": {
+        "immune_cell_human": 5,
+        "lung_atlas": 5,
+        "pancreas": 5,
+        "simulation_1": 5,
+        "simulation_2": 5
+      },
+      "embedding_dimension": 30,
+      "jobs": [
+        {
+          "dataset_id": "immune_cell_human",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "c0200687830e7f9a5f1fc8580d81f54f1a61172b4e79b466c6bd5cdd14f1a788",
+          "job_id": "core__immune_cell_human__hvg2000_pca40__solar_orthogonal__random_seed_40__s40__a0__l1p00",
+          "job_index": 0,
+          "query_shape": [
+            6697,
+            30
+          ],
+          "reference_shape": [
+            26809,
+            30
+          ],
+          "seconds": 51.418375730514526,
+          "seed": 40
+        },
+        {
+          "dataset_id": "immune_cell_human",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "a3025edc7ed35e42233ead4b8c0bf9b0d6f563e87f1b8b3a9bce80e9cc0eaac2",
+          "job_id": "core__immune_cell_human__hvg2000_pca40__solar_orthogonal__random_seed_41__s41__a0__l1p00",
+          "job_index": 1,
+          "query_shape": [
+            6697,
+            30
+          ],
+          "reference_shape": [
+            26809,
+            30
+          ],
+          "seconds": 51.395113945007324,
+          "seed": 41
+        },
+        {
+          "dataset_id": "immune_cell_human",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "ba5d4c46250fd114fc45b0ecb74b0427a4bc48565e32f33473e95d37ea223199",
+          "job_id": "core__immune_cell_human__hvg2000_pca40__solar_orthogonal__random_seed_42__s42__a0__l1p00",
+          "job_index": 2,
+          "query_shape": [
+            6697,
+            30
+          ],
+          "reference_shape": [
+            26809,
+            30
+          ],
+          "seconds": 52.05974078178406,
+          "seed": 42
+        },
+        {
+          "dataset_id": "immune_cell_human",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "6b92dc98c2e28f9bc1d77f6de5ff6b9a2e1ab7d70fc4f2819bace44e953480a6",
+          "job_id": "core__immune_cell_human__hvg2000_pca40__solar_orthogonal__random_seed_43__s43__a0__l1p00",
+          "job_index": 3,
+          "query_shape": [
+            6697,
+            30
+          ],
+          "reference_shape": [
+            26809,
+            30
+          ],
+          "seconds": 34.454972982406616,
+          "seed": 43
+        },
+        {
+          "dataset_id": "immune_cell_human",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "436284a7846af863e7eb991a57d7b1a292917312766b103f3f0d53eb6a16bcd1",
+          "job_id": "core__immune_cell_human__hvg2000_pca40__solar_orthogonal__random_seed_44__s44__a0__l1p00",
+          "job_index": 4,
+          "query_shape": [
+            6697,
+            30
+          ],
+          "reference_shape": [
+            26809,
+            30
+          ],
+          "seconds": 34.44323706626892,
+          "seed": 44
+        },
+        {
+          "dataset_id": "lung_atlas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "2f3dabe2cbd81bb87e48b67cf5f25331a5e41bcefa4c35cc3e19c36f464376d1",
+          "job_id": "core__lung_atlas__hvg2000_pca40__solar_orthogonal__random_seed_40__s40__a0__l1p00",
+          "job_index": 5,
+          "query_shape": [
+            6497,
+            30
+          ],
+          "reference_shape": [
+            25975,
+            30
+          ],
+          "seconds": 29.511406898498535,
+          "seed": 40
+        },
+        {
+          "dataset_id": "lung_atlas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "7d63281311f0f7616171217b9a7d92f4e88dde14ab474e2b46944ad31bb17e3a",
+          "job_id": "core__lung_atlas__hvg2000_pca40__solar_orthogonal__random_seed_41__s41__a0__l1p00",
+          "job_index": 6,
+          "query_shape": [
+            6497,
+            30
+          ],
+          "reference_shape": [
+            25975,
+            30
+          ],
+          "seconds": 23.83763313293457,
+          "seed": 41
+        },
+        {
+          "dataset_id": "lung_atlas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "cc8a79a678221e090a92201ba14efe0c872215edd07fb9e29cac0bab133bfa75",
+          "job_id": "core__lung_atlas__hvg2000_pca40__solar_orthogonal__random_seed_42__s42__a0__l1p00",
+          "job_index": 7,
+          "query_shape": [
+            6497,
+            30
+          ],
+          "reference_shape": [
+            25975,
+            30
+          ],
+          "seconds": 26.48859190940857,
+          "seed": 42
+        },
+        {
+          "dataset_id": "lung_atlas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "31c879ccf6a002d53b73220ab1ded093e4c34d9d1e1df142f9c2e99e6773af65",
+          "job_id": "core__lung_atlas__hvg2000_pca40__solar_orthogonal__random_seed_43__s43__a0__l1p00",
+          "job_index": 8,
+          "query_shape": [
+            6497,
+            30
+          ],
+          "reference_shape": [
+            25975,
+            30
+          ],
+          "seconds": 25.159336805343628,
+          "seed": 43
+        },
+        {
+          "dataset_id": "lung_atlas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "63d704fe2b5490496eba58369be5773482c6a0a208d94d5e9b1780f0d2f813fd",
+          "job_id": "core__lung_atlas__hvg2000_pca40__solar_orthogonal__random_seed_44__s44__a0__l1p00",
+          "job_index": 9,
+          "query_shape": [
+            6497,
+            30
+          ],
+          "reference_shape": [
+            25975,
+            30
+          ],
+          "seconds": 22.269617795944214,
+          "seed": 44
+        },
+        {
+          "dataset_id": "pancreas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "a4f528983084aa83d3d08761a799da19d650fdab80c37f62493e1f0cc3637c91",
+          "job_id": "core__pancreas__hvg2000_pca40__solar_orthogonal__random_seed_40__s40__a0__l1p00",
+          "job_index": 10,
+          "query_shape": [
+            3278,
+            30
+          ],
+          "reference_shape": [
+            13104,
+            30
+          ],
+          "seconds": 34.44907307624817,
+          "seed": 40
+        },
+        {
+          "dataset_id": "pancreas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "35e411ea4a6ec724c1f9a2188bdfb5ba7e776d8014a0ca4e910be2676885ab80",
+          "job_id": "core__pancreas__hvg2000_pca40__solar_orthogonal__random_seed_41__s41__a0__l1p00",
+          "job_index": 11,
+          "query_shape": [
+            3278,
+            30
+          ],
+          "reference_shape": [
+            13104,
+            30
+          ],
+          "seconds": 32.76014065742493,
+          "seed": 41
+        },
+        {
+          "dataset_id": "pancreas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "8833242d94c96b4afc2c1cddf3ddd283a47286b8d80cd772a49628d204f20544",
+          "job_id": "core__pancreas__hvg2000_pca40__solar_orthogonal__random_seed_42__s42__a0__l1p00",
+          "job_index": 12,
+          "query_shape": [
+            3278,
+            30
+          ],
+          "reference_shape": [
+            13104,
+            30
+          ],
+          "seconds": 28.584868669509888,
+          "seed": 42
+        },
+        {
+          "dataset_id": "pancreas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "985f697112bd783a135a4208fcefaf20d0ae9d7a71355a44aefbaebb36ac6407",
+          "job_id": "core__pancreas__hvg2000_pca40__solar_orthogonal__random_seed_43__s43__a0__l1p00",
+          "job_index": 13,
+          "query_shape": [
+            3278,
+            30
+          ],
+          "reference_shape": [
+            13104,
+            30
+          ],
+          "seconds": 36.25145959854126,
+          "seed": 43
+        },
+        {
+          "dataset_id": "pancreas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "c277a0bc0a3d7ef85fb396a8226a8596d6eca99e40c95bf821b8e9650482a4d6",
+          "job_id": "core__pancreas__hvg2000_pca40__solar_orthogonal__random_seed_44__s44__a0__l1p00",
+          "job_index": 14,
+          "query_shape": [
+            3278,
+            30
+          ],
+          "reference_shape": [
+            13104,
+            30
+          ],
+          "seconds": 31.18627643585205,
+          "seed": 44
+        },
+        {
+          "dataset_id": "simulation_1",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "623d5d5db8641d62a4b6a7f2789cd88e32017d8f1207d679231ed4a94655cd06",
+          "job_id": "core__simulation_1__hvg2000_pca40__solar_orthogonal__random_seed_40__s40__a0__l1p00",
+          "job_index": 15,
+          "query_shape": [
+            2420,
+            30
+          ],
+          "reference_shape": [
+            9677,
+            30
+          ],
+          "seconds": 21.316033601760864,
+          "seed": 40
+        },
+        {
+          "dataset_id": "simulation_1",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "00cf88e02615f3a06b5b63e8af97c7006da4d244f78e410d8cfc46aa7bab09e8",
+          "job_id": "core__simulation_1__hvg2000_pca40__solar_orthogonal__random_seed_41__s41__a0__l1p00",
+          "job_index": 16,
+          "query_shape": [
+            2420,
+            30
+          ],
+          "reference_shape": [
+            9677,
+            30
+          ],
+          "seconds": 16.501810312271118,
+          "seed": 41
+        },
+        {
+          "dataset_id": "simulation_1",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "39e11a94f6f00d02a4487e219efd1569006433aabcca6f0d6c22fb26e58090f8",
+          "job_id": "core__simulation_1__hvg2000_pca40__solar_orthogonal__random_seed_42__s42__a0__l1p00",
+          "job_index": 17,
+          "query_shape": [
+            2420,
+            30
+          ],
+          "reference_shape": [
+            9677,
+            30
+          ],
+          "seconds": 16.284042358398438,
+          "seed": 42
+        },
+        {
+          "dataset_id": "simulation_1",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "6540801edaa0e6e9b8dc1536c8b2c5b22c8f43bbdb6ca0649ea15393603b6265",
+          "job_id": "core__simulation_1__hvg2000_pca40__solar_orthogonal__random_seed_43__s43__a0__l1p00",
+          "job_index": 18,
+          "query_shape": [
+            2420,
+            30
+          ],
+          "reference_shape": [
+            9677,
+            30
+          ],
+          "seconds": 16.71181583404541,
+          "seed": 43
+        },
+        {
+          "dataset_id": "simulation_1",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "762640a7ce26a9a49494b86d9501bc11bdcbbff30757d9c02c1c9f86f7b61d38",
+          "job_id": "core__simulation_1__hvg2000_pca40__solar_orthogonal__random_seed_44__s44__a0__l1p00",
+          "job_index": 19,
+          "query_shape": [
+            2420,
+            30
+          ],
+          "reference_shape": [
+            9677,
+            30
+          ],
+          "seconds": 18.955859184265137,
+          "seed": 44
+        },
+        {
+          "dataset_id": "simulation_2",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "300cb2f004a2863dd730edb661d173919410e3a1664590819fdc478eec058835",
+          "job_id": "core__simulation_2__hvg2000_pca40__solar_orthogonal__random_seed_40__s40__a0__l1p00",
+          "job_index": 20,
+          "query_shape": [
+            3863,
+            30
+          ],
+          "reference_shape": [
+            15455,
+            30
+          ],
+          "seconds": 66.65202760696411,
+          "seed": 40
+        },
+        {
+          "dataset_id": "simulation_2",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "b63ad2c8b949c12547fb2e698f91262a8b7570d2677f436f1b609dd0c2589f3f",
+          "job_id": "core__simulation_2__hvg2000_pca40__solar_orthogonal__random_seed_41__s41__a0__l1p00",
+          "job_index": 21,
+          "query_shape": [
+            3863,
+            30
+          ],
+          "reference_shape": [
+            15455,
+            30
+          ],
+          "seconds": 66.29639482498169,
+          "seed": 41
+        },
+        {
+          "dataset_id": "simulation_2",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "7707292a1c5ac585d8332bb050893d0ed0fbb726c24b19373e7e6848963dbb74",
+          "job_id": "core__simulation_2__hvg2000_pca40__solar_orthogonal__random_seed_42__s42__a0__l1p00",
+          "job_index": 22,
+          "query_shape": [
+            3863,
+            30
+          ],
+          "reference_shape": [
+            15455,
+            30
+          ],
+          "seconds": 43.1847939491272,
+          "seed": 42
+        },
+        {
+          "dataset_id": "simulation_2",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "e13f035d66c1cb8b26e0d6ffeee2728fc1d2261f048b993f6a7f7b0a9c5a92aa",
+          "job_id": "core__simulation_2__hvg2000_pca40__solar_orthogonal__random_seed_43__s43__a0__l1p00",
+          "job_index": 23,
+          "query_shape": [
+            3863,
+            30
+          ],
+          "reference_shape": [
+            15455,
+            30
+          ],
+          "seconds": 25.93292784690857,
+          "seed": 43
+        },
+        {
+          "dataset_id": "simulation_2",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 30,
+          "embedding_sha256": "87f4d88338fac531af80ca88ca40933225caed62c9fbe43df6196d30ca2c19a8",
+          "job_id": "core__simulation_2__hvg2000_pca40__solar_orthogonal__random_seed_44__s44__a0__l1p00",
+          "job_index": 24,
+          "query_shape": [
+            3863,
+            30
+          ],
+          "reference_shape": [
+            15455,
+            30
+          ],
+          "seconds": 25.28039026260376,
+          "seed": 44
+        }
+      ],
+      "seconds_max": 66.65202760696411,
+      "seconds_min": 16.284042358398438,
+      "seed_counts": {
+        "40": 5,
+        "41": 5,
+        "42": 5,
+        "43": 5,
+        "44": 5
+      }
+    },
+    "solar_scib_rebuttal_dim64_v2": {
+      "completed_jobs": 25,
+      "dataset_counts": {
+        "immune_cell_human": 5,
+        "lung_atlas": 5,
+        "pancreas": 5,
+        "simulation_1": 5,
+        "simulation_2": 5
+      },
+      "embedding_dimension": 64,
+      "jobs": [
+        {
+          "dataset_id": "immune_cell_human",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "57de6f354e42b4ac3daf161540b548d69f2ed1264df2fbf09f813642b60b5cce",
+          "job_id": "core__immune_cell_human__hvg2000_pca40__solar_orthogonal__random_seed_40__s40__a0__l1p00",
+          "job_index": 0,
+          "query_shape": [
+            6697,
+            64
+          ],
+          "reference_shape": [
+            26809,
+            64
+          ],
+          "seconds": 31.196767330169678,
+          "seed": 40
+        },
+        {
+          "dataset_id": "immune_cell_human",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "1a38f8df7bfb759139b8e0c4481d4242dc9f049dae8244d2071ff689cacfb5e9",
+          "job_id": "core__immune_cell_human__hvg2000_pca40__solar_orthogonal__random_seed_41__s41__a0__l1p00",
+          "job_index": 1,
+          "query_shape": [
+            6697,
+            64
+          ],
+          "reference_shape": [
+            26809,
+            64
+          ],
+          "seconds": 32.84823298454285,
+          "seed": 41
+        },
+        {
+          "dataset_id": "immune_cell_human",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "48dc9b666e36eaeaab713681078f31e956cad0bd6d196fadb0f92320f8003ebe",
+          "job_id": "core__immune_cell_human__hvg2000_pca40__solar_orthogonal__random_seed_42__s42__a0__l1p00",
+          "job_index": 2,
+          "query_shape": [
+            6697,
+            64
+          ],
+          "reference_shape": [
+            26809,
+            64
+          ],
+          "seconds": 33.43545842170715,
+          "seed": 42
+        },
+        {
+          "dataset_id": "immune_cell_human",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "f5bd5686b24ea6d82ab263754e9cf17e72d0f9a154fb03a9ed986e90b7dc8014",
+          "job_id": "core__immune_cell_human__hvg2000_pca40__solar_orthogonal__random_seed_43__s43__a0__l1p00",
+          "job_index": 3,
+          "query_shape": [
+            6697,
+            64
+          ],
+          "reference_shape": [
+            26809,
+            64
+          ],
+          "seconds": 35.43414282798767,
+          "seed": 43
+        },
+        {
+          "dataset_id": "immune_cell_human",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "e31cac5a8a95a6097e5da37915a5ea91ab89f44bc474f0f8511de0345264b471",
+          "job_id": "core__immune_cell_human__hvg2000_pca40__solar_orthogonal__random_seed_44__s44__a0__l1p00",
+          "job_index": 4,
+          "query_shape": [
+            6697,
+            64
+          ],
+          "reference_shape": [
+            26809,
+            64
+          ],
+          "seconds": 31.093331575393677,
+          "seed": 44
+        },
+        {
+          "dataset_id": "lung_atlas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "e82a31f6c5aadf143ee9f0eedec4b633c468dad82f12e70abed07dfab343d2da",
+          "job_id": "core__lung_atlas__hvg2000_pca40__solar_orthogonal__random_seed_40__s40__a0__l1p00",
+          "job_index": 5,
+          "query_shape": [
+            6497,
+            64
+          ],
+          "reference_shape": [
+            25975,
+            64
+          ],
+          "seconds": 24.164583206176758,
+          "seed": 40
+        },
+        {
+          "dataset_id": "lung_atlas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "f3a14b033eae8691302250059d202d74b74ef8fd6ec9723f5345aa0ca63a8f37",
+          "job_id": "core__lung_atlas__hvg2000_pca40__solar_orthogonal__random_seed_41__s41__a0__l1p00",
+          "job_index": 6,
+          "query_shape": [
+            6497,
+            64
+          ],
+          "reference_shape": [
+            25975,
+            64
+          ],
+          "seconds": 22.69461750984192,
+          "seed": 41
+        },
+        {
+          "dataset_id": "lung_atlas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "64ed526053d4584dc1a3aac8b36021e43cc70ad116bed4d908ac5e47e7fb61b3",
+          "job_id": "core__lung_atlas__hvg2000_pca40__solar_orthogonal__random_seed_42__s42__a0__l1p00",
+          "job_index": 7,
+          "query_shape": [
+            6497,
+            64
+          ],
+          "reference_shape": [
+            25975,
+            64
+          ],
+          "seconds": 25.9186372756958,
+          "seed": 42
+        },
+        {
+          "dataset_id": "lung_atlas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "f610ad2ff33e4ab04c29bc434dabda2b385116bfd849bc56b7241d1dd52894a4",
+          "job_id": "core__lung_atlas__hvg2000_pca40__solar_orthogonal__random_seed_43__s43__a0__l1p00",
+          "job_index": 8,
+          "query_shape": [
+            6497,
+            64
+          ],
+          "reference_shape": [
+            25975,
+            64
+          ],
+          "seconds": 26.171671390533447,
+          "seed": 43
+        },
+        {
+          "dataset_id": "lung_atlas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "b9ec9e76f804f6b28a42f06da0b7324b2304b7dadea764bf1682597e02757b62",
+          "job_id": "core__lung_atlas__hvg2000_pca40__solar_orthogonal__random_seed_44__s44__a0__l1p00",
+          "job_index": 9,
+          "query_shape": [
+            6497,
+            64
+          ],
+          "reference_shape": [
+            25975,
+            64
+          ],
+          "seconds": 22.497990608215332,
+          "seed": 44
+        },
+        {
+          "dataset_id": "pancreas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "dc6e09980c69d4f909ada0c3464b8c7afcfd9c1819132d21200d8e5611707631",
+          "job_id": "core__pancreas__hvg2000_pca40__solar_orthogonal__random_seed_40__s40__a0__l1p00",
+          "job_index": 10,
+          "query_shape": [
+            3278,
+            64
+          ],
+          "reference_shape": [
+            13104,
+            64
+          ],
+          "seconds": 34.73676061630249,
+          "seed": 40
+        },
+        {
+          "dataset_id": "pancreas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "994941d31cdb7d2aeaef92147ac15d0c3a3c17315699bf3729370cc0e84a435a",
+          "job_id": "core__pancreas__hvg2000_pca40__solar_orthogonal__random_seed_41__s41__a0__l1p00",
+          "job_index": 11,
+          "query_shape": [
+            3278,
+            64
+          ],
+          "reference_shape": [
+            13104,
+            64
+          ],
+          "seconds": 33.005462646484375,
+          "seed": 41
+        },
+        {
+          "dataset_id": "pancreas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "a0f0737b5899169c4be2c84ce406f2eac6874a0073a4ddd79627272dc57d1d06",
+          "job_id": "core__pancreas__hvg2000_pca40__solar_orthogonal__random_seed_42__s42__a0__l1p00",
+          "job_index": 12,
+          "query_shape": [
+            3278,
+            64
+          ],
+          "reference_shape": [
+            13104,
+            64
+          ],
+          "seconds": 29.345970630645752,
+          "seed": 42
+        },
+        {
+          "dataset_id": "pancreas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "bd4a83762d0aae48d6930bb68bb4c16ce5c7059c8604dc89204914d0f9d83d78",
+          "job_id": "core__pancreas__hvg2000_pca40__solar_orthogonal__random_seed_43__s43__a0__l1p00",
+          "job_index": 13,
+          "query_shape": [
+            3278,
+            64
+          ],
+          "reference_shape": [
+            13104,
+            64
+          ],
+          "seconds": 31.32210063934326,
+          "seed": 43
+        },
+        {
+          "dataset_id": "pancreas",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "3a2296c64118ef638fb15b5a78ec593e3a17d9a19660d7b5355b5c1907c93265",
+          "job_id": "core__pancreas__hvg2000_pca40__solar_orthogonal__random_seed_44__s44__a0__l1p00",
+          "job_index": 14,
+          "query_shape": [
+            3278,
+            64
+          ],
+          "reference_shape": [
+            13104,
+            64
+          ],
+          "seconds": 33.958505153656006,
+          "seed": 44
+        },
+        {
+          "dataset_id": "simulation_1",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "8dcca3af7d67096a763796a86a6c6a67bbe5c05f3518da564e806b033c322074",
+          "job_id": "core__simulation_1__hvg2000_pca40__solar_orthogonal__random_seed_40__s40__a0__l1p00",
+          "job_index": 15,
+          "query_shape": [
+            2420,
+            64
+          ],
+          "reference_shape": [
+            9677,
+            64
+          ],
+          "seconds": 16.493350982666016,
+          "seed": 40
+        },
+        {
+          "dataset_id": "simulation_1",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "ecf7079d9ba9f4b307bc5f8fbea154e1813e2aaecd556a8e2c861acbbc2b1bb4",
+          "job_id": "core__simulation_1__hvg2000_pca40__solar_orthogonal__random_seed_41__s41__a0__l1p00",
+          "job_index": 16,
+          "query_shape": [
+            2420,
+            64
+          ],
+          "reference_shape": [
+            9677,
+            64
+          ],
+          "seconds": 15.837472677230835,
+          "seed": 41
+        },
+        {
+          "dataset_id": "simulation_1",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "996a095122c06906d98f0505828dee229d70c9608a89bf5ddacca52c96d5183c",
+          "job_id": "core__simulation_1__hvg2000_pca40__solar_orthogonal__random_seed_42__s42__a0__l1p00",
+          "job_index": 17,
+          "query_shape": [
+            2420,
+            64
+          ],
+          "reference_shape": [
+            9677,
+            64
+          ],
+          "seconds": 16.685133695602417,
+          "seed": 42
+        },
+        {
+          "dataset_id": "simulation_1",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "bfe798a88601938283ea2ea06d6bfb59ef31b2474d3ca3b15479b3472407d228",
+          "job_id": "core__simulation_1__hvg2000_pca40__solar_orthogonal__random_seed_43__s43__a0__l1p00",
+          "job_index": 18,
+          "query_shape": [
+            2420,
+            64
+          ],
+          "reference_shape": [
+            9677,
+            64
+          ],
+          "seconds": 17.643983364105225,
+          "seed": 43
+        },
+        {
+          "dataset_id": "simulation_1",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "e86f3e9c47bd94b666d12330ff56bdb88aee682b7e295f0c846d0ddba4b987e6",
+          "job_id": "core__simulation_1__hvg2000_pca40__solar_orthogonal__random_seed_44__s44__a0__l1p00",
+          "job_index": 19,
+          "query_shape": [
+            2420,
+            64
+          ],
+          "reference_shape": [
+            9677,
+            64
+          ],
+          "seconds": 15.977479219436646,
+          "seed": 44
+        },
+        {
+          "dataset_id": "simulation_2",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "2863ae7ed6259e40e30f50c2188509fd522f72c473ef21c1348856ab0d21840a",
+          "job_id": "core__simulation_2__hvg2000_pca40__solar_orthogonal__random_seed_40__s40__a0__l1p00",
+          "job_index": 20,
+          "query_shape": [
+            3863,
+            64
+          ],
+          "reference_shape": [
+            15455,
+            64
+          ],
+          "seconds": 24.93412756919861,
+          "seed": 40
+        },
+        {
+          "dataset_id": "simulation_2",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "f1da3afb1004b109469ed8d9df670c698d94ff3605adc0e684666e8d6aadfa5d",
+          "job_id": "core__simulation_2__hvg2000_pca40__solar_orthogonal__random_seed_41__s41__a0__l1p00",
+          "job_index": 21,
+          "query_shape": [
+            3863,
+            64
+          ],
+          "reference_shape": [
+            15455,
+            64
+          ],
+          "seconds": 26.02909517288208,
+          "seed": 41
+        },
+        {
+          "dataset_id": "simulation_2",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "9cbbc82bf099062b490f2bc75a4570a60bfe514d2b902566bf8ab42da665714e",
+          "job_id": "core__simulation_2__hvg2000_pca40__solar_orthogonal__random_seed_42__s42__a0__l1p00",
+          "job_index": 22,
+          "query_shape": [
+            3863,
+            64
+          ],
+          "reference_shape": [
+            15455,
+            64
+          ],
+          "seconds": 24.2448410987854,
+          "seed": 42
+        },
+        {
+          "dataset_id": "simulation_2",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "562ea87004d97495416c9026c76aefec363a660f4885c15be476ea2a08894e47",
+          "job_id": "core__simulation_2__hvg2000_pca40__solar_orthogonal__random_seed_43__s43__a0__l1p00",
+          "job_index": 23,
+          "query_shape": [
+            3863,
+            64
+          ],
+          "reference_shape": [
+            15455,
+            64
+          ],
+          "seconds": 28.71153163909912,
+          "seed": 43
+        },
+        {
+          "dataset_id": "simulation_2",
+          "differs_from_invalid_prior_output": true,
+          "embedding_dimension": 64,
+          "embedding_sha256": "788f45c343f7159cfcd71f1631728771fca39a8840e116e6c433a489f1684ad2",
+          "job_id": "core__simulation_2__hvg2000_pca40__solar_orthogonal__random_seed_44__s44__a0__l1p00",
+          "job_index": 24,
+          "query_shape": [
+            3863,
+            64
+          ],
+          "reference_shape": [
+            15455,
+            64
+          ],
+          "seconds": 25.311590433120728,
+          "seed": 44
+        }
+      ],
+      "seconds_max": 35.43414282798767,
+      "seconds_min": 15.837472677230835,
+      "seed_counts": {
+        "40": 5,
+        "41": 5,
+        "42": 5,
+        "43": 5,
+        "44": 5
+      }
+    }
+  },
+  "schema_version": 1,
+  "slurm_smoke_jobs": {
+    "30": 23447,
+    "64": 23448
+  },
+  "slurm_training_arrays": {
+    "30": 23449,
+    "64": 23453
+  }
+}

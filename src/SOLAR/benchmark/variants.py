@@ -94,9 +94,9 @@ _SPECS = [
         "solar_orthogonal",
         "reviewer_main",
         "reviewer_fairness_and_lobo_matrix",
-        "Controlled 128-dimensional orthogonal anchors (reviewer main).",
+        "Controlled orthogonal anchors at the configured embedding dimension "
+        "(reviewer main).",
         semantic_mode="onehot",
-        embedding_dim=128,
         anchor_geometry="orthogonal",
         anchor_dedup=False,
         imbalance_mode="natural",

@@ -1,0 +1,67 @@
+{
+  "metric_contract": "paper_scib_0_2_0_14_metrics",
+  "operational_notes": {
+    "cancelled_dependency_jobs": [
+      23510,
+      23511,
+      23512,
+      23513
+    ],
+    "source_cache_reuse": "Only source-invariant official-scIB caches were copied from the prior run; all embedding-dependent metric jobs were recomputed.",
+    "superseded_cache_prep_jobs": [
+      23508,
+      23509
+    ],
+    "superseded_cache_prep_reason": "Copied read-only environment logs caused PermissionError before scoring; no metric output was produced."
+  },
+  "purpose": "Corrected SOLAR latent-dimension sweep metric and audit summary",
+  "runs": {
+    "solar_scib_rebuttal_dim30_v2": {
+      "audit_issue_count": 0,
+      "audit_state": "passed",
+      "cache_prep_job": 23518,
+      "cohort_sha256": "d5bb01920ac3aa2d8103544fe4cda28b63f03bc063f506682bb379cd649beeab",
+      "dimension": 30,
+      "final_aggregate_audit_job": 23581,
+      "kbet_commit": [
+        "afc5f431bcbefd73267acc066a0f2e4eaa10a355"
+      ],
+      "legacy_metric_array": 23572,
+      "legacy_metric_jobs_completed": 25,
+      "official_scib_array": 23520,
+      "official_scib_failed_jobs": [],
+      "official_scib_jobs_completed": 25,
+      "paper_environment_lock_sha256": [
+        "9fbdc1dd3a9c39607163dc2dfd81f5fb7055d8adde5c485d7a092b85fa504e00"
+      ],
+      "scib_commit": [
+        "e2a37e0ed63dc34b60aa535cc656400552af757a"
+      ],
+      "source_file_count": 112
+    },
+    "solar_scib_rebuttal_dim64_v2": {
+      "audit_issue_count": 0,
+      "audit_state": "passed",
+      "cache_prep_job": 23519,
+      "cohort_sha256": "18e6ec20bfdbebdac32602900c4656cd66dbba7eb988f203a8e0caa07fe135e2",
+      "dimension": 64,
+      "final_aggregate_audit_job": 23582,
+      "kbet_commit": [
+        "afc5f431bcbefd73267acc066a0f2e4eaa10a355"
+      ],
+      "legacy_metric_array": 23580,
+      "legacy_metric_jobs_completed": 25,
+      "official_scib_array": 23529,
+      "official_scib_failed_jobs": [],
+      "official_scib_jobs_completed": 25,
+      "paper_environment_lock_sha256": [
+        "9fbdc1dd3a9c39607163dc2dfd81f5fb7055d8adde5c485d7a092b85fa504e00"
+      ],
+      "scib_commit": [
+        "e2a37e0ed63dc34b60aa535cc656400552af757a"
+      ],
+      "source_file_count": 112
+    }
+  },
+  "schema_version": 1
+}

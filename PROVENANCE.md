@@ -1,71 +1,102 @@
 # Provenance
 
-This package is a minimal, curated subset of the internal working
-repository for the SOLAR manuscript. Nothing in it was modified from the
-originating repository except path edits needed to make the packaged
-scripts self-contained (documented inline where they occur), and no result
-in `data/` was recomputed for this package -- every CSV here is copied
-unchanged from the internal result set.
+This package is a minimal, curated subset of the internal SOLAR benchmark
+repository. Result CSV files are copied unchanged from the canonical evidence
+set; packaged analysis scripts only change paths so that they read `data/`
+locally. No package-building step retrains a model or rescales a metric.
+
+## v1.0.1 correction record
+
+The v1.0.0 package exposed a latent-dimension configuration defect. The
+`solar_orthogonal` variant supplied `embedding_dim=128`, and
+`run_inductive()` resolved variant keyword arguments before the fallback to
+`TrainConfig.embedding_dim`. Consequently, jobs labelled 30D and 64D emitted
+128-dimensional embeddings. This was detected by inspecting saved
+`status.json` files and embedding shapes. The primary 128D run was configured
+for 128D and is unaffected.
+
+The correction is a clean replacement, not relabelling:
+
+1. Removed the variant-level `embedding_dim=128` override so the configured
+   training dimension is authoritative.
+2. Added a regression check that requests 8D and asserts 8D model kwargs and
+   output embeddings.
+3. Repacked the exact corrected source as
+   `SCMBench_SOLAR_label_anchor_benchmark_kit_20260902_dimfix.tar.gz`, SHA-256
+   `d000915f9d39ed95a8b5c5422ebe2a60b7054d16ec79951d77d487c6ab0a704c`.
+4. Trained 25 independent 30D jobs and 25 independent 64D jobs (five datasets
+   x seeds 40--44) in new output directories. Every saved embedding had the
+   requested second dimension; all 25 paired 30D/64D embedding files had
+   distinct SHA-256 hashes.
+5. Recomputed every embedding-dependent official scib 0.2.0 metric, generated
+   fresh run audits and provenance snapshots, and rebuilt the 550-row canonical
+   evidence table.
+
+The old run directories and v1.0.0 release are retained as historical evidence
+of the correction. They are superseded and must not be used for dimension
+claims.
 
 ## Source commits
 
-- **Original source commit**: `f62c4b155c977e59307d53f5d5ec1bd718c6674f`
-  (internal repository `scib_reproduce`).
-- **Seed-fix commit**: `3fdacca` (internal repository `scib_reproduce`).
-  This commit moved the deterministic-seeding call
-  (`_seed_everything(seed)`) to immediately before `SOLARModel(...)` is
-  constructed in `SOLAR/benchmark/adapter.py`'s `run_inductive()`. Before
-  this fix, the model's expression encoder was weight-initialized before
-  any seed was set, so `seed` did not fully control initialization.
-  **This fix is present in `src/SOLAR/benchmark/adapter.py` in this
-  package** — see lines around the `_seed_everything(seed)` call
-  immediately preceding the `SOLARModel(...)` construction.
+Internal repository: `https://github.com/cliecy/scib-reproduce`.
 
-## What this package represents
+- Frozen v2 experimental/evidence base:
+  `f62c4b155c977e59307d53f5d5ec1bd718c6674f`.
+- Deterministic model-initialization seed fix: `3fdacca`.
+- Dimension override removal and regression test:
+  `a2866ace36e4656346a427792ca0cf4ae98c82cd`.
+- Corrected source archive and 30D/64D configs:
+  `ed7f12f1e664a989d511b3d4f0d344a2205ffd6a`.
+- Fifty-job embedding-shape/hash audit:
+  `04f42b32b1799136122f5c1f46020897e3a3c02f`.
+- Config-aware source-provenance capture:
+  `8df95fa3eb5892b3c9b0b3bd651f3d3e8933524f`.
+- Corrected raw table, dimension summaries, and 550-job audit:
+  `c365a37828421073ce083552d80f1002580a68f1`.
 
-- **Core implementation** (`src/SOLAR/`): the label-anchor contrastive
-  learning model (encoder, anchor bank, loss), the reference-only training
-  and query-mapping adapter (`run_inductive`), and the CLI entry point.
-  Self-contained — its only third-party dependencies are `anndata`, `h5py`,
-  `numpy`, `scipy`, `scikit-learn`, and `torch` (see `pyproject.toml`).
-- **Configuration** (`configs/benchmark_rebuttal_v1.yaml`): the benchmark
-  configuration actually used to produce the primary held-out-batch results
-  reported for the manuscript's main comparison (`solar_orthogonal`
-  variant, `hvg2000_pca40` preprocessing profile, split seeds 40-44,
-  `anchor_seed=0`).
-- **Results data** (`data/*.csv`): final, already-scored machine-readable
-  tables — official scib-metric values per job
-  (`raw_scib_metrics_all_runs.csv`) and the query-only classifier summary
-  (`classifier_unified_summary.csv`) — copied unchanged from the internal
-  canonical result set. `aggregation_sensitivity_3_real_datasets_with_kbet_REFERENCE.csv`
-  is the expected output of `scripts/build_main_table.py`, included so a
-  reader can diff their own regenerated table against it without having to
-  trust a fresh run blindly.
-- **Scripts** (`scripts/`): `build_main_table.py` regenerates the
-  aggregation-sensitivity results table from `data/raw_scib_metrics_all_runs.csv`;
-  `build_figure.py` regenerates the query-label-recovery figure from
-  `data/classifier_unified_summary.csv`. Both are self-contained given only
-  the files in `data/`.
-- **Example** (`examples/smoke_test.py`): a toy synthetic-data run of the
-  core `run_inductive` API, to confirm the package installs and runs
-  end-to-end. Not a scientific result.
+The fixed `src/SOLAR/benchmark/variants.py` and the non-default-dimension
+assertion in `examples/smoke_test.py` are included here.
 
-## What is deliberately excluded
+## Corrected run identity
 
-Per the minimal-disclosure principle for this package: raw per-cell
-embeddings, model checkpoints, the full ~500-job Slurm orchestration
-pipeline and its logs, the internal rebuttal/peer-review correspondence and
-audit documents, superseded pre-seed-fix results, the historical literal
-one-hot anchor diagnostic, and duplicate/nested archives. None of these are
-required to install the core implementation, run the smoke example, or
-regenerate the included results table and figure from the included data.
+| Requested dimension | Canonical run ID | Jobs | Official scib state | Cohort SHA-256 |
+|---:|---|---:|---|---|
+| 30 | `solar_scib_rebuttal_dim30_v2` | 25 | 25 completed; audit passed | `d5bb01920ac3aa2d8103544fe4cda28b63f03bc063f506682bb379cd649beeab` |
+| 64 | `solar_scib_rebuttal_dim64_v2` | 25 | 25 completed; audit passed | `18e6ec20bfdbebdac32602900c4656cd66dbba7eb988f203a8e0caa07fe135e2` |
+| 128 | `solar_scib_rebuttal_v1` | 25 core SOLAR jobs | previously verified | primary cohort |
+
+Official metrics used scib commit
+`e2a37e0ed63dc34b60aa535cc656400552af757a`, kBET commit
+`afc5f431bcbefd73267acc066a0f2e4eaa10a355`, and paper-environment lock
+SHA-256 `9fbdc1dd3a9c39607163dc2dfd81f5fb7055d8adde5c485d7a092b85fa504e00`.
+See `data/training_audit.json` and `data/scoring_audit.json` for per-run proof.
+
+## Package contents
+
+- `src/SOLAR/`: core model, anchor bank, loss, reference-only training, and
+  query-mapping adapter.
+- `configs/`: primary 128D and corrected 30D/64D orchestration records.
+- `data/raw_scib_metrics_all_runs.csv`: canonical 550-row per-job table with
+  corrected dimension rows and explicit expected/actual dimensions.
+- `data/classifier_unified_summary.csv`: query-only classifier results.
+- `data/dimension_sensitivity_corrected_*.{csv,json}`: 75-row sweep summaries,
+  paired differences, and integrity assertions.
+- `scripts/`: self-contained table and figure regeneration utilities.
+- `examples/smoke_test.py`: synthetic end-to-end run that specifically guards
+  configurable output dimension. It is not a scientific result.
+
+## Deliberate exclusions
+
+The package excludes raw expression matrices, per-cell embeddings, checkpoints,
+full Slurm orchestration outputs/logs, internal peer-review correspondence,
+historical superseded dimension outputs, and nested archives. These are not
+needed to install SOLAR or reproduce the included summaries and figures from
+machine-readable results. The per-embedding SHA-256/shape audit is retained in
+`data/training_audit.json`.
 
 ## Programming languages
 
-**Python only.** No R script or R environment is included in this package:
-FastMNN (the one baseline in the internal repository that uses R via
-Bioconductor's `batchelor::fastMNN`) does not appear in the main-cohort
-methods reproduced by `scripts/build_main_table.py` or
-`scripts/build_figure.py` (see `data/raw_scib_metrics_all_runs.csv`'s
-`method` column), so no R dependency is needed to install, run, or verify
-anything in this package.
+Python only. FastMNN, the internal pipeline component that requires R, does not
+appear in the cohorts regenerated by the packaged scripts. Official scib/kBET
+software identities remain recorded above and in the scoring audit; the heavy
+legacy scoring environment is not bundled.
