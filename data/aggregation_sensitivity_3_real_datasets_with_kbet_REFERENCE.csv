@@ -1,0 +1,5 @@
+method,A_per_replicate_scale,B_seedmean_then_scale,C_dataset_level_scale,rank_A,rank_B,rank_C,higher_is_better
+frozen_reference_scanvi,0.6949647902478021,0.7078063957895152,0.7026070982947102,1.0,1.0,1.0,True
+solar_orthogonal,0.6799516011269101,0.6966109227643429,0.6916255147067213,2.0,2.0,2.0,True
+frozen_reference_scvi,0.5247005737771051,0.5253624350821842,0.5306240248468365,3.0,3.0,3.0,True
+unintegrated_pca_matched,0.2615974211543713,0.2561952391942804,0.24084814765174486,4.0,4.0,4.0,True
