@@ -1,0 +1,1365 @@
+dataset_id,heldout_batch,method,model_seed,class,precision,recall,f1,support,coverage,readout
+immune_cell_human,10X,sclsc_refonly,40,CD14+ Monocytes,0.9763710618436406,0.9878984651711924,0.9821009389671361,3388,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,40,CD16+ Monocytes,0.8984375,0.9478021978021978,0.9224598930481284,364,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,40,CD20+ B cells,0.9934895833333334,0.9870633893919794,0.9902660609993511,1546,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,40,CD4+ T cells,0.9675566069618114,0.9748042219952332,0.9711668928086838,2937,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,40,CD8+ T cells,0.8479381443298969,0.94,0.8915989159891599,350,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,40,HSPCs,1.0,0.75,0.8571428571428571,28,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,40,Megakaryocyte progenitors,0.6363636363636364,1.0,0.7777777777777778,21,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,40,Monocyte-derived dendritic cells,1.0,0.6593406593406593,0.7947019867549668,182,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,40,NK cells,0.9567307692307693,0.7896825396825397,0.8652173913043478,756,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,40,NKT cells,0.8324607329842932,0.9034090909090909,0.8664850136239782,1056,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,40,Plasma cells,1.0,0.5,0.6666666666666666,18,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,40,Plasmacytoid dendritic cells,1.0,0.9753086419753086,0.9875,81,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,41,CD14+ Monocytes,0.9756733275412685,0.994391971664699,0.9849437216781173,3388,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,41,CD16+ Monocytes,0.9538904899135446,0.9093406593406593,0.9310829817158931,364,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,41,CD20+ B cells,0.9961089494163424,0.9935316946959897,0.9948186528497409,1546,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,41,CD4+ T cells,0.9504459861248761,0.9795709908069459,0.9647887323943662,2937,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,41,CD8+ T cells,0.8084577114427861,0.9285714285714286,0.8643617021276596,350,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,41,HSPCs,1.0,0.7142857142857143,0.8333333333333334,28,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,41,Megakaryocyte progenitors,0.6774193548387096,1.0,0.8076923076923077,21,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,41,Monocyte progenitors,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,41,Monocyte-derived dendritic cells,1.0,0.7197802197802198,0.8370607028753994,182,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,41,NK cells,0.9621087314662273,0.7724867724867724,0.8569332355099046,756,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,41,NKT cells,0.8297674418604651,0.8446969696969697,0.8371656499296105,1056,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,41,Plasma cells,1.0,0.5555555555555556,0.7142857142857143,18,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,41,Plasmacytoid dendritic cells,1.0,1.0,1.0,81,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,42,CD14+ Monocytes,0.9838567654828295,0.9893742621015348,0.986607799852833,3388,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,42,CD16+ Monocytes,0.9177718832891246,0.9505494505494505,0.9338731443994602,364,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,42,CD20+ B cells,0.9967341606792945,0.9870633893919794,0.991875203119922,1546,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,42,CD4+ T cells,0.9707781175671084,0.9727613210759278,0.9717687074829932,2937,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,42,CD8+ T cells,0.8405063291139241,0.9485714285714286,0.8912751677852349,350,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,42,HSPCs,1.0,0.8214285714285714,0.9019607843137255,28,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,42,Megakaryocyte progenitors,0.75,1.0,0.8571428571428571,21,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,42,Monocyte-derived dendritic cells,0.9931506849315068,0.7967032967032966,0.8841463414634146,182,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,42,NK cells,0.9554140127388535,0.7936507936507936,0.8670520231213873,756,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,42,NKT cells,0.8206896551724138,0.9015151515151515,0.8592057761732852,1056,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,42,Plasma cells,1.0,0.4444444444444444,0.6153846153846154,18,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,42,Plasmacytoid dendritic cells,1.0,1.0,1.0,81,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,43,CD14+ Monocytes,0.9823425544437905,0.9852420306965761,0.9837901562039493,3388,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,43,CD16+ Monocytes,0.8791773778920309,0.9395604395604396,0.9083665338645418,364,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,43,CD20+ B cells,0.9954188481675392,0.9838292367399741,0.9895901106050748,1546,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,43,CD4+ T cells,0.9742023082145281,0.9771876064010896,0.9756926738058813,2937,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,43,CD8+ T cells,0.8222222222222222,0.9514285714285714,0.8821192052980132,350,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,43,HSPCs,1.0,0.6785714285714286,0.8085106382978723,28,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,43,Megakaryocyte progenitors,0.65625,1.0,0.7924528301886793,21,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,43,Monocyte progenitors,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,43,Monocyte-derived dendritic cells,0.993103448275862,0.7912087912087912,0.8807339449541285,182,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,43,NK cells,0.9021084337349398,0.7923280423280423,0.8436619718309859,756,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,43,NKT cells,0.8294223826714802,0.8702651515151515,0.8493530499075785,1056,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,43,Plasma cells,1.0,0.6666666666666666,0.8,18,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,43,Plasmacytoid dendritic cells,1.0,0.9876543209876543,0.9937888198757764,81,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,44,CD14+ Monocytes,0.9797237731413458,0.9840613931523022,0.9818877926667648,3388,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,44,CD16+ Monocytes,0.8646616541353384,0.9478021978021978,0.9043250327653998,364,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,44,CD20+ B cells,0.9947984395318595,0.9896507115135834,0.9922178988326849,1546,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,44,CD4+ T cells,0.9530888668648827,0.9822948586993531,0.9674714956405097,2937,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,44,CD8+ T cells,0.8253968253968254,0.8914285714285715,0.8571428571428571,350,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,44,HSPCs,1.0,0.7857142857142857,0.88,28,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,44,Megakaryocyte progenitors,0.7241379310344828,1.0,0.84,21,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,44,Monocyte-derived dendritic cells,1.0,0.7197802197802198,0.8370607028753994,182,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,44,NK cells,0.9797979797979798,0.7698412698412699,0.8622222222222222,756,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,44,NKT cells,0.8251121076233184,0.8712121212121212,0.8475356978350991,1056,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,44,Plasma cells,1.0,0.5555555555555556,0.7142857142857143,18,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,44,Plasmacytoid dendritic cells,1.0,1.0,1.0,81,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,CD10+ B cells,0.9868421052631579,0.8241758241758241,0.8982035928143712,91,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,CD14+ Monocytes,0.8395061728395061,0.9714285714285714,0.9006622516556292,350,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,CD16+ Monocytes,0.9242424242424242,1.0,0.9606299212598425,61,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,CD20+ B cells,0.7962962962962963,1.0,0.8865979381443299,43,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,CD4+ T cells,0.8627049180327869,0.729636048526863,0.7906103286384977,577,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,CD8+ T cells,0.363265306122449,0.956989247311828,0.5266272189349113,93,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,Erythrocytes,0.9779005524861878,0.9516129032258065,0.9645776566757494,186,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,Erythroid progenitors,0.9333333333333333,0.75,0.8316831683168316,112,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,HSPCs,0.916256157635468,0.8193832599118943,0.8651162790697674,227,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,Megakaryocyte progenitors,0.7,0.7777777777777778,0.7368421052631579,72,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,Monocyte progenitors,0.8148148148148148,0.7213114754098361,0.7652173913043478,183,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,Monocyte-derived dendritic cells,0.9285714285714286,0.8764044943820225,0.9017341040462428,89,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,NK cells,0.43859649122807015,0.9615384615384616,0.6024096385542169,26,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,NKT cells,0.9834983498349835,0.7660668380462725,0.861271676300578,389,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,Plasma cells,0.9428571428571428,1.0,0.9705882352941176,33,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,40,Plasmacytoid dendritic cells,0.9473684210526315,1.0,0.972972972972973,54,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,CD10+ B cells,0.975,0.8571428571428571,0.9122807017543859,91,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,CD14+ Monocytes,0.8692307692307693,0.9685714285714285,0.9162162162162162,350,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,CD16+ Monocytes,0.9523809523809523,0.9836065573770492,0.967741935483871,61,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,CD20+ B cells,0.8269230769230769,1.0,0.9052631578947369,43,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,CD4+ T cells,0.8163265306122449,0.7625649913344887,0.7885304659498208,577,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,CD8+ T cells,0.3783783783783784,0.9032258064516129,0.5333333333333333,93,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,Erythrocytes,0.9944444444444445,0.9623655913978495,0.9781420765027322,186,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,Erythroid progenitors,0.95,0.6785714285714286,0.7916666666666666,112,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,HSPCs,0.923469387755102,0.7973568281938326,0.8557919621749409,227,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,Megakaryocyte progenitors,0.6274509803921569,0.8888888888888888,0.735632183908046,72,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,Monocyte progenitors,0.813953488372093,0.7650273224043715,0.7887323943661971,183,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,Monocyte-derived dendritic cells,0.9302325581395349,0.898876404494382,0.9142857142857143,89,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,NK cells,0.5,0.9230769230769231,0.6486486486486487,26,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,NKT cells,0.9895104895104895,0.7275064267352185,0.8385185185185186,389,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,Plasma cells,1.0,0.9696969696969697,0.9846153846153847,33,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,41,Plasmacytoid dendritic cells,0.9310344827586207,1.0,0.9642857142857143,54,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,CD10+ B cells,0.9861111111111112,0.7802197802197802,0.8711656441717791,91,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,CD14+ Monocytes,0.8802083333333334,0.9657142857142857,0.9209809264305178,350,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,CD16+ Monocytes,0.9384615384615385,1.0,0.9682539682539683,61,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,CD20+ B cells,0.8431372549019608,1.0,0.9148936170212766,43,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,CD4+ T cells,0.8591549295774648,0.7400346620450606,0.7951582867783985,577,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,CD8+ T cells,0.34854771784232363,0.9032258064516129,0.5029940119760479,93,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,Erythrocytes,0.9833333333333333,0.9516129032258065,0.9672131147540983,186,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,Erythroid progenitors,0.9166666666666666,0.6875,0.7857142857142857,112,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,HSPCs,0.9326424870466321,0.7929515418502202,0.8571428571428571,227,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,Megakaryocyte progenitors,0.6078431372549019,0.8611111111111112,0.7126436781609196,72,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,Monocyte progenitors,0.8103448275862069,0.7704918032786885,0.7899159663865546,183,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,Monocyte-derived dendritic cells,0.9010989010989011,0.9213483146067416,0.9111111111111111,89,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,NK cells,0.5,0.9615384615384616,0.6578947368421053,26,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,NKT cells,0.9711538461538461,0.7789203084832905,0.8644793152639088,389,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,Plasma cells,0.9696969696969697,0.9696969696969697,0.9696969696969697,33,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,42,Plasmacytoid dendritic cells,0.9473684210526315,1.0,0.972972972972973,54,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,CD10+ B cells,0.987012987012987,0.8351648351648352,0.9047619047619048,91,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,CD14+ Monocytes,0.8317073170731707,0.9742857142857143,0.8973684210526316,350,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,CD16+ Monocytes,0.9682539682539683,1.0,0.9838709677419355,61,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,CD20+ B cells,0.8431372549019608,1.0,0.9148936170212766,43,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,CD4+ T cells,0.845724907063197,0.7885615251299827,0.8161434977578476,577,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,CD8+ T cells,0.39712918660287083,0.8924731182795699,0.5496688741721855,93,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,Erythrocytes,0.9675675675675676,0.9623655913978495,0.9649595687331537,186,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,Erythroid progenitors,0.926829268292683,0.6785714285714286,0.7835051546391752,112,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,HSPCs,0.8955223880597015,0.7929515418502202,0.8411214953271028,227,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,Megakaryocyte progenitors,0.6195652173913043,0.7916666666666666,0.6951219512195121,72,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,Monocyte progenitors,0.7865853658536586,0.7049180327868853,0.7435158501440923,183,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,Monocyte-derived dendritic cells,0.927710843373494,0.8651685393258427,0.8953488372093024,89,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,NK cells,0.4807692307692308,0.9615384615384616,0.6410256410256411,26,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,NKT cells,0.9930555555555556,0.7352185089974294,0.844903988183161,389,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,Plasma cells,1.0,1.0,1.0,33,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,43,Plasmacytoid dendritic cells,0.9310344827586207,1.0,0.9642857142857143,54,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,CD10+ B cells,0.9863013698630136,0.7912087912087912,0.8780487804878049,91,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,CD14+ Monocytes,0.8711340206185567,0.9657142857142857,0.9159891598915989,350,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,CD16+ Monocytes,0.9682539682539683,1.0,0.9838709677419355,61,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,CD20+ B cells,0.7962962962962963,1.0,0.8865979381443299,43,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,CD4+ T cells,0.8364661654135338,0.7712305025996534,0.8025247971145176,577,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,CD8+ T cells,0.38990825688073394,0.9139784946236559,0.5466237942122186,93,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,Erythrocytes,0.9888268156424581,0.9516129032258065,0.9698630136986301,186,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,Erythroid progenitors,0.9418604651162791,0.7232142857142857,0.8181818181818182,112,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,HSPCs,0.955,0.8414096916299559,0.8946135831381733,227,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,Megakaryocyte progenitors,0.6774193548387096,0.875,0.7636363636363637,72,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,Monocyte progenitors,0.8224852071005917,0.7595628415300546,0.7897727272727273,183,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,Monocyte-derived dendritic cells,0.9032258064516129,0.9438202247191011,0.9230769230769231,89,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,NK cells,0.3582089552238806,0.9230769230769231,0.5161290322580645,26,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,NKT cells,0.9607142857142857,0.6915167095115681,0.804185351270553,389,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,Plasma cells,1.0,1.0,1.0,33,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,sclsc_refonly,44,Plasmacytoid dendritic cells,0.9310344827586207,1.0,0.9642857142857143,54,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,40,CD14+ Monocytes,0.42028985507246375,1.0,0.5918367346938775,145,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,40,CD16+ Monocytes,0.08695652173913043,0.08139534883720931,0.08408408408408409,172,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,40,Monocyte-derived dendritic cells,1.0,0.6460674157303371,0.7849829351535836,534,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,40,Plasmacytoid dendritic cells,1.0,1.0,1.0,171,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,41,CD14+ Monocytes,0.42857142857142855,0.993103448275862,0.5987525987525988,145,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,41,CD16+ Monocytes,0.12903225806451613,0.13953488372093023,0.1340782122905028,172,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,41,HSPCs,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,41,Monocyte progenitors,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,41,Monocyte-derived dendritic cells,1.0,0.6048689138576779,0.7537922987164527,534,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,41,Plasmacytoid dendritic cells,0.9771428571428571,1.0,0.9884393063583815,171,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,42,CD14+ Monocytes,0.49825783972125437,0.9862068965517241,0.6620370370370371,145,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,42,CD16+ Monocytes,0.19230769230769232,0.23255813953488372,0.21052631578947367,172,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,42,Monocyte-derived dendritic cells,0.9943820224719101,0.6629213483146067,0.7955056179775281,534,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,42,Plasmacytoid dendritic cells,1.0,1.0,1.0,171,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,43,CD14+ Monocytes,0.5789473684210527,0.9862068965517241,0.7295918367346939,145,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,43,CD16+ Monocytes,0.24778761061946902,0.32558139534883723,0.2814070351758794,172,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,43,Monocyte-derived dendritic cells,0.9603174603174603,0.6797752808988764,0.7960526315789473,534,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,43,Plasmacytoid dendritic cells,1.0,1.0,1.0,171,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,44,CD14+ Monocytes,0.5742971887550201,0.9862068965517241,0.7258883248730964,145,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,44,CD16+ Monocytes,0.3215686274509804,0.47674418604651164,0.3840749414519906,172,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,44,Monocyte-derived dendritic cells,1.0,0.649812734082397,0.7877412031782066,534,,common_distance_weighted_15nn
+immune_cell_human,Villani,sclsc_refonly,44,Plasmacytoid dendritic cells,1.0,1.0,1.0,171,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,40,B cell,1.0,1.0,1.0,3,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,40,Ciliated,1.0,0.8333333333333334,0.9090909090909091,12,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,40,Dendritic cell,0.92,0.9387755102040817,0.9292929292929293,98,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,40,Endothelium,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,40,Fibroblast,1.0,1.0,1.0,25,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,40,Macrophage,0.4,1.0,0.5714285714285714,8,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,40,Mast cell,1.0,0.9897959183673469,0.9948717948717949,98,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,40,Neutrophil_CD14_high,0.7777777777777778,0.5384615384615384,0.6363636363636364,13,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,40,Neutrophils_IL1R2,0.5,0.09090909090909091,0.15384615384615385,11,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,40,Secretory,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,40,T/NK cell,1.0,0.9830508474576272,0.9914529914529915,59,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,40,Type 2,0.9926470588235294,1.0,0.996309963099631,135,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,41,B cell,1.0,1.0,1.0,3,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,41,Ciliated,1.0,0.8333333333333334,0.9090909090909091,12,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,41,Dendritic cell,0.9484536082474226,0.9387755102040817,0.9435897435897436,98,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,41,Endothelium,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,41,Fibroblast,1.0,1.0,1.0,25,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,41,Macrophage,0.5714285714285714,1.0,0.7272727272727273,8,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,41,Mast cell,1.0,0.9897959183673469,0.9948717948717949,98,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,41,Neutrophil_CD14_high,0.631578947368421,0.9230769230769231,0.75,13,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,41,Neutrophils_IL1R2,1.0,0.09090909090909091,0.16666666666666666,11,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,41,Secretory,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,41,T/NK cell,1.0,0.9830508474576272,0.9914529914529915,59,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,41,Type 2,0.9926470588235294,1.0,0.996309963099631,135,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,42,B cell,1.0,1.0,1.0,3,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,42,Ciliated,1.0,0.9166666666666666,0.9565217391304348,12,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,42,Dendritic cell,0.9223300970873787,0.9693877551020408,0.945273631840796,98,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,42,Endothelium,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,42,Fibroblast,1.0,1.0,1.0,25,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,42,Macrophage,0.5714285714285714,1.0,0.7272727272727273,8,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,42,Mast cell,1.0,0.9897959183673469,0.9948717948717949,98,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,42,Neutrophil_CD14_high,0.75,0.6923076923076923,0.72,13,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,42,Neutrophils_IL1R2,1.0,0.09090909090909091,0.16666666666666666,11,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,42,T/NK cell,1.0,1.0,1.0,59,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,42,Type 2,0.9926470588235294,1.0,0.996309963099631,135,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,43,B cell,1.0,1.0,1.0,3,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,43,Ciliated,1.0,0.8333333333333334,0.9090909090909091,12,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,43,Dendritic cell,0.9207920792079208,0.9489795918367347,0.9346733668341709,98,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,43,Endothelium,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,43,Fibroblast,1.0,1.0,1.0,25,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,43,Macrophage,0.5333333333333333,1.0,0.6956521739130435,8,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,43,Mast cell,1.0,0.9897959183673469,0.9948717948717949,98,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,43,Neutrophil_CD14_high,0.8461538461538461,0.8461538461538461,0.8461538461538461,13,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,43,Neutrophils_IL1R2,1.0,0.18181818181818182,0.3076923076923077,11,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,43,Secretory,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,43,T/NK cell,1.0,0.9830508474576272,0.9914529914529915,59,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,43,Type 2,0.9926470588235294,1.0,0.996309963099631,135,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,44,B cell,1.0,1.0,1.0,3,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,44,Ciliated,1.0,0.8333333333333334,0.9090909090909091,12,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,44,Dendritic cell,0.92,0.9387755102040817,0.9292929292929293,98,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,44,Endothelium,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,44,Fibroblast,1.0,1.0,1.0,25,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,44,Macrophage,0.5714285714285714,1.0,0.7272727272727273,8,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,44,Mast cell,1.0,0.9897959183673469,0.9948717948717949,98,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,44,Neutrophil_CD14_high,0.6470588235294118,0.8461538461538461,0.7333333333333333,13,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,44,Neutrophils_IL1R2,0.0,0.0,0.0,11,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,44,Secretory,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,44,T/NK cell,1.0,0.9830508474576272,0.9914529914529915,59,,common_distance_weighted_15nn
+lung_atlas,3,sclsc_refonly,44,Type 2,0.9926470588235294,1.0,0.996309963099631,135,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,40,B cell,1.0,0.5,0.6666666666666666,4,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,40,Basal 2,1.0,0.5,0.6666666666666666,2,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,40,Ciliated,0.6666666666666666,0.5,0.5714285714285714,8,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,40,Dendritic cell,0.3567708333333333,0.9133333333333333,0.5131086142322098,150,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,40,Endothelium,0.9591836734693877,0.9791666666666666,0.9690721649484536,48,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,40,Fibroblast,0.9906542056074766,1.0,0.9953051643192489,212,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,40,Lymphatic,1.0,1.0,1.0,76,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,40,Macrophage,0.9926322839919625,0.8107221006564551,0.8925022583559169,1828,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,40,Neutrophil_CD14_high,0.05714285714285714,0.8571428571428571,0.10714285714285714,7,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,40,Secretory,0.5,1.0,0.6666666666666666,5,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,40,T/NK cell,1.0,0.75,0.8571428571428571,4,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,40,Type 2,0.995774647887324,0.9964763918252291,0.9961253962662909,1419,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,41,B cell,1.0,0.75,0.8571428571428571,4,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,41,Basal 2,0.6666666666666666,1.0,0.8,2,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,41,Ciliated,0.6,0.375,0.46153846153846156,8,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,41,Dendritic cell,0.30839002267573695,0.9066666666666666,0.4602368866328257,150,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,41,Endothelium,0.9591836734693877,0.9791666666666666,0.9690721649484536,48,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,41,Fibroblast,0.9953051643192489,1.0,0.9976470588235294,212,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,41,Lymphatic,1.0,1.0,1.0,76,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,41,Macrophage,0.9962825278810409,0.7330415754923414,0.8446265364008825,1828,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,41,Neutrophil_CD14_high,0.03333333333333333,0.8571428571428571,0.06417112299465241,7,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,41,Neutrophils_IL1R2,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,41,Secretory,0.5,1.0,0.6666666666666666,5,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,41,T/NK cell,0.3,0.75,0.42857142857142855,4,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,41,Type 2,0.9915907498248073,0.9971811134601832,0.994378074490513,1419,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,42,B cell,0.75,0.75,0.75,4,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,42,Basal 2,0.6666666666666666,1.0,0.8,2,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,42,Ciliated,0.5714285714285714,0.5,0.5333333333333333,8,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,42,Dendritic cell,0.29955947136563876,0.9066666666666666,0.4503311258278146,150,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,42,Endothelium,0.9791666666666666,0.9791666666666666,0.9791666666666666,48,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,42,Fibroblast,0.9906542056074766,1.0,0.9953051643192489,212,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,42,Lymphatic,1.0,1.0,1.0,76,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,42,Macrophage,0.9912727272727273,0.7456236323851203,0.8510771152044958,1828,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,42,Neutrophil_CD14_high,0.038461538461538464,0.8571428571428571,0.0736196319018405,7,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,42,Secretory,0.625,1.0,0.7692307692307693,5,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,42,T/NK cell,0.75,0.75,0.75,4,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,42,Type 2,0.9992927864214993,0.9957716701902748,0.9975291210730675,1419,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,43,B cell,1.0,0.5,0.6666666666666666,4,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,43,Basal 2,0.6666666666666666,1.0,0.8,2,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,43,Ciliated,0.625,0.625,0.625,8,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,43,Dendritic cell,0.3036876355748373,0.9333333333333333,0.4582651391162029,150,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,43,Endothelium,0.96,1.0,0.9795918367346939,48,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,43,Fibroblast,0.9906542056074766,1.0,0.9953051643192489,212,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,43,Lymphatic,0.987012987012987,1.0,0.9934640522875817,76,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,43,Macrophage,0.9928109273903667,0.7554704595185996,0.8580304442373408,1828,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,43,Neutrophil_CD14_high,0.048,0.8571428571428571,0.09090909090909091,7,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,43,Neutrophils_IL1R2,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,43,Secretory,0.5714285714285714,0.8,0.6666666666666666,5,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,43,T/NK cell,1.0,0.75,0.8571428571428571,4,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,43,Type 2,0.9950738916256158,0.9964763918252291,0.995774647887324,1419,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,44,B cell,0.6666666666666666,0.5,0.5714285714285714,4,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,44,Basal 2,0.6666666666666666,1.0,0.8,2,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,44,Ciliated,0.5555555555555556,0.625,0.5882352941176471,8,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,44,Dendritic cell,0.3161592505854801,0.9,0.4679376083188908,150,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,44,Endothelium,0.94,0.9791666666666666,0.9591836734693877,48,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,44,Fibroblast,1.0,1.0,1.0,212,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,44,Lymphatic,1.0,1.0,1.0,76,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,44,Macrophage,0.9905316824471959,0.7439824945295405,0.8497344579818806,1828,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,44,Neutrophil_CD14_high,0.03614457831325301,0.8571428571428571,0.06936416184971098,7,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,44,Neutrophils_IL1R2,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,44,Secretory,0.23529411764705882,0.8,0.36363636363636365,5,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,44,T/NK cell,0.6,0.75,0.6666666666666666,4,,common_distance_weighted_15nn
+lung_atlas,4,sclsc_refonly,44,Type 2,0.9964763918252291,0.9964763918252291,0.9964763918252291,1419,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,40,B cell,0.14285714285714285,0.5,0.2222222222222222,6,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,40,Ciliated,0.9866666666666667,0.9135802469135802,0.9487179487179487,81,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,40,Dendritic cell,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,40,Endothelium,1.0,0.95,0.9743589743589743,40,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,40,Fibroblast,1.0,0.96,0.9795918367346939,25,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,40,Lymphatic,1.0,0.9545454545454546,0.9767441860465116,44,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,40,Macrophage,0.9436392914653784,0.966996699669967,0.9551752241238793,606,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,40,Mast cell,0.975609756097561,1.0,0.9876543209876543,40,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,40,Neutrophil_CD14_high,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,40,Secretory,0.47619047619047616,0.42857142857142855,0.45112781954887216,70,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,40,T/NK cell,0.9675090252707581,0.9781021897810219,0.9727767695099818,274,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,40,Type 1,0.934010152284264,0.8975609756097561,0.9154228855721394,205,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,40,Type 2,0.9170068027210885,0.8998664886515354,0.9083557951482479,749,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,41,B cell,0.16666666666666666,0.5,0.25,6,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,41,Basal 2,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,41,Ciliated,1.0,0.9259259259259259,0.9615384615384616,81,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,41,Dendritic cell,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,41,Endothelium,0.9487179487179487,0.925,0.9367088607594937,40,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,41,Fibroblast,1.0,0.96,0.9795918367346939,25,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,41,Lymphatic,1.0,0.9545454545454546,0.9767441860465116,44,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,41,Macrophage,0.9040247678018576,0.9636963696369637,0.9329073482428115,606,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,41,Mast cell,0.975609756097561,1.0,0.9876543209876543,40,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,41,Secretory,0.4117647058823529,0.5,0.45161290322580644,70,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,41,T/NK cell,0.9671532846715328,0.9671532846715328,0.9671532846715328,274,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,41,Type 1,0.9641025641025641,0.9170731707317074,0.94,205,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,41,Type 2,0.9453237410071943,0.87716955941255,0.909972299168975,749,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,42,B cell,0.15789473684210525,0.5,0.24,6,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,42,Ciliated,0.95,0.9382716049382716,0.9440993788819876,81,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,42,Dendritic cell,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,42,Endothelium,1.0,0.925,0.961038961038961,40,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,42,Fibroblast,1.0,0.96,0.9795918367346939,25,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,42,Lymphatic,1.0,0.9545454545454546,0.9767441860465116,44,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,42,Macrophage,0.9420289855072463,0.9653465346534653,0.9535452322738386,606,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,42,Mast cell,0.975609756097561,1.0,0.9876543209876543,40,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,42,Neutrophil_CD14_high,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,42,Secretory,0.4375,0.6,0.5060240963855421,70,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,42,T/NK cell,0.95,0.9708029197080292,0.9602888086642599,274,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,42,Type 1,0.9526315789473684,0.8829268292682927,0.9164556962025316,205,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,42,Type 2,0.9390934844192634,0.8851802403204272,0.911340206185567,749,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,43,B cell,0.1111111111111111,0.5,0.18181818181818182,6,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,43,Basal 2,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,43,Ciliated,0.9722222222222222,0.8641975308641975,0.9150326797385621,81,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,43,Dendritic cell,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,43,Endothelium,1.0,0.975,0.9873417721518988,40,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,43,Fibroblast,1.0,0.96,0.9795918367346939,25,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,43,Lymphatic,1.0,0.9545454545454546,0.9767441860465116,44,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,43,Macrophage,0.906441717791411,0.9752475247524752,0.9395866454689984,606,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,43,Mast cell,0.975609756097561,1.0,0.9876543209876543,40,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,43,Secretory,0.38823529411764707,0.4714285714285714,0.4258064516129032,70,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,43,T/NK cell,0.967391304347826,0.9744525547445255,0.9709090909090909,274,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,43,Type 1,0.9789473684210527,0.9073170731707317,0.9417721518987342,205,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,43,Type 2,0.9505813953488372,0.8731642189586115,0.9102296450939458,749,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,44,B cell,0.14285714285714285,0.6666666666666666,0.23529411764705882,6,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,44,Ciliated,1.0,0.9259259259259259,0.9615384615384616,81,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,44,Dendritic cell,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,44,Endothelium,1.0,0.9,0.9473684210526315,40,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,44,Fibroblast,0.9259259259259259,1.0,0.9615384615384616,25,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,44,Lymphatic,1.0,0.9545454545454546,0.9767441860465116,44,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,44,Macrophage,0.9236883942766295,0.9587458745874587,0.9408906882591093,606,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,44,Mast cell,0.975609756097561,1.0,0.9876543209876543,40,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,44,Neutrophil_CD14_high,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,44,Secretory,0.4444444444444444,0.45714285714285713,0.4507042253521127,70,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,44,T/NK cell,0.9602888086642599,0.9708029197080292,0.9655172413793104,274,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,44,Type 1,0.973404255319149,0.8926829268292683,0.9312977099236641,205,,common_distance_weighted_15nn
+lung_atlas,B1,sclsc_refonly,44,Type 2,0.933240611961057,0.8958611481975968,0.9141689373297003,749,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,40,acinar,1.0,0.9523809523809523,0.975609756097561,21,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,40,activated_stellate,1.0,1.0,1.0,16,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,40,alpha,0.9793388429752066,0.9916317991631799,0.9854469854469855,239,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,40,beta,0.9589552238805971,0.9961240310077519,0.9771863117870723,258,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,40,delta,0.95,0.76,0.8444444444444444,25,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,40,ductal,0.972972972972973,1.0,0.9863013698630136,36,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,40,endothelial,1.0,0.7142857142857143,0.8333333333333334,14,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,40,epsilon,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,40,gamma,1.0,1.0,1.0,18,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,40,macrophage,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,40,mast,0.0,0.0,0.0,3,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,40,quiescent_stellate,0.3333333333333333,1.0,0.5,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,40,schwann,1.0,0.4,0.5714285714285714,5,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,41,acinar,0.95,0.9047619047619048,0.926829268292683,21,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,41,activated_stellate,1.0,1.0,1.0,16,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,41,alpha,0.9711934156378601,0.9874476987447699,0.979253112033195,239,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,41,beta,0.9588014981273408,0.9922480620155039,0.9752380952380952,258,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,41,delta,0.95,0.76,0.8444444444444444,25,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,41,ductal,0.9230769230769231,1.0,0.96,36,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,41,endothelial,1.0,0.6428571428571429,0.782608695652174,14,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,41,epsilon,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,41,gamma,1.0,1.0,1.0,18,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,41,macrophage,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,41,mast,0.0,0.0,0.0,3,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,41,quiescent_stellate,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,41,schwann,1.0,0.6,0.75,5,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,42,acinar,0.9090909090909091,0.9523809523809523,0.9302325581395349,21,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,42,activated_stellate,1.0,1.0,1.0,16,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,42,alpha,0.9793388429752066,0.9916317991631799,0.9854469854469855,239,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,42,beta,0.9734848484848485,0.9961240310077519,0.9846743295019157,258,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,42,delta,0.9545454545454546,0.84,0.8936170212765957,25,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,42,ductal,0.9473684210526315,1.0,0.972972972972973,36,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,42,endothelial,1.0,0.7142857142857143,0.8333333333333334,14,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,42,epsilon,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,42,gamma,1.0,1.0,1.0,18,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,42,macrophage,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,42,mast,0.0,0.0,0.0,3,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,42,quiescent_stellate,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,42,schwann,1.0,0.6,0.75,5,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,43,acinar,0.9130434782608695,1.0,0.9545454545454546,21,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,43,activated_stellate,1.0,1.0,1.0,16,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,43,alpha,0.963265306122449,0.9874476987447699,0.9752066115702479,239,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,43,beta,0.9622641509433962,0.9883720930232558,0.9751434034416826,258,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,43,delta,0.95,0.76,0.8444444444444444,25,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,43,ductal,0.9473684210526315,1.0,0.972972972972973,36,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,43,endothelial,1.0,0.5,0.6666666666666666,14,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,43,epsilon,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,43,gamma,1.0,1.0,1.0,18,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,43,macrophage,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,43,mast,0.0,0.0,0.0,3,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,43,quiescent_stellate,0.5,1.0,0.6666666666666666,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,43,schwann,1.0,0.4,0.5714285714285714,5,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,44,acinar,1.0,0.9523809523809523,0.975609756097561,21,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,44,activated_stellate,1.0,1.0,1.0,16,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,44,alpha,0.9753086419753086,0.9916317991631799,0.983402489626556,239,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,44,beta,0.9624060150375939,0.9922480620155039,0.9770992366412213,258,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,44,delta,0.9523809523809523,0.8,0.8695652173913043,25,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,44,ductal,0.972972972972973,1.0,0.9863013698630136,36,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,44,endothelial,1.0,0.7142857142857143,0.8333333333333334,14,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,44,epsilon,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,44,gamma,1.0,1.0,1.0,18,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,44,macrophage,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,44,mast,1.0,0.3333333333333333,0.5,3,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,44,quiescent_stellate,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,sclsc_refonly,44,schwann,1.0,0.6,0.75,5,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,40,acinar,0.058823529411764705,0.6666666666666666,0.10810810810810811,3,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,40,activated_stellate,1.0,0.9753086419753086,0.9875,81,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,40,alpha,0.9955686853766618,0.9970414201183432,0.9963045084996305,676,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,40,beta,0.9972972972972973,0.9946091644204852,0.9959514170040485,371,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,40,delta,0.9920634920634921,1.0,0.9960159362549801,125,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,40,ductal,0.9889705882352942,0.893687707641196,0.9389179755671903,301,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,40,endothelial,1.0,1.0,1.0,23,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,40,epsilon,1.0,1.0,1.0,2,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,40,gamma,0.9883720930232558,0.9883720930232558,0.9883720930232558,86,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,40,macrophage,1.0,1.0,1.0,17,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,40,mast,0.9,1.0,0.9473684210526315,9,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,40,quiescent_stellate,1.0,0.9545454545454546,0.9767441860465116,22,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,40,schwann,1.0,1.0,1.0,6,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,40,t_cell,1.0,0.5,0.6666666666666666,2,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,41,acinar,0.075,1.0,0.13953488372093023,3,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,41,activated_stellate,1.0,0.9629629629629629,0.9811320754716981,81,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,41,alpha,0.9985163204747775,0.9955621301775148,0.997037037037037,676,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,41,beta,0.9919354838709677,0.9946091644204852,0.9932705248990579,371,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,41,delta,0.9920634920634921,1.0,0.9960159362549801,125,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,41,ductal,0.9924812030075187,0.8770764119601329,0.9312169312169312,301,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,41,endothelial,1.0,1.0,1.0,23,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,41,epsilon,1.0,1.0,1.0,2,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,41,gamma,0.9885057471264368,1.0,0.9942196531791907,86,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,41,macrophage,1.0,1.0,1.0,17,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,41,mast,0.8181818181818182,1.0,0.9,9,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,41,quiescent_stellate,0.9545454545454546,0.9545454545454546,0.9545454545454546,22,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,41,schwann,1.0,1.0,1.0,6,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,41,t_cell,0.0,0.0,0.0,2,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,42,acinar,0.06060606060606061,0.6666666666666666,0.1111111111111111,3,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,42,activated_stellate,1.0,0.9753086419753086,0.9875,81,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,42,alpha,0.9970282317979198,0.992603550295858,0.9948109710896961,676,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,42,beta,0.9919354838709677,0.9946091644204852,0.9932705248990579,371,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,42,delta,0.9920634920634921,1.0,0.9960159362549801,125,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,42,ductal,0.9854014598540146,0.8970099667774086,0.9391304347826087,301,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,42,endothelial,1.0,1.0,1.0,23,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,42,epsilon,0.6666666666666666,1.0,0.8,2,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,42,gamma,0.9885057471264368,1.0,0.9942196531791907,86,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,42,macrophage,1.0,1.0,1.0,17,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,42,mast,1.0,1.0,1.0,9,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,42,quiescent_stellate,1.0,0.9090909090909091,0.9523809523809523,22,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,42,schwann,1.0,1.0,1.0,6,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,42,t_cell,1.0,1.0,1.0,2,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,43,acinar,0.1,0.6666666666666666,0.17391304347826086,3,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,43,activated_stellate,1.0,0.9753086419753086,0.9875,81,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,43,alpha,0.9970457902511078,0.9985207100591716,0.9977827050997783,676,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,43,beta,0.9972972972972973,0.9946091644204852,0.9959514170040485,371,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,43,delta,0.9920634920634921,1.0,0.9960159362549801,125,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,43,ductal,0.9929824561403509,0.9401993355481728,0.9658703071672355,301,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,43,endothelial,1.0,1.0,1.0,23,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,43,epsilon,1.0,1.0,1.0,2,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,43,gamma,0.9885057471264368,1.0,0.9942196531791907,86,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,43,macrophage,1.0,1.0,1.0,17,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,43,mast,0.8181818181818182,1.0,0.9,9,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,43,quiescent_stellate,1.0,0.9545454545454546,0.9767441860465116,22,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,43,schwann,1.0,1.0,1.0,6,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,43,t_cell,0.0,0.0,0.0,2,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,44,acinar,0.1111111111111111,0.6666666666666666,0.19047619047619047,3,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,44,activated_stellate,0.9873417721518988,0.9629629629629629,0.975,81,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,44,alpha,0.9985185185185185,0.9970414201183432,0.997779422649889,676,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,44,beta,0.9972972972972973,0.9946091644204852,0.9959514170040485,371,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,44,delta,0.9920634920634921,1.0,0.9960159362549801,125,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,44,ductal,0.9895833333333334,0.946843853820598,0.967741935483871,301,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,44,endothelial,1.0,1.0,1.0,23,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,44,epsilon,1.0,1.0,1.0,2,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,44,gamma,0.9885057471264368,1.0,0.9942196531791907,86,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,44,macrophage,1.0,1.0,1.0,17,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,44,mast,0.8181818181818182,1.0,0.9,9,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,44,quiescent_stellate,1.0,0.9545454545454546,0.9767441860465116,22,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,44,schwann,0.8571428571428571,1.0,0.9230769230769231,6,,common_distance_weighted_15nn
+pancreas,inDrop2,sclsc_refonly,44,t_cell,0.0,0.0,0.0,2,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,40,acinar,0.9937597503900156,0.7556346381969158,0.8584905660377359,843,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,40,activated_stellate,0.9595959595959596,0.95,0.9547738693467337,100,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,40,alpha,0.9885964912280701,0.9973451327433628,0.9929515418502203,1130,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,40,beta,0.9725343320848939,0.9898348157560356,0.9811083123425692,787,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,40,delta,0.9795918367346939,0.8944099378881988,0.935064935064935,161,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,40,ductal,0.6504347826086957,0.9946808510638298,0.786540483701367,376,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,40,endothelial,1.0,0.9891304347826086,0.994535519125683,92,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,40,epsilon,1.0,1.0,1.0,2,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,40,gamma,0.967741935483871,0.8333333333333334,0.8955223880597015,36,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,40,macrophage,1.0,0.9285714285714286,0.9629629629629629,14,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,40,mast,0.875,1.0,0.9333333333333333,7,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,40,quiescent_stellate,0.875,0.9074074074074074,0.8909090909090909,54,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,40,schwann,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,40,t_cell,0.0,0.0,0.0,2,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,41,acinar,0.9937304075235109,0.7520759193357058,0.8561782579338285,843,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,41,activated_stellate,0.96875,0.93,0.9489795918367347,100,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,41,alpha,0.9902998236331569,0.9938053097345133,0.9920494699646644,1130,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,41,beta,0.968944099378882,0.9911054637865311,0.9798994974874372,787,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,41,delta,0.9662162162162162,0.8881987577639752,0.9255663430420712,161,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,41,ductal,0.6476683937823834,0.9973404255319149,0.7853403141361257,376,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,41,endothelial,0.989247311827957,1.0,0.9945945945945946,92,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,41,epsilon,1.0,1.0,1.0,2,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,41,gamma,0.9642857142857143,0.75,0.84375,36,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,41,macrophage,0.9333333333333333,1.0,0.9655172413793104,14,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,41,mast,0.875,1.0,0.9333333333333333,7,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,41,quiescent_stellate,0.8448275862068966,0.9074074074074074,0.875,54,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,41,schwann,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,41,t_cell,0.0,0.0,0.0,2,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,42,acinar,0.9911111111111112,0.7935943060498221,0.8814229249011858,843,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,42,activated_stellate,0.96,0.96,0.96,100,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,42,alpha,0.990325417766051,0.9964601769911504,0.9933833259814733,1130,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,42,beta,0.9749687108886108,0.9898348157560356,0.9823455233291298,787,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,42,delta,0.9863945578231292,0.9006211180124224,0.9415584415584416,161,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,42,ductal,0.6880733944954128,0.9973404255319149,0.8143322475570033,376,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,42,endothelial,0.978494623655914,0.9891304347826086,0.9837837837837838,92,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,42,epsilon,1.0,0.5,0.6666666666666666,2,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,42,gamma,0.9354838709677419,0.8055555555555556,0.8656716417910447,36,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,42,macrophage,0.8666666666666667,0.9285714285714286,0.896551724137931,14,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,42,mast,1.0,1.0,1.0,7,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,42,quiescent_stellate,0.8909090909090909,0.9074074074074074,0.8990825688073395,54,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,42,schwann,0.0,0.0,0.0,1,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,42,t_cell,0.0,0.0,0.0,2,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,43,acinar,0.9940387481371088,0.7912218268090154,0.8811096433289299,843,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,43,activated_stellate,0.9693877551020408,0.95,0.9595959595959596,100,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,43,alpha,0.9929453262786596,0.9964601769911504,0.9946996466431095,1130,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,43,beta,0.9653465346534653,0.9911054637865311,0.9780564263322884,787,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,43,delta,0.9864864864864865,0.906832298136646,0.9449838187702265,161,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,43,ductal,0.6900369003690037,0.9946808510638298,0.8148148148148148,376,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,43,endothelial,0.9886363636363636,0.9456521739130435,0.9666666666666667,92,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,43,epsilon,1.0,1.0,1.0,2,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,43,gamma,0.96875,0.8611111111111112,0.9117647058823529,36,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,43,macrophage,1.0,0.8571428571428571,0.9230769230769231,14,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,43,mast,0.7,1.0,0.8235294117647058,7,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,43,quiescent_stellate,0.8596491228070176,0.9074074074074074,0.8828828828828829,54,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,43,schwann,0.3333333333333333,1.0,0.5,1,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,43,t_cell,0.0,0.0,0.0,2,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,44,acinar,0.992548435171386,0.7900355871886121,0.8797886393659181,843,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,44,activated_stellate,0.968421052631579,0.92,0.9435897435897436,100,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,44,alpha,0.9938217122683142,0.9964601769911504,0.9951391957578436,1130,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,44,beta,0.9701863354037267,0.9923761118170267,0.9811557788944724,787,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,44,delta,0.9863013698630136,0.8944099378881988,0.9381107491856677,161,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,44,ductal,0.6831501831501832,0.9920212765957447,0.8091106290672451,376,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,44,endothelial,0.9787234042553191,1.0,0.989247311827957,92,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,44,epsilon,1.0,1.0,1.0,2,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,44,gamma,0.9705882352941176,0.9166666666666666,0.9428571428571428,36,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,44,macrophage,0.9333333333333333,1.0,0.9655172413793104,14,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,44,mast,0.875,1.0,0.9333333333333333,7,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,44,quiescent_stellate,0.8909090909090909,0.9074074074074074,0.8990825688073395,54,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,44,schwann,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,inDrop3,sclsc_refonly,44,t_cell,0.0,0.0,0.0,2,,common_distance_weighted_15nn
+immune_cell_human,10X,sclsc_refonly,40,CD14+ Monocytes,0.9769410391126678,0.9878984651711924,0.9823891987085412,3388,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,40,CD16+ Monocytes,0.8984375,0.9478021978021978,0.9224598930481284,364,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,40,CD20+ B cells,0.9921824104234528,0.9851228978007762,0.9886400519311912,1546,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,40,CD4+ T cells,0.9667673716012085,0.9805924412665986,0.973630831643002,2937,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,40,CD8+ T cells,0.8274111675126904,0.9314285714285714,0.8763440860215054,350,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,40,HSPCs,1.0,0.75,0.8571428571428571,28,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,40,Megakaryocyte progenitors,0.65625,1.0,0.7924528301886793,21,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,40,Monocyte-derived dendritic cells,1.0,0.6703296703296703,0.8026315789473685,182,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,40,NK cells,0.9453125,0.8002645502645502,0.8667621776504298,756,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,40,NKT cells,0.8398190045248869,0.8787878787878788,0.8588616381304951,1056,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,40,Plasma cells,1.0,0.5,0.6666666666666666,18,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,40,Plasmacytoid dendritic cells,0.9875,0.9753086419753086,0.9813664596273292,81,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,41,CD14+ Monocytes,0.9781213535589265,0.9896694214876033,0.9838615023474179,3388,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,41,CD16+ Monocytes,0.9135135135135135,0.9285714285714286,0.9209809264305178,364,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,41,CD20+ B cells,0.9961038961038962,0.9922380336351876,0.9941672067401166,1546,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,41,CD4+ T cells,0.9619873291097032,0.9822948586993531,0.9720350404312669,2937,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,41,CD8+ T cells,0.8083538083538083,0.94,0.869220607661823,350,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,41,HSPCs,1.0,0.7142857142857143,0.8333333333333334,28,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,41,Megakaryocyte progenitors,0.65625,1.0,0.7924528301886793,21,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,41,Monocyte progenitors,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,41,Monocyte-derived dendritic cells,1.0,0.7252747252747253,0.8407643312101911,182,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,41,NK cells,0.9414483821263482,0.8082010582010583,0.8697508896797153,756,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,41,NKT cells,0.8478260869565217,0.8494318181818182,0.8486281929990539,1056,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,41,Plasma cells,1.0,0.5555555555555556,0.7142857142857143,18,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,41,Plasmacytoid dendritic cells,1.0,1.0,1.0,81,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,42,CD14+ Monocytes,0.9831907991742849,0.9840613931523022,0.9836259035255938,3388,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,42,CD16+ Monocytes,0.8762626262626263,0.9532967032967034,0.9131578947368421,364,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,42,CD20+ B cells,0.9967320261437909,0.9864165588615783,0.9915474642392718,1546,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,42,CD4+ T cells,0.9696867632199394,0.9802519577800477,0.9749407382323061,2937,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,42,CD8+ T cells,0.8143564356435643,0.94,0.8726790450928382,350,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,42,HSPCs,1.0,0.8214285714285714,0.9019607843137255,28,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,42,Megakaryocyte progenitors,0.75,1.0,0.8571428571428571,21,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,42,Monocyte-derived dendritic cells,0.993006993006993,0.7802197802197802,0.8738461538461538,182,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,42,NK cells,0.9717607973421927,0.7738095238095238,0.8615611192930781,756,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,42,NKT cells,0.8211805555555556,0.8958333333333334,0.8568840579710145,1056,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,42,Plasma cells,1.0,0.4444444444444444,0.6153846153846154,18,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,42,Plasmacytoid dendritic cells,1.0,1.0,1.0,81,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,43,CD14+ Monocytes,0.9814869233029679,0.9858323494687131,0.9836548372846414,3388,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,43,CD16+ Monocytes,0.8837209302325582,0.9395604395604396,0.9107856191744341,364,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,43,CD20+ B cells,0.9947678221059516,0.9838292367399741,0.9892682926829268,1546,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,43,CD4+ T cells,0.9688128772635815,0.9836567926455567,0.9761784085149519,2937,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,43,CD8+ T cells,0.8257575757575758,0.9342857142857143,0.8766756032171582,350,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,43,HSPCs,1.0,0.6428571428571429,0.782608695652174,28,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,43,Megakaryocyte progenitors,0.6363636363636364,1.0,0.7777777777777778,21,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,43,Monocyte progenitors,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,43,Monocyte-derived dendritic cells,0.9929577464788732,0.7747252747252747,0.8703703703703703,182,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,43,NK cells,0.8993993993993994,0.7923280423280423,0.8424753867791842,756,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,43,NKT cells,0.8330241187384044,0.8503787878787878,0.8416119962511716,1056,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,43,Plasma cells,0.9166666666666666,0.6111111111111112,0.7333333333333333,18,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,43,Plasmacytoid dendritic cells,1.0,0.9876543209876543,0.9937888198757764,81,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,44,CD14+ Monocytes,0.9805996472663139,0.9846517119244392,0.982621502209131,3388,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,44,CD16+ Monocytes,0.8690176322418136,0.9478021978021978,0.9067017082785808,364,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,44,CD20+ B cells,0.9947882736156352,0.9877102199223803,0.991236611489776,1546,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,44,CD4+ T cells,0.9603465511496168,0.9812734082397003,0.9706972044459414,2937,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,44,CD8+ T cells,0.7769423558897243,0.8857142857142857,0.8277703604806409,350,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,44,HSPCs,0.9565217391304348,0.7857142857142857,0.8627450980392157,28,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,44,Megakaryocyte progenitors,0.7241379310344828,1.0,0.84,21,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,44,Monocyte-derived dendritic cells,1.0,0.7417582417582418,0.8517350157728707,182,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,44,NK cells,0.9688013136288999,0.7804232804232805,0.8644688644688645,756,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,44,NKT cells,0.825497287522604,0.8645833333333334,0.8445883441258094,1056,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,44,Plasma cells,1.0,0.5555555555555556,0.7142857142857143,18,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,sclsc_refonly,44,Plasmacytoid dendritic cells,1.0,1.0,1.0,81,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,CD10+ B cells,0.9871794871794872,0.8461538461538461,0.9112426035502958,91,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,CD14+ Monocytes,0.8374384236453202,0.9714285714285714,0.8994708994708994,350,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,CD16+ Monocytes,0.9375,0.9836065573770492,0.96,61,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,CD20+ B cells,0.8431372549019608,1.0,0.9148936170212766,43,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,CD4+ T cells,0.8423005565862709,0.7868284228769498,0.8136200716845878,577,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,CD8+ T cells,0.4084507042253521,0.9354838709677419,0.5686274509803921,93,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,Erythrocytes,0.9832402234636871,0.946236559139785,0.9643835616438357,186,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,Erythroid progenitors,0.9222222222222223,0.7410714285714286,0.8217821782178217,112,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,HSPCs,0.9166666666666666,0.8237885462555066,0.8677494199535963,227,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,Megakaryocyte progenitors,0.6829268292682927,0.7777777777777778,0.7272727272727273,72,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,Monocyte progenitors,0.8113207547169812,0.7049180327868853,0.7543859649122807,183,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,Monocyte-derived dendritic cells,0.9186046511627907,0.8876404494382022,0.9028571428571428,89,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,NK cells,0.390625,0.9615384615384616,0.5555555555555556,26,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,NKT cells,0.982078853046595,0.7043701799485861,0.8203592814371258,389,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,Plasma cells,0.9166666666666666,1.0,0.9565217391304348,33,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,40,Plasmacytoid dendritic cells,0.9642857142857143,1.0,0.9818181818181818,54,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,CD10+ B cells,0.975,0.8571428571428571,0.9122807017543859,91,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,CD14+ Monocytes,0.8647959183673469,0.9685714285714285,0.9137466307277629,350,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,CD16+ Monocytes,0.967741935483871,0.9836065573770492,0.975609756097561,61,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,CD20+ B cells,0.8269230769230769,1.0,0.9052631578947369,43,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,CD4+ T cells,0.8110516934046346,0.7885615251299827,0.7996485061511424,577,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,CD8+ T cells,0.3915094339622642,0.8924731182795699,0.5442622950819672,93,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,Erythrocytes,1.0,0.9516129032258065,0.9752066115702479,186,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,Erythroid progenitors,0.9259259259259259,0.6696428571428571,0.7772020725388601,112,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,HSPCs,0.8932038834951457,0.8105726872246696,0.8498845265588915,227,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,Megakaryocyte progenitors,0.6063829787234043,0.7916666666666666,0.6867469879518072,72,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,Monocyte progenitors,0.8106508875739645,0.7486338797814208,0.7784090909090909,183,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,Monocyte-derived dendritic cells,0.9204545454545454,0.9101123595505618,0.9152542372881356,89,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,NK cells,0.46153846153846156,0.9230769230769231,0.6153846153846154,26,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,NKT cells,0.9888888888888889,0.6863753213367609,0.8103186646433991,389,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,Plasma cells,1.0,0.9696969696969697,0.9846153846153847,33,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,41,Plasmacytoid dendritic cells,0.9310344827586207,1.0,0.9642857142857143,54,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,CD10+ B cells,0.9861111111111112,0.7802197802197802,0.8711656441717791,91,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,CD14+ Monocytes,0.8673469387755102,0.9714285714285714,0.9164420485175202,350,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,CD16+ Monocytes,0.9682539682539683,1.0,0.9838709677419355,61,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,CD20+ B cells,0.8431372549019608,1.0,0.9148936170212766,43,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,CD4+ T cells,0.843065693430657,0.8006932409012132,0.8213333333333334,577,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,CD8+ T cells,0.40096618357487923,0.8924731182795699,0.5533333333333333,93,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,Erythrocytes,0.9833333333333333,0.9516129032258065,0.9672131147540983,186,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,Erythroid progenitors,0.9213483146067416,0.7321428571428571,0.8159203980099502,112,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,HSPCs,0.9278350515463918,0.7929515418502202,0.8551068883610451,227,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,Megakaryocyte progenitors,0.6458333333333334,0.8611111111111112,0.7380952380952381,72,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,Monocyte progenitors,0.8192771084337349,0.7431693989071039,0.7793696275071633,183,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,Monocyte-derived dendritic cells,0.9021739130434783,0.9325842696629213,0.9171270718232044,89,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,NK cells,0.3466666666666667,1.0,0.5148514851485149,26,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,NKT cells,0.9851851851851852,0.6838046272493573,0.8072837632776935,389,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,Plasma cells,0.9411764705882353,0.9696969696969697,0.9552238805970149,33,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,42,Plasmacytoid dendritic cells,0.9473684210526315,1.0,0.972972972972973,54,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,CD10+ B cells,0.987012987012987,0.8351648351648352,0.9047619047619048,91,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,CD14+ Monocytes,0.8304668304668305,0.9657142857142857,0.892998678996037,350,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,CD16+ Monocytes,0.953125,1.0,0.976,61,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,CD20+ B cells,0.8431372549019608,1.0,0.9148936170212766,43,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,CD4+ T cells,0.8327464788732394,0.8197573656845754,0.8262008733624454,577,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,CD8+ T cells,0.422680412371134,0.8817204301075269,0.5714285714285714,93,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,Erythrocytes,0.9627659574468085,0.9731182795698925,0.9679144385026738,186,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,Erythroid progenitors,0.9550561797752809,0.7589285714285714,0.845771144278607,112,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,HSPCs,0.8866995073891626,0.7929515418502202,0.8372093023255814,227,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,Megakaryocyte progenitors,0.6962025316455697,0.7638888888888888,0.7284768211920529,72,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,Monocyte progenitors,0.7791411042944786,0.6939890710382514,0.7341040462427746,183,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,Monocyte-derived dendritic cells,0.9186046511627907,0.8876404494382022,0.9028571428571428,89,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,NK cells,0.44642857142857145,0.9615384615384616,0.6097560975609756,26,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,NKT cells,0.9925925925925926,0.6889460154241646,0.8133535660091047,389,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,Plasma cells,1.0,1.0,1.0,33,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,43,Plasmacytoid dendritic cells,0.9310344827586207,1.0,0.9642857142857143,54,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,CD10+ B cells,0.9864864864864865,0.8021978021978022,0.8848484848484849,91,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,CD14+ Monocytes,0.8578680203045685,0.9657142857142857,0.9086021505376344,350,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,CD16+ Monocytes,0.9682539682539683,1.0,0.9838709677419355,61,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,CD20+ B cells,0.7818181818181819,1.0,0.8775510204081632,43,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,CD4+ T cells,0.8342059336823735,0.82842287694974,0.831304347826087,577,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,CD8+ T cells,0.44324324324324327,0.8817204301075269,0.5899280575539568,93,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,Erythrocytes,0.9835164835164835,0.9623655913978495,0.9728260869565217,186,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,Erythroid progenitors,0.963855421686747,0.7142857142857143,0.8205128205128205,112,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,HSPCs,0.9597989949748744,0.8414096916299559,0.8967136150234741,227,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,Megakaryocyte progenitors,0.6774193548387096,0.875,0.7636363636363637,72,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,Monocyte progenitors,0.808641975308642,0.7158469945355191,0.7594202898550725,183,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,Monocyte-derived dendritic cells,0.8842105263157894,0.9438202247191011,0.9130434782608695,89,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,NK cells,0.32432432432432434,0.9230769230769231,0.48,26,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,NKT cells,0.973384030418251,0.6580976863753213,0.7852760736196319,389,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,Plasma cells,1.0,1.0,1.0,33,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Oetjen_A,sclsc_refonly,44,Plasmacytoid dendritic cells,0.9310344827586207,1.0,0.9642857142857143,54,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,40,CD14+ Monocytes,0.4380664652567976,1.0,0.6092436974789915,145,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,40,CD16+ Monocytes,0.10465116279069768,0.10465116279069768,0.10465116279069768,172,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,40,Monocyte-derived dendritic cells,1.0,0.651685393258427,0.7891156462585034,534,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,40,Plasmacytoid dendritic cells,1.0,1.0,1.0,171,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,41,CD14+ Monocytes,0.43902439024390244,0.993103448275862,0.6088794926004228,145,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,41,CD16+ Monocytes,0.1641025641025641,0.18604651162790697,0.17438692098092642,172,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,41,CD20+ B cells,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,41,HSPCs,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,41,Monocyte progenitors,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,41,Monocyte-derived dendritic cells,1.0,0.6067415730337079,0.7552447552447552,534,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,41,Plasmacytoid dendritic cells,0.9941860465116279,1.0,0.9970845481049563,171,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,42,CD14+ Monocytes,0.4897959183673469,0.993103448275862,0.6560364464692483,145,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,42,CD16+ Monocytes,0.14736842105263157,0.16279069767441862,0.15469613259668508,172,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,42,Monocyte-derived dendritic cells,0.9727520435967303,0.6685393258426966,0.7924528301886793,534,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,42,Plasmacytoid dendritic cells,1.0,1.0,1.0,171,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,43,CD14+ Monocytes,0.5521235521235521,0.9862068965517241,0.7079207920792079,145,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,43,CD16+ Monocytes,0.2222222222222222,0.27906976744186046,0.24742268041237114,172,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,43,Monocyte-derived dendritic cells,0.9654255319148937,0.6797752808988764,0.7978021978021979,534,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,43,Plasmacytoid dendritic cells,1.0,1.0,1.0,171,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,44,CD14+ Monocytes,0.5909090909090909,0.9862068965517241,0.7390180878552972,145,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,44,CD16+ Monocytes,0.33587786259541985,0.5116279069767442,0.4055299539170507,172,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,44,Monocyte-derived dendritic cells,1.0,0.649812734082397,0.7877412031782066,534,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,Villani,sclsc_refonly,44,Plasmacytoid dendritic cells,1.0,1.0,1.0,171,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,40,B cell,1.0,1.0,1.0,3,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,40,Ciliated,1.0,0.8333333333333334,0.9090909090909091,12,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,40,Dendritic cell,0.912621359223301,0.9591836734693877,0.9353233830845771,98,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,40,Endothelium,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,40,Fibroblast,1.0,1.0,1.0,25,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,40,Macrophage,0.5,1.0,0.6666666666666666,8,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,40,Mast cell,1.0,0.9897959183673469,0.9948717948717949,98,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,40,Neutrophil_CD14_high,0.7272727272727273,0.6153846153846154,0.6666666666666666,13,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,40,Neutrophils_IL1R2,1.0,0.09090909090909091,0.16666666666666666,11,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,40,Secretory,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,40,T/NK cell,1.0,0.9830508474576272,0.9914529914529915,59,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,40,Type 2,0.9926470588235294,1.0,0.996309963099631,135,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,41,B cell,1.0,1.0,1.0,3,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,41,Ciliated,1.0,0.8333333333333334,0.9090909090909091,12,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,41,Dendritic cell,0.946236559139785,0.8979591836734694,0.9214659685863874,98,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,41,Endothelium,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,41,Fibroblast,1.0,1.0,1.0,25,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,41,Macrophage,0.5,1.0,0.6666666666666666,8,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,41,Mast cell,1.0,0.9897959183673469,0.9948717948717949,98,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,41,Neutrophil_CD14_high,0.5714285714285714,0.9230769230769231,0.7058823529411765,13,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,41,Neutrophils_IL1R2,1.0,0.09090909090909091,0.16666666666666666,11,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,41,Secretory,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,41,T/NK cell,1.0,0.9830508474576272,0.9914529914529915,59,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,41,Type 2,0.9926470588235294,1.0,0.996309963099631,135,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,42,B cell,1.0,1.0,1.0,3,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,42,Ciliated,1.0,0.9166666666666666,0.9565217391304348,12,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,42,Dendritic cell,0.9142857142857143,0.9795918367346939,0.9458128078817734,98,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,42,Endothelium,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,42,Fibroblast,1.0,1.0,1.0,25,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,42,Macrophage,0.5714285714285714,1.0,0.7272727272727273,8,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,42,Mast cell,1.0,0.9897959183673469,0.9948717948717949,98,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,42,Neutrophil_CD14_high,0.8888888888888888,0.6153846153846154,0.7272727272727273,13,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,42,Neutrophils_IL1R2,0.5,0.09090909090909091,0.15384615384615385,11,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,42,T/NK cell,1.0,1.0,1.0,59,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,42,Type 2,0.9926470588235294,1.0,0.996309963099631,135,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,43,B cell,1.0,1.0,1.0,3,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,43,Ciliated,1.0,0.8333333333333334,0.9090909090909091,12,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,43,Dendritic cell,0.9215686274509803,0.9591836734693877,0.94,98,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,43,Endothelium,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,43,Fibroblast,1.0,1.0,1.0,25,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,43,Macrophage,0.7272727272727273,1.0,0.8421052631578947,8,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,43,Mast cell,0.9897959183673469,0.9897959183673469,0.9897959183673469,98,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,43,Neutrophil_CD14_high,0.7857142857142857,0.8461538461538461,0.8148148148148148,13,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,43,Neutrophils_IL1R2,1.0,0.2727272727272727,0.42857142857142855,11,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,43,Secretory,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,43,T/NK cell,1.0,0.9830508474576272,0.9914529914529915,59,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,43,Type 2,0.9926470588235294,1.0,0.996309963099631,135,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,44,B cell,1.0,1.0,1.0,3,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,44,Ciliated,1.0,0.75,0.8571428571428571,12,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,44,Dendritic cell,0.9215686274509803,0.9591836734693877,0.94,98,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,44,Endothelium,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,44,Fibroblast,1.0,1.0,1.0,25,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,44,Macrophage,0.6666666666666666,1.0,0.8,8,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,44,Mast cell,1.0,0.9897959183673469,0.9948717948717949,98,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,44,Neutrophil_CD14_high,0.6470588235294118,0.8461538461538461,0.7333333333333333,13,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,44,Neutrophils_IL1R2,0.0,0.0,0.0,11,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,44,Secretory,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,44,T/NK cell,1.0,0.9830508474576272,0.9914529914529915,59,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,3,sclsc_refonly,44,Type 2,0.9926470588235294,1.0,0.996309963099631,135,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,40,B cell,1.0,0.5,0.6666666666666666,4,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,40,Basal 1,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,40,Basal 2,1.0,0.5,0.6666666666666666,2,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,40,Ciliated,0.5714285714285714,0.5,0.5333333333333333,8,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,40,Dendritic cell,0.3088888888888889,0.9266666666666666,0.4633333333333333,150,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,40,Endothelium,0.9591836734693877,0.9791666666666666,0.9690721649484536,48,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,40,Fibroblast,0.9906542056074766,1.0,0.9953051643192489,212,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,40,Lymphatic,1.0,1.0,1.0,76,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,40,Macrophage,0.9929627023223082,0.7718818380743983,0.868574946137273,1828,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,40,Neutrophil_CD14_high,0.05405405405405406,0.8571428571428571,0.1016949152542373,7,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,40,Neutrophils_IL1R2,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,40,Secretory,0.625,1.0,0.7692307692307693,5,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,40,T/NK cell,1.0,0.75,0.8571428571428571,4,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,40,Type 2,0.9964763918252291,0.9964763918252291,0.9964763918252291,1419,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,41,B cell,0.6,0.75,0.6666666666666666,4,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,41,Basal 2,0.6666666666666666,1.0,0.8,2,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,41,Ciliated,0.5,0.375,0.42857142857142855,8,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,41,Dendritic cell,0.2892561983471074,0.9333333333333333,0.4416403785488959,150,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,41,Endothelium,0.94,0.9791666666666666,0.9591836734693877,48,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,41,Fibroblast,0.986046511627907,1.0,0.9929742388758782,212,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,41,Lymphatic,1.0,1.0,1.0,76,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,41,Macrophage,0.9963476990504018,0.7461706783369803,0.8532999687206756,1828,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,41,Neutrophil_CD14_high,0.04672897196261682,0.7142857142857143,0.08771929824561403,7,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,41,Neutrophils_IL1R2,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,41,Secretory,0.5555555555555556,1.0,0.7142857142857143,5,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,41,T/NK cell,0.3,0.75,0.42857142857142855,4,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,41,Type 2,0.9929824561403509,0.9971811134601832,0.9950773558368495,1419,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,42,B cell,1.0,0.75,0.8571428571428571,4,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,42,Basal 2,0.6666666666666666,1.0,0.8,2,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,42,Ciliated,0.6666666666666666,0.5,0.5714285714285714,8,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,42,Dendritic cell,0.31105990783410137,0.9,0.4623287671232877,150,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,42,Endothelium,0.9591836734693877,0.9791666666666666,0.9690721649484536,48,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,42,Fibroblast,0.9906542056074766,1.0,0.9953051643192489,212,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,42,Lymphatic,1.0,1.0,1.0,76,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,42,Macrophage,0.9940652818991098,0.7330415754923414,0.8438287153652393,1828,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,42,Neutrophil_CD14_high,0.030612244897959183,0.8571428571428571,0.059113300492610835,7,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,42,Secretory,0.625,1.0,0.7692307692307693,5,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,42,T/NK cell,0.6,0.75,0.6666666666666666,4,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,42,Type 2,0.995777621393385,0.9971811134601832,0.9964788732394366,1419,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,43,B cell,1.0,0.5,0.6666666666666666,4,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,43,Basal 2,0.6666666666666666,1.0,0.8,2,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,43,Ciliated,0.6666666666666666,0.5,0.5714285714285714,8,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,43,Dendritic cell,0.32235294117647056,0.9133333333333333,0.4765217391304348,150,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,43,Endothelium,0.96,1.0,0.9795918367346939,48,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,43,Fibroblast,0.9906542056074766,1.0,0.9953051643192489,212,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,43,Lymphatic,0.987012987012987,1.0,0.9934640522875817,76,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,43,Macrophage,0.9922752808988764,0.7729759299781181,0.8690036900369004,1828,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,43,Neutrophil_CD14_high,0.048,0.8571428571428571,0.09090909090909091,7,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,43,Neutrophils_IL1R2,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,43,Secretory,0.5555555555555556,1.0,0.7142857142857143,5,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,43,T/NK cell,1.0,0.75,0.8571428571428571,4,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,43,Type 2,0.9943741209563994,0.9964763918252291,0.9954241464273144,1419,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,44,B cell,0.6666666666666666,0.5,0.5714285714285714,4,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,44,Basal 2,0.4,1.0,0.5714285714285714,2,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,44,Ciliated,0.6666666666666666,0.5,0.5714285714285714,8,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,44,Dendritic cell,0.2937365010799136,0.9066666666666666,0.4437194127243067,150,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,44,Endothelium,0.94,0.9791666666666666,0.9591836734693877,48,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,44,Fibroblast,1.0,1.0,1.0,212,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,44,Lymphatic,1.0,1.0,1.0,76,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,44,Macrophage,0.9934017595307918,0.7412472647702407,0.8489974937343359,1828,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,44,Neutrophil_CD14_high,0.041666666666666664,0.8571428571428571,0.07947019867549669,7,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,44,Neutrophils_IL1R2,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,44,Secretory,0.625,1.0,0.7692307692307693,5,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,44,T/NK cell,0.6,0.75,0.6666666666666666,4,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,4,sclsc_refonly,44,Type 2,0.9936842105263158,0.9978858350951374,0.9957805907172996,1419,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,40,B cell,0.14285714285714285,0.6666666666666666,0.23529411764705882,6,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,40,Ciliated,0.9866666666666667,0.9135802469135802,0.9487179487179487,81,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,40,Dendritic cell,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,40,Endothelium,1.0,0.925,0.961038961038961,40,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,40,Fibroblast,0.8571428571428571,0.96,0.9056603773584906,25,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,40,Lymphatic,1.0,0.9545454545454546,0.9767441860465116,44,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,40,Macrophage,0.9466882067851373,0.966996699669967,0.9567346938775511,606,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,40,Mast cell,0.975609756097561,1.0,0.9876543209876543,40,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,40,Neutrophil_CD14_high,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,40,Secretory,0.45714285714285713,0.45714285714285713,0.45714285714285713,70,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,40,T/NK cell,0.9605734767025089,0.9781021897810219,0.969258589511754,274,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,40,Type 1,0.8651162790697674,0.9073170731707317,0.8857142857142857,205,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,40,Type 2,0.9428571428571428,0.8811748998664887,0.9109730848861284,749,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,41,B cell,0.11428571428571428,0.6666666666666666,0.1951219512195122,6,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,41,Basal 2,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,41,Ciliated,0.9736842105263158,0.9135802469135802,0.9426751592356688,81,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,41,Dendritic cell,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,41,Endothelium,1.0,0.925,0.961038961038961,40,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,41,Fibroblast,1.0,0.96,0.9795918367346939,25,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,41,Lymphatic,1.0,0.9545454545454546,0.9767441860465116,44,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,41,Macrophage,0.90625,0.9570957095709571,0.9309791332263242,606,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,41,Mast cell,0.975609756097561,1.0,0.9876543209876543,40,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,41,Neutrophil_CD14_high,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,41,Secretory,0.4915254237288136,0.4142857142857143,0.4496124031007752,70,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,41,T/NK cell,0.9740740740740741,0.9598540145985401,0.9669117647058824,274,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,41,Type 1,0.9540816326530612,0.9121951219512195,0.9326683291770573,205,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,41,Type 2,0.9327731092436975,0.8891855807743658,0.9104579630895421,749,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,42,B cell,0.19230769230769232,0.8333333333333334,0.3125,6,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,42,Basal 1,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,42,Ciliated,0.9746835443037974,0.9506172839506173,0.9625,81,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,42,Dendritic cell,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,42,Endothelium,1.0,0.95,0.9743589743589743,40,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,42,Fibroblast,1.0,0.96,0.9795918367346939,25,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,42,Lymphatic,1.0,0.9545454545454546,0.9767441860465116,44,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,42,Macrophage,0.9262820512820513,0.9537953795379538,0.9398373983739837,606,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,42,Mast cell,0.975609756097561,1.0,0.9876543209876543,40,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,42,Neutrophil_CD14_high,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,42,Secretory,0.4583333333333333,0.4714285714285714,0.4647887323943662,70,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,42,T/NK cell,0.9498207885304659,0.9671532846715328,0.9584086799276673,274,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,42,Type 1,0.9479166666666666,0.8878048780487805,0.9168765743073047,205,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,42,Type 2,0.9394366197183098,0.890520694259012,0.914324880054832,749,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,43,B cell,0.06896551724137931,0.6666666666666666,0.125,6,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,43,Basal 2,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,43,Ciliated,0.972972972972973,0.8888888888888888,0.9290322580645162,81,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,43,Dendritic cell,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,43,Endothelium,1.0,0.975,0.9873417721518988,40,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,43,Fibroblast,1.0,0.96,0.9795918367346939,25,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,43,Lymphatic,1.0,0.9545454545454546,0.9767441860465116,44,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,43,Macrophage,0.9446254071661238,0.9570957095709571,0.9508196721311475,606,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,43,Mast cell,0.9523809523809523,1.0,0.975609756097561,40,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,43,Secretory,0.43548387096774194,0.38571428571428573,0.4090909090909091,70,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,43,T/NK cell,0.9636363636363636,0.9671532846715328,0.9653916211293261,274,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,43,Type 1,0.9641025641025641,0.9170731707317074,0.94,205,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,43,Type 2,0.9457142857142857,0.8838451268357811,0.9137336093857833,749,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,44,B cell,0.1724137931034483,0.8333333333333334,0.2857142857142857,6,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,44,Basal 2,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,44,Ciliated,0.9620253164556962,0.9382716049382716,0.95,81,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,44,Dendritic cell,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,44,Endothelium,1.0,0.95,0.9743589743589743,40,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,44,Fibroblast,1.0,1.0,1.0,25,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,44,Lymphatic,1.0,0.9545454545454546,0.9767441860465116,44,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,44,Macrophage,0.9178515007898894,0.9587458745874587,0.9378531073446328,606,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,44,Mast cell,0.975609756097561,1.0,0.9876543209876543,40,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,44,Neutrophil_CD14_high,0.0,0.0,0.0,0,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,44,Secretory,0.45588235294117646,0.44285714285714284,0.4492753623188406,70,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,44,T/NK cell,0.9638989169675091,0.9744525547445255,0.969147005444646,274,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,44,Type 1,0.9438775510204082,0.9024390243902439,0.9226932668329177,205,,official_sclsc_unweighted_10nn_training_subset
+lung_atlas,B1,sclsc_refonly,44,Type 2,0.9457142857142857,0.8838451268357811,0.9137336093857833,749,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,40,acinar,1.0,0.9523809523809523,0.975609756097561,21,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,40,activated_stellate,1.0,1.0,1.0,16,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,40,alpha,0.9753086419753086,0.9916317991631799,0.983402489626556,239,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,40,beta,0.9624060150375939,0.9922480620155039,0.9770992366412213,258,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,40,delta,0.9523809523809523,0.8,0.8695652173913043,25,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,40,ductal,0.972972972972973,1.0,0.9863013698630136,36,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,40,endothelial,1.0,0.6428571428571429,0.782608695652174,14,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,40,epsilon,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,40,gamma,1.0,1.0,1.0,18,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,40,macrophage,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,40,mast,0.0,0.0,0.0,3,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,40,quiescent_stellate,0.25,1.0,0.4,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,40,schwann,1.0,0.4,0.5714285714285714,5,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,41,acinar,0.95,0.9047619047619048,0.926829268292683,21,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,41,activated_stellate,1.0,1.0,1.0,16,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,41,alpha,0.979253112033195,0.9874476987447699,0.9833333333333333,239,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,41,beta,0.9625468164794008,0.9961240310077519,0.979047619047619,258,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,41,delta,0.9545454545454546,0.84,0.8936170212765957,25,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,41,ductal,0.9230769230769231,1.0,0.96,36,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,41,endothelial,1.0,0.6428571428571429,0.782608695652174,14,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,41,epsilon,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,41,gamma,1.0,1.0,1.0,18,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,41,macrophage,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,41,mast,0.0,0.0,0.0,3,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,41,quiescent_stellate,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,41,schwann,1.0,0.6,0.75,5,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,42,acinar,0.9090909090909091,0.9523809523809523,0.9302325581395349,21,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,42,activated_stellate,1.0,1.0,1.0,16,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,42,alpha,0.979253112033195,0.9874476987447699,0.9833333333333333,239,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,42,beta,0.9734848484848485,0.9961240310077519,0.9846743295019157,258,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,42,delta,0.9545454545454546,0.84,0.8936170212765957,25,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,42,ductal,0.9230769230769231,1.0,0.96,36,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,42,endothelial,1.0,0.7142857142857143,0.8333333333333334,14,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,42,epsilon,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,42,gamma,1.0,1.0,1.0,18,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,42,macrophage,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,42,mast,0.0,0.0,0.0,3,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,42,quiescent_stellate,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,42,schwann,1.0,0.6,0.75,5,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,43,acinar,0.9130434782608695,1.0,0.9545454545454546,21,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,43,activated_stellate,1.0,1.0,1.0,16,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,43,alpha,0.9711934156378601,0.9874476987447699,0.979253112033195,239,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,43,beta,0.9660377358490566,0.9922480620155039,0.9789674952198852,258,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,43,delta,0.9047619047619048,0.76,0.8260869565217391,25,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,43,ductal,0.9473684210526315,1.0,0.972972972972973,36,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,43,endothelial,1.0,0.5714285714285714,0.7272727272727273,14,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,43,epsilon,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,43,gamma,1.0,1.0,1.0,18,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,43,macrophage,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,43,mast,0.0,0.0,0.0,3,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,43,quiescent_stellate,0.5,1.0,0.6666666666666666,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,43,schwann,1.0,0.4,0.5714285714285714,5,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,44,acinar,0.9523809523809523,0.9523809523809523,0.9523809523809523,21,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,44,activated_stellate,1.0,1.0,1.0,16,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,44,alpha,0.9713114754098361,0.9916317991631799,0.9813664596273292,239,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,44,beta,0.9660377358490566,0.9922480620155039,0.9789674952198852,258,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,44,delta,0.95,0.76,0.8444444444444444,25,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,44,ductal,0.972972972972973,1.0,0.9863013698630136,36,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,44,endothelial,1.0,0.7142857142857143,0.8333333333333334,14,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,44,epsilon,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,44,gamma,1.0,1.0,1.0,18,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,44,macrophage,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,44,mast,1.0,0.3333333333333333,0.5,3,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,44,quiescent_stellate,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,fluidigmc1,sclsc_refonly,44,schwann,1.0,0.6,0.75,5,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,40,acinar,0.05555555555555555,0.6666666666666666,0.10256410256410256,3,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,40,activated_stellate,1.0,0.9753086419753086,0.9875,81,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,40,alpha,0.995575221238938,0.9985207100591716,0.9970457902511078,676,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,40,beta,0.9972972972972973,0.9946091644204852,0.9959514170040485,371,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,40,delta,0.9920634920634921,1.0,0.9960159362549801,125,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,40,ductal,0.9925650557620818,0.8870431893687708,0.9368421052631579,301,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,40,endothelial,1.0,1.0,1.0,23,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,40,epsilon,1.0,1.0,1.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,40,gamma,0.9883720930232558,0.9883720930232558,0.9883720930232558,86,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,40,macrophage,1.0,1.0,1.0,17,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,40,mast,0.8181818181818182,1.0,0.9,9,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,40,quiescent_stellate,1.0,0.9545454545454546,0.9767441860465116,22,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,40,schwann,1.0,1.0,1.0,6,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,40,t_cell,0.0,0.0,0.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,41,acinar,0.08333333333333333,1.0,0.15384615384615385,3,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,41,activated_stellate,1.0,0.9629629629629629,0.9811320754716981,81,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,41,alpha,0.9985163204747775,0.9955621301775148,0.997037037037037,676,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,41,beta,0.9919354838709677,0.9946091644204852,0.9932705248990579,371,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,41,delta,0.9920634920634921,1.0,0.9960159362549801,125,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,41,ductal,0.9925925925925926,0.8903654485049833,0.9387040280210157,301,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,41,endothelial,1.0,1.0,1.0,23,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,41,epsilon,1.0,1.0,1.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,41,gamma,0.9885057471264368,1.0,0.9942196531791907,86,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,41,macrophage,1.0,1.0,1.0,17,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,41,mast,0.8181818181818182,1.0,0.9,9,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,41,quiescent_stellate,0.9545454545454546,0.9545454545454546,0.9545454545454546,22,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,41,schwann,1.0,1.0,1.0,6,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,41,t_cell,0.0,0.0,0.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,42,acinar,0.07407407407407407,0.6666666666666666,0.13333333333333333,3,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,42,activated_stellate,1.0,0.9753086419753086,0.9875,81,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,42,alpha,0.9970238095238095,0.9911242603550295,0.9940652818991098,676,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,42,beta,0.9919354838709677,0.9946091644204852,0.9932705248990579,371,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,42,delta,0.9920634920634921,1.0,0.9960159362549801,125,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,42,ductal,0.9857142857142858,0.9169435215946844,0.9500860585197934,301,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,42,endothelial,1.0,1.0,1.0,23,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,42,epsilon,0.6666666666666666,1.0,0.8,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,42,gamma,0.9772727272727273,1.0,0.9885057471264368,86,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,42,macrophage,1.0,1.0,1.0,17,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,42,mast,0.8181818181818182,1.0,0.9,9,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,42,quiescent_stellate,1.0,0.9090909090909091,0.9523809523809523,22,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,42,schwann,1.0,1.0,1.0,6,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,42,t_cell,0.0,0.0,0.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,43,acinar,0.08823529411764706,1.0,0.16216216216216217,3,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,43,activated_stellate,0.9875,0.9753086419753086,0.9813664596273292,81,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,43,alpha,0.9985207100591716,0.9985207100591716,0.9985207100591716,676,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,43,beta,0.9972972972972973,0.9946091644204852,0.9959514170040485,371,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,43,delta,0.9920634920634921,1.0,0.9960159362549801,125,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,43,ductal,0.996309963099631,0.8970099667774086,0.9440559440559441,301,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,43,endothelial,1.0,1.0,1.0,23,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,43,epsilon,1.0,1.0,1.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,43,gamma,0.9885057471264368,1.0,0.9942196531791907,86,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,43,macrophage,1.0,1.0,1.0,17,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,43,mast,0.8181818181818182,1.0,0.9,9,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,43,quiescent_stellate,1.0,0.9545454545454546,0.9767441860465116,22,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,43,schwann,1.0,1.0,1.0,6,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,43,t_cell,0.0,0.0,0.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,44,acinar,0.05405405405405406,0.6666666666666666,0.1,3,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,44,activated_stellate,1.0,0.9629629629629629,0.9811320754716981,81,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,44,alpha,0.9970414201183432,0.9970414201183432,0.9970414201183432,676,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,44,beta,0.9972972972972973,0.9946091644204852,0.9959514170040485,371,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,44,delta,0.9920634920634921,1.0,0.9960159362549801,125,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,44,ductal,0.9888475836431226,0.8837209302325582,0.9333333333333333,301,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,44,endothelial,1.0,1.0,1.0,23,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,44,epsilon,1.0,1.0,1.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,44,gamma,0.9885057471264368,1.0,0.9942196531791907,86,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,44,macrophage,1.0,1.0,1.0,17,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,44,mast,0.8181818181818182,1.0,0.9,9,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,44,quiescent_stellate,1.0,0.9545454545454546,0.9767441860465116,22,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,44,schwann,0.8571428571428571,1.0,0.9230769230769231,6,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop2,sclsc_refonly,44,t_cell,0.0,0.0,0.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,40,acinar,0.9936406995230525,0.741399762752076,0.8491847826086957,843,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,40,activated_stellate,0.9595959595959596,0.95,0.9547738693467337,100,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,40,alpha,0.9894644424934153,0.9973451327433628,0.9933891582194799,1130,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,40,beta,0.9701120797011208,0.9898348157560356,0.979874213836478,787,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,40,delta,0.9795918367346939,0.8944099378881988,0.935064935064935,161,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,40,ductal,0.6382252559726962,0.9946808510638298,0.7775467775467776,376,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,40,endothelial,1.0,0.9891304347826086,0.994535519125683,92,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,40,epsilon,1.0,1.0,1.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,40,gamma,0.9666666666666667,0.8055555555555556,0.8787878787878788,36,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,40,macrophage,1.0,0.9285714285714286,0.9629629629629629,14,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,40,mast,0.7777777777777778,1.0,0.875,7,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,40,quiescent_stellate,0.875,0.9074074074074074,0.8909090909090909,54,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,40,schwann,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,40,t_cell,0.0,0.0,0.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,41,acinar,0.9932203389830508,0.6951364175563464,0.8178646196789952,843,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,41,activated_stellate,0.96875,0.93,0.9489795918367347,100,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,41,alpha,0.9885764499121266,0.995575221238938,0.9920634920634921,1130,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,41,beta,0.9701492537313433,0.9911054637865311,0.9805153991200503,787,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,41,delta,0.9662162162162162,0.8881987577639752,0.9255663430420712,161,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,41,ductal,0.5977564102564102,0.9920212765957447,0.746,376,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,41,endothelial,0.989247311827957,1.0,0.9945945945945946,92,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,41,epsilon,1.0,1.0,1.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,41,gamma,0.9642857142857143,0.75,0.84375,36,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,41,macrophage,0.9333333333333333,1.0,0.9655172413793104,14,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,41,mast,0.875,1.0,0.9333333333333333,7,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,41,quiescent_stellate,0.8448275862068966,0.9074074074074074,0.875,54,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,41,schwann,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,41,t_cell,0.0,0.0,0.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,42,acinar,0.989983305509182,0.7034400948991696,0.8224687933425797,843,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,42,activated_stellate,0.96,0.96,0.96,100,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,42,alpha,0.990325417766051,0.9964601769911504,0.9933833259814733,1130,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,42,beta,0.9701120797011208,0.9898348157560356,0.979874213836478,787,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,42,delta,0.9930555555555556,0.8881987577639752,0.9377049180327869,161,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,42,ductal,0.6048387096774194,0.9973404255319149,0.7530120481927711,376,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,42,endothelial,0.978494623655914,0.9891304347826086,0.9837837837837838,92,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,42,epsilon,1.0,0.5,0.6666666666666666,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,42,gamma,0.9354838709677419,0.8055555555555556,0.8656716417910447,36,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,42,macrophage,0.8666666666666667,0.9285714285714286,0.896551724137931,14,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,42,mast,1.0,1.0,1.0,7,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,42,quiescent_stellate,0.8909090909090909,0.9074074074074074,0.8990825688073395,54,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,42,schwann,0.0,0.0,0.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,42,t_cell,0.0,0.0,0.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,43,acinar,0.9940564635958395,0.7935943060498221,0.8825857519788918,843,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,43,activated_stellate,0.9693877551020408,0.95,0.9595959595959596,100,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,43,alpha,0.9929453262786596,0.9964601769911504,0.9946996466431095,1130,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,43,beta,0.9653465346534653,0.9911054637865311,0.9780564263322884,787,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,43,delta,0.9931972789115646,0.906832298136646,0.948051948051948,161,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,43,ductal,0.6925925925925925,0.9946808510638298,0.8165938864628821,376,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,43,endothelial,0.9886363636363636,0.9456521739130435,0.9666666666666667,92,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,43,epsilon,1.0,1.0,1.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,43,gamma,0.96875,0.8611111111111112,0.9117647058823529,36,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,43,macrophage,1.0,0.8571428571428571,0.9230769230769231,14,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,43,mast,0.7,1.0,0.8235294117647058,7,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,43,quiescent_stellate,0.8596491228070176,0.9074074074074074,0.8828828828828829,54,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,43,schwann,0.25,1.0,0.4,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,43,t_cell,0.0,0.0,0.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,44,acinar,0.994535519125683,0.863582443653618,0.9244444444444444,843,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,44,activated_stellate,0.968421052631579,0.92,0.9435897435897436,100,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,44,alpha,0.9946902654867257,0.9946902654867257,0.9946902654867257,1130,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,44,beta,0.9678217821782178,0.9936467598475223,0.980564263322884,787,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,44,delta,0.9862068965517241,0.8881987577639752,0.934640522875817,161,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,44,ductal,0.7706611570247934,0.9920212765957447,0.8674418604651163,376,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,44,endothelial,0.968421052631579,1.0,0.983957219251337,92,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,44,epsilon,1.0,1.0,1.0,2,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,44,gamma,0.9705882352941176,0.9166666666666666,0.9428571428571428,36,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,44,macrophage,0.9333333333333333,1.0,0.9655172413793104,14,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,44,mast,0.875,1.0,0.9333333333333333,7,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,44,quiescent_stellate,0.875,0.9074074074074074,0.8909090909090909,54,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,44,schwann,1.0,1.0,1.0,1,,official_sclsc_unweighted_10nn_training_subset
+pancreas,inDrop3,sclsc_refonly,44,t_cell,0.0,0.0,0.0,2,,official_sclsc_unweighted_10nn_training_subset
+immune_cell_human,10X,scmap_cell,40,CD14+ Monocytes,0.9911242603550295,0.3955135773317591,0.5654008438818565,3388,0.480814639905549,official_scmap_cell
+immune_cell_human,10X,scmap_cell,40,CD16+ Monocytes,0.47731397459165154,0.7225274725274725,0.5748633879781421,364,0.7335164835164835,official_scmap_cell
+immune_cell_human,10X,scmap_cell,40,CD20+ B cells,0.9230769230769231,0.007761966364812419,0.015394483643361129,1546,0.01034928848641656,official_scmap_cell
+immune_cell_human,10X,scmap_cell,40,CD4+ T cells,0.9622641509433962,0.017364657814096015,0.03411371237458194,2937,0.01804562478719782,official_scmap_cell
+immune_cell_human,10X,scmap_cell,40,CD8+ T cells,0.0,0.0,0.0,350,0.0,official_scmap_cell
+immune_cell_human,10X,scmap_cell,40,HSPCs,1.0,0.10714285714285714,0.1935483870967742,28,0.2857142857142857,official_scmap_cell
+immune_cell_human,10X,scmap_cell,40,Megakaryocyte progenitors,0.7,1.0,0.8235294117647058,21,1.0,official_scmap_cell
+immune_cell_human,10X,scmap_cell,40,Monocyte-derived dendritic cells,0.991304347826087,0.6263736263736264,0.7676767676767676,182,0.6703296703296703,official_scmap_cell
+immune_cell_human,10X,scmap_cell,40,NK cells,0.993421052631579,0.3994708994708995,0.569811320754717,756,0.41534391534391535,official_scmap_cell
+immune_cell_human,10X,scmap_cell,40,NKT cells,0.675,0.02556818181818182,0.04927007299270073,1056,0.028409090909090908,official_scmap_cell
+immune_cell_human,10X,scmap_cell,40,Plasma cells,1.0,0.7222222222222222,0.8387096774193549,18,0.7777777777777778,official_scmap_cell
+immune_cell_human,10X,scmap_cell,40,Plasmacytoid dendritic cells,1.0,0.9506172839506173,0.9746835443037974,81,0.9506172839506173,official_scmap_cell
+immune_cell_human,10X,scmap_cell,40,__unassigned__,0.0,0.0,0.0,0,,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,CD10+ B cells,0.9841269841269841,0.6813186813186813,0.8051948051948052,91,0.6813186813186813,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,CD14+ Monocytes,0.8997050147492626,0.8714285714285714,0.8853410740203193,350,0.8828571428571429,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,CD16+ Monocytes,0.9649122807017544,0.9016393442622951,0.9322033898305084,61,0.9016393442622951,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,CD20+ B cells,0.0,0.0,0.0,43,0.0,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,CD4+ T cells,0.375,0.005199306759098787,0.010256410256410256,577,0.005199306759098787,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,CD8+ T cells,0.0,0.0,0.0,93,0.0,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,Erythrocytes,0.9852941176470589,0.7204301075268817,0.8322981366459627,186,0.7258064516129032,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,Erythroid progenitors,0.9651162790697675,0.7410714285714286,0.8383838383838383,112,0.7678571428571429,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,HSPCs,1.0,0.23348017621145375,0.37857142857142856,227,0.3392070484581498,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,Megakaryocyte progenitors,0.9473684210526315,0.5,0.6545454545454545,72,0.5277777777777778,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,Monocyte progenitors,0.7702702702702703,0.3114754098360656,0.44357976653696496,183,0.48633879781420764,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,Monocyte-derived dendritic cells,0.9459459459459459,0.7865168539325843,0.8588957055214724,89,0.7865168539325843,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,NK cells,0.5652173913043478,0.5,0.5306122448979592,26,0.5,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,NKT cells,1.0,0.030848329048843187,0.059850374064837904,389,0.07455012853470437,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,Plasma cells,1.0,0.9090909090909091,0.9523809523809523,33,0.9090909090909091,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,Plasmacytoid dendritic cells,0.9636363636363636,0.9814814814814815,0.9724770642201835,54,0.9814814814814815,official_scmap_cell
+immune_cell_human,Oetjen_A,scmap_cell,40,__unassigned__,0.0,0.0,0.0,0,,official_scmap_cell
+immune_cell_human,Villani,scmap_cell,40,CD14+ Monocytes,0.4861111111111111,0.9655172413793104,0.6466512702078522,145,0.9655172413793104,official_scmap_cell
+immune_cell_human,Villani,scmap_cell,40,CD16+ Monocytes,0.05154639175257732,0.029069767441860465,0.03717472118959108,172,0.5930232558139535,official_scmap_cell
+immune_cell_human,Villani,scmap_cell,40,Monocyte-derived dendritic cells,1.0,0.3707865168539326,0.5409836065573771,534,0.6385767790262172,official_scmap_cell
+immune_cell_human,Villani,scmap_cell,40,Plasmacytoid dendritic cells,1.0,1.0,1.0,171,1.0,official_scmap_cell
+immune_cell_human,Villani,scmap_cell,40,__unassigned__,0.0,0.0,0.0,0,,official_scmap_cell
+lung_atlas,3,scmap_cell,40,B cell,0.0,0.0,0.0,3,0.0,official_scmap_cell
+lung_atlas,3,scmap_cell,40,Ciliated,1.0,0.75,0.8571428571428571,12,1.0,official_scmap_cell
+lung_atlas,3,scmap_cell,40,Dendritic cell,1.0,0.3673469387755102,0.5373134328358209,98,0.4489795918367347,official_scmap_cell
+lung_atlas,3,scmap_cell,40,Endothelium,0.0,0.0,0.0,0,,official_scmap_cell
+lung_atlas,3,scmap_cell,40,Fibroblast,1.0,1.0,1.0,25,1.0,official_scmap_cell
+lung_atlas,3,scmap_cell,40,Macrophage,0.5,0.875,0.6363636363636364,8,1.0,official_scmap_cell
+lung_atlas,3,scmap_cell,40,Mast cell,1.0,0.5408163265306123,0.7019867549668874,98,0.5612244897959183,official_scmap_cell
+lung_atlas,3,scmap_cell,40,Neutrophil_CD14_high,0.6666666666666666,0.15384615384615385,0.25,13,0.23076923076923078,official_scmap_cell
+lung_atlas,3,scmap_cell,40,Neutrophils_IL1R2,0.3333333333333333,0.18181818181818182,0.23529411764705882,11,0.18181818181818182,official_scmap_cell
+lung_atlas,3,scmap_cell,40,Secretory,0.0,0.0,0.0,0,,official_scmap_cell
+lung_atlas,3,scmap_cell,40,T/NK cell,1.0,0.01694915254237288,0.03333333333333333,59,0.03389830508474576,official_scmap_cell
+lung_atlas,3,scmap_cell,40,Type 2,0.9925373134328358,0.9851851851851852,0.9888475836431226,135,0.9851851851851852,official_scmap_cell
+lung_atlas,3,scmap_cell,40,__unassigned__,0.0,0.0,0.0,0,,official_scmap_cell
+lung_atlas,4,scmap_cell,40,B cell,0.0,0.0,0.0,4,0.0,official_scmap_cell
+lung_atlas,4,scmap_cell,40,Basal 2,1.0,0.5,0.6666666666666666,2,0.5,official_scmap_cell
+lung_atlas,4,scmap_cell,40,Ciliated,0.6666666666666666,0.25,0.36363636363636365,8,0.5,official_scmap_cell
+lung_atlas,4,scmap_cell,40,Dendritic cell,0.616822429906542,0.44,0.5136186770428015,150,0.4866666666666667,official_scmap_cell
+lung_atlas,4,scmap_cell,40,Endothelium,1.0,0.9166666666666666,0.9565217391304348,48,0.9375,official_scmap_cell
+lung_atlas,4,scmap_cell,40,Fibroblast,1.0,1.0,1.0,212,1.0,official_scmap_cell
+lung_atlas,4,scmap_cell,40,Lymphatic,1.0,0.9605263157894737,0.9798657718120806,76,0.9605263157894737,official_scmap_cell
+lung_atlas,4,scmap_cell,40,Macrophage,0.994475138121547,0.5908096280087527,0.7412491420727523,1828,0.6269146608315098,official_scmap_cell
+lung_atlas,4,scmap_cell,40,Neutrophil_CD14_high,0.0,0.0,0.0,7,0.14285714285714285,official_scmap_cell
+lung_atlas,4,scmap_cell,40,Neutrophils_IL1R2,0.0,0.0,0.0,0,,official_scmap_cell
+lung_atlas,4,scmap_cell,40,Secretory,0.5714285714285714,0.8,0.6666666666666666,5,0.8,official_scmap_cell
+lung_atlas,4,scmap_cell,40,T/NK cell,0.0,0.0,0.0,4,0.25,official_scmap_cell
+lung_atlas,4,scmap_cell,40,Type 2,1.0,0.9682875264270613,0.9838882921589689,1419,0.9696969696969697,official_scmap_cell
+lung_atlas,4,scmap_cell,40,__unassigned__,0.0,0.0,0.0,0,,official_scmap_cell
+lung_atlas,B1,scmap_cell,40,B cell,0.0,0.0,0.0,6,0.0,official_scmap_cell
+lung_atlas,B1,scmap_cell,40,Ciliated,1.0,0.14814814814814814,0.25806451612903225,81,0.16049382716049382,official_scmap_cell
+lung_atlas,B1,scmap_cell,40,Endothelium,0.0,0.0,0.0,40,0.0,official_scmap_cell
+lung_atlas,B1,scmap_cell,40,Fibroblast,0.0,0.0,0.0,25,0.0,official_scmap_cell
+lung_atlas,B1,scmap_cell,40,Lymphatic,0.0,0.0,0.0,44,0.0,official_scmap_cell
+lung_atlas,B1,scmap_cell,40,Macrophage,1.0,0.14026402640264027,0.2460202604920405,606,0.1419141914191419,official_scmap_cell
+lung_atlas,B1,scmap_cell,40,Mast cell,0.0,0.0,0.0,40,0.0,official_scmap_cell
+lung_atlas,B1,scmap_cell,40,Neutrophil_CD14_high,0.0,0.0,0.0,0,,official_scmap_cell
+lung_atlas,B1,scmap_cell,40,Secretory,0.0,0.0,0.0,70,0.0,official_scmap_cell
+lung_atlas,B1,scmap_cell,40,T/NK cell,0.0,0.0,0.0,274,0.0,official_scmap_cell
+lung_atlas,B1,scmap_cell,40,Type 1,1.0,0.004878048780487805,0.009708737864077669,205,0.004878048780487805,official_scmap_cell
+lung_atlas,B1,scmap_cell,40,Type 2,0.0,0.0,0.0,749,0.0,official_scmap_cell
+lung_atlas,B1,scmap_cell,40,__unassigned__,0.0,0.0,0.0,0,,official_scmap_cell
+pancreas,fluidigmc1,scmap_cell,40,__unassigned__,0.0,0.0,0.0,0,,official_scmap_cell
+pancreas,fluidigmc1,scmap_cell,40,acinar,1.0,1.0,1.0,21,1.0,official_scmap_cell
+pancreas,fluidigmc1,scmap_cell,40,activated_stellate,0.9411764705882353,1.0,0.9696969696969697,16,1.0,official_scmap_cell
+pancreas,fluidigmc1,scmap_cell,40,alpha,0.9785407725321889,0.9539748953974896,0.9661016949152542,239,0.9623430962343096,official_scmap_cell
+pancreas,fluidigmc1,scmap_cell,40,beta,0.9682539682539683,0.9457364341085271,0.9568627450980393,258,0.9457364341085271,official_scmap_cell
+pancreas,fluidigmc1,scmap_cell,40,delta,0.9444444444444444,0.68,0.7906976744186046,25,0.84,official_scmap_cell
+pancreas,fluidigmc1,scmap_cell,40,ductal,1.0,0.8333333333333334,0.9090909090909091,36,0.8333333333333334,official_scmap_cell
+pancreas,fluidigmc1,scmap_cell,40,endothelial,1.0,0.5714285714285714,0.7272727272727273,14,0.7857142857142857,official_scmap_cell
+pancreas,fluidigmc1,scmap_cell,40,epsilon,0.0,0.0,0.0,1,0.0,official_scmap_cell
+pancreas,fluidigmc1,scmap_cell,40,gamma,1.0,0.9444444444444444,0.9714285714285714,18,1.0,official_scmap_cell
+pancreas,fluidigmc1,scmap_cell,40,macrophage,1.0,1.0,1.0,1,1.0,official_scmap_cell
+pancreas,fluidigmc1,scmap_cell,40,mast,0.0,0.0,0.0,3,0.6666666666666666,official_scmap_cell
+pancreas,fluidigmc1,scmap_cell,40,quiescent_stellate,0.0,0.0,0.0,1,1.0,official_scmap_cell
+pancreas,fluidigmc1,scmap_cell,40,schwann,1.0,0.2,0.3333333333333333,5,0.6,official_scmap_cell
+pancreas,inDrop2,scmap_cell,40,__unassigned__,0.0,0.0,0.0,0,,official_scmap_cell
+pancreas,inDrop2,scmap_cell,40,acinar,0.030303030303030304,0.6666666666666666,0.057971014492753624,3,0.6666666666666666,official_scmap_cell
+pancreas,inDrop2,scmap_cell,40,activated_stellate,0.9506172839506173,0.9506172839506173,0.9506172839506173,81,0.9506172839506173,official_scmap_cell
+pancreas,inDrop2,scmap_cell,40,alpha,0.9982332155477032,0.8357988165680473,0.9098228663446055,676,0.8372781065088757,official_scmap_cell
+pancreas,inDrop2,scmap_cell,40,beta,0.9966666666666667,0.8059299191374663,0.8912071535022354,371,0.8059299191374663,official_scmap_cell
+pancreas,inDrop2,scmap_cell,40,delta,1.0,0.616,0.7623762376237624,125,0.616,official_scmap_cell
+pancreas,inDrop2,scmap_cell,40,ductal,1.0,0.6146179401993356,0.7613168724279835,301,0.8272425249169435,official_scmap_cell
+pancreas,inDrop2,scmap_cell,40,endothelial,1.0,1.0,1.0,23,1.0,official_scmap_cell
+pancreas,inDrop2,scmap_cell,40,epsilon,0.0,0.0,0.0,2,0.0,official_scmap_cell
+pancreas,inDrop2,scmap_cell,40,gamma,0.9655172413793104,0.32558139534883723,0.48695652173913045,86,0.3372093023255814,official_scmap_cell
+pancreas,inDrop2,scmap_cell,40,macrophage,1.0,0.8823529411764706,0.9375,17,0.8823529411764706,official_scmap_cell
+pancreas,inDrop2,scmap_cell,40,mast,0.0,0.0,0.0,9,0.0,official_scmap_cell
+pancreas,inDrop2,scmap_cell,40,quiescent_stellate,1.0,0.045454545454545456,0.08695652173913043,22,0.2727272727272727,official_scmap_cell
+pancreas,inDrop2,scmap_cell,40,schwann,0.0,0.0,0.0,6,0.0,official_scmap_cell
+pancreas,inDrop2,scmap_cell,40,t_cell,0.0,0.0,0.0,2,0.0,official_scmap_cell
+pancreas,inDrop3,scmap_cell,40,__unassigned__,0.0,0.0,0.0,0,,official_scmap_cell
+pancreas,inDrop3,scmap_cell,40,acinar,0.9901185770750988,0.594306049822064,0.742772424017791,843,0.6061684460260973,official_scmap_cell
+pancreas,inDrop3,scmap_cell,40,activated_stellate,0.9294117647058824,0.79,0.8540540540540541,100,0.79,official_scmap_cell
+pancreas,inDrop3,scmap_cell,40,alpha,1.0,0.40530973451327434,0.5768261964735516,1130,0.40707964601769914,official_scmap_cell
+pancreas,inDrop3,scmap_cell,40,beta,0.9969135802469136,0.4104193138500635,0.5814581458145814,787,0.4142312579415502,official_scmap_cell
+pancreas,inDrop3,scmap_cell,40,delta,1.0,0.06832298136645963,0.12790697674418605,161,0.07453416149068323,official_scmap_cell
+pancreas,inDrop3,scmap_cell,40,ductal,0.9790419161676647,0.8696808510638298,0.9211267605633803,376,0.8723404255319149,official_scmap_cell
+pancreas,inDrop3,scmap_cell,40,endothelial,1.0,0.8043478260869565,0.891566265060241,92,0.8152173913043478,official_scmap_cell
+pancreas,inDrop3,scmap_cell,40,epsilon,0.0,0.0,0.0,2,0.0,official_scmap_cell
+pancreas,inDrop3,scmap_cell,40,gamma,0.75,0.08333333333333333,0.15,36,0.08333333333333333,official_scmap_cell
+pancreas,inDrop3,scmap_cell,40,macrophage,1.0,0.5,0.6666666666666666,14,0.5,official_scmap_cell
+pancreas,inDrop3,scmap_cell,40,mast,1.0,0.14285714285714285,0.25,7,0.14285714285714285,official_scmap_cell
+pancreas,inDrop3,scmap_cell,40,quiescent_stellate,1.0,0.14814814814814814,0.25806451612903225,54,0.18518518518518517,official_scmap_cell
+pancreas,inDrop3,scmap_cell,40,schwann,0.0,0.0,0.0,1,0.0,official_scmap_cell
+pancreas,inDrop3,scmap_cell,40,t_cell,0.0,0.0,0.0,2,0.0,official_scmap_cell
+immune_cell_human,10X,symphony_matched_pca40,40,CD10+ B cells,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+immune_cell_human,10X,symphony_matched_pca40,40,CD14+ Monocytes,0.9904790240999702,0.9825855962219598,0.986516520966069,3388,,common_distance_weighted_15nn
+immune_cell_human,10X,symphony_matched_pca40,40,CD16+ Monocytes,0.8653366583541147,0.9532967032967034,0.9071895424836601,364,,common_distance_weighted_15nn
+immune_cell_human,10X,symphony_matched_pca40,40,CD20+ B cells,0.9954604409857328,0.9928848641655886,0.9941709844559585,1546,,common_distance_weighted_15nn
+immune_cell_human,10X,symphony_matched_pca40,40,CD4+ T cells,0.9706713780918728,0.9353081375553286,0.9526616958557309,2937,,common_distance_weighted_15nn
+immune_cell_human,10X,symphony_matched_pca40,40,CD8+ T cells,0.6946386946386947,0.8514285714285714,0.7650834403080873,350,,common_distance_weighted_15nn
+immune_cell_human,10X,symphony_matched_pca40,40,Erythroid progenitors,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+immune_cell_human,10X,symphony_matched_pca40,40,HSPCs,0.0,0.0,0.0,28,,common_distance_weighted_15nn
+immune_cell_human,10X,symphony_matched_pca40,40,Megakaryocyte progenitors,0.6,1.0,0.75,21,,common_distance_weighted_15nn
+immune_cell_human,10X,symphony_matched_pca40,40,Monocyte progenitors,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+immune_cell_human,10X,symphony_matched_pca40,40,Monocyte-derived dendritic cells,0.9822485207100592,0.9120879120879121,0.9458689458689459,182,,common_distance_weighted_15nn
+immune_cell_human,10X,symphony_matched_pca40,40,NK cells,0.7213483146067415,0.8492063492063492,0.7800729040097205,756,,common_distance_weighted_15nn
+immune_cell_human,10X,symphony_matched_pca40,40,NKT cells,0.8194154488517745,0.7433712121212122,0.7795431976166832,1056,,common_distance_weighted_15nn
+immune_cell_human,10X,symphony_matched_pca40,40,Plasma cells,1.0,0.05555555555555555,0.10526315789473684,18,,common_distance_weighted_15nn
+immune_cell_human,10X,symphony_matched_pca40,40,Plasmacytoid dendritic cells,1.0,1.0,1.0,81,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,CD10+ B cells,0.8,0.13186813186813187,0.22641509433962265,91,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,CD14+ Monocytes,0.8631840796019901,0.9914285714285714,0.9228723404255319,350,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,CD16+ Monocytes,0.9838709677419355,1.0,0.991869918699187,61,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,CD20+ B cells,0.7543859649122807,1.0,0.86,43,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,CD4+ T cells,0.8738019169329073,0.9480069324090121,0.9093931837073982,577,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,CD8+ T cells,0.6790123456790124,0.5913978494623656,0.632183908045977,93,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,Erythrocytes,0.9384615384615385,0.9838709677419355,0.9606299212598425,186,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,Erythroid progenitors,0.23891625615763548,0.8660714285714286,0.3745173745173745,112,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,HSPCs,0.8333333333333334,0.022026431718061675,0.04291845493562232,227,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,Megakaryocyte progenitors,0.07462686567164178,0.1388888888888889,0.0970873786407767,72,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,Monocyte progenitors,0.9032258064516129,0.30601092896174864,0.45714285714285713,183,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,Monocyte-derived dendritic cells,0.9340659340659341,0.9550561797752809,0.9444444444444444,89,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,NK cells,0.2777777777777778,0.9615384615384616,0.43103448275862066,26,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,NKT cells,0.9727891156462585,0.7352185089974294,0.8374816983894583,389,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,Plasma cells,0.9285714285714286,0.3939393939393939,0.5531914893617021,33,,common_distance_weighted_15nn
+immune_cell_human,Oetjen_A,symphony_matched_pca40,40,Plasmacytoid dendritic cells,1.0,0.9444444444444444,0.9714285714285714,54,,common_distance_weighted_15nn
+immune_cell_human,Villani,symphony_matched_pca40,40,CD14+ Monocytes,0.5,0.9862068965517241,0.6635730858468677,145,,common_distance_weighted_15nn
+immune_cell_human,Villani,symphony_matched_pca40,40,CD16+ Monocytes,0.3172690763052209,0.45930232558139533,0.3752969121140142,172,,common_distance_weighted_15nn
+immune_cell_human,Villani,symphony_matched_pca40,40,CD20+ B cells,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+immune_cell_human,Villani,symphony_matched_pca40,40,CD4+ T cells,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+immune_cell_human,Villani,symphony_matched_pca40,40,HSPCs,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+immune_cell_human,Villani,symphony_matched_pca40,40,Megakaryocyte progenitors,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+immune_cell_human,Villani,symphony_matched_pca40,40,Monocyte-derived dendritic cells,0.9965753424657534,0.5449438202247191,0.7046004842615012,534,,common_distance_weighted_15nn
+immune_cell_human,Villani,symphony_matched_pca40,40,NK cells,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+immune_cell_human,Villani,symphony_matched_pca40,40,NKT cells,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+immune_cell_human,Villani,symphony_matched_pca40,40,Plasmacytoid dendritic cells,0.9940119760479041,0.9707602339181286,0.9822485207100592,171,,common_distance_weighted_15nn
+lung_atlas,3,symphony_matched_pca40,40,B cell,0.21428571428571427,1.0,0.35294117647058826,3,,common_distance_weighted_15nn
+lung_atlas,3,symphony_matched_pca40,40,Ciliated,1.0,0.8333333333333334,0.9090909090909091,12,,common_distance_weighted_15nn
+lung_atlas,3,symphony_matched_pca40,40,Dendritic cell,1.0,0.22448979591836735,0.36666666666666664,98,,common_distance_weighted_15nn
+lung_atlas,3,symphony_matched_pca40,40,Endothelium,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,3,symphony_matched_pca40,40,Fibroblast,1.0,1.0,1.0,25,,common_distance_weighted_15nn
+lung_atlas,3,symphony_matched_pca40,40,Macrophage,0.09302325581395349,1.0,0.1702127659574468,8,,common_distance_weighted_15nn
+lung_atlas,3,symphony_matched_pca40,40,Mast cell,1.0,0.9795918367346939,0.9896907216494846,98,,common_distance_weighted_15nn
+lung_atlas,3,symphony_matched_pca40,40,Neutrophil_CD14_high,0.75,0.46153846153846156,0.5714285714285714,13,,common_distance_weighted_15nn
+lung_atlas,3,symphony_matched_pca40,40,Neutrophils_IL1R2,0.4,0.18181818181818182,0.25,11,,common_distance_weighted_15nn
+lung_atlas,3,symphony_matched_pca40,40,Secretory,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,3,symphony_matched_pca40,40,T/NK cell,1.0,0.9830508474576272,0.9914529914529915,59,,common_distance_weighted_15nn
+lung_atlas,3,symphony_matched_pca40,40,Type 1,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,3,symphony_matched_pca40,40,Type 2,1.0,0.9851851851851852,0.9925373134328358,135,,common_distance_weighted_15nn
+lung_atlas,4,symphony_matched_pca40,40,B cell,0.11764705882352941,0.5,0.19047619047619047,4,,common_distance_weighted_15nn
+lung_atlas,4,symphony_matched_pca40,40,Basal 1,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,4,symphony_matched_pca40,40,Basal 2,0.5,0.5,0.5,2,,common_distance_weighted_15nn
+lung_atlas,4,symphony_matched_pca40,40,Ciliated,0.6,0.375,0.46153846153846156,8,,common_distance_weighted_15nn
+lung_atlas,4,symphony_matched_pca40,40,Dendritic cell,0.5941176470588235,0.6733333333333333,0.63125,150,,common_distance_weighted_15nn
+lung_atlas,4,symphony_matched_pca40,40,Endothelium,0.9230769230769231,1.0,0.96,48,,common_distance_weighted_15nn
+lung_atlas,4,symphony_matched_pca40,40,Fibroblast,1.0,1.0,1.0,212,,common_distance_weighted_15nn
+lung_atlas,4,symphony_matched_pca40,40,Lymphatic,1.0,0.9868421052631579,0.9933774834437086,76,,common_distance_weighted_15nn
+lung_atlas,4,symphony_matched_pca40,40,Macrophage,0.9754637941352483,0.8916849015317286,0.9316947699342669,1828,,common_distance_weighted_15nn
+lung_atlas,4,symphony_matched_pca40,40,Neutrophil_CD14_high,0.04310344827586207,0.7142857142857143,0.08130081300813008,7,,common_distance_weighted_15nn
+lung_atlas,4,symphony_matched_pca40,40,Neutrophils_IL1R2,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,4,symphony_matched_pca40,40,Secretory,0.45454545454545453,1.0,0.625,5,,common_distance_weighted_15nn
+lung_atlas,4,symphony_matched_pca40,40,T/NK cell,0.75,0.75,0.75,4,,common_distance_weighted_15nn
+lung_atlas,4,symphony_matched_pca40,40,Type 1,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,4,symphony_matched_pca40,40,Type 2,0.9921259842519685,0.9767441860465116,0.984375,1419,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,B cell,0.013333333333333334,0.16666666666666666,0.024691358024691357,6,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,Basal 1,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,Basal 2,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,Ciliated,1.0,0.8271604938271605,0.9054054054054054,81,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,Dendritic cell,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,Endothelium,1.0,0.975,0.9873417721518988,40,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,Fibroblast,1.0,1.0,1.0,25,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,Ionocytes,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,Lymphatic,1.0,0.9318181818181818,0.9647058823529412,44,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,Macrophage,0.9797794117647058,0.8795379537953796,0.9269565217391305,606,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,Mast cell,0.8888888888888888,1.0,0.9411764705882353,40,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,Neutrophil_CD14_high,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,Secretory,0.4166666666666667,0.21428571428571427,0.2830188679245283,70,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,T/NK cell,0.9377162629757786,0.9890510948905109,0.9626998223801065,274,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,Type 1,0.9615384615384616,0.6097560975609756,0.746268656716418,205,,common_distance_weighted_15nn
+lung_atlas,B1,symphony_matched_pca40,40,Type 2,0.8758085381630013,0.9038718291054739,0.8896189224704336,749,,common_distance_weighted_15nn
+pancreas,fluidigmc1,symphony_matched_pca40,40,acinar,0.9130434782608695,1.0,0.9545454545454546,21,,common_distance_weighted_15nn
+pancreas,fluidigmc1,symphony_matched_pca40,40,activated_stellate,1.0,0.9375,0.967741935483871,16,,common_distance_weighted_15nn
+pancreas,fluidigmc1,symphony_matched_pca40,40,alpha,0.9793388429752066,0.9916317991631799,0.9854469854469855,239,,common_distance_weighted_15nn
+pancreas,fluidigmc1,symphony_matched_pca40,40,beta,0.9732824427480916,0.9883720930232558,0.9807692307692307,258,,common_distance_weighted_15nn
+pancreas,fluidigmc1,symphony_matched_pca40,40,delta,0.9523809523809523,0.8,0.8695652173913043,25,,common_distance_weighted_15nn
+pancreas,fluidigmc1,symphony_matched_pca40,40,ductal,1.0,0.9444444444444444,0.9714285714285714,36,,common_distance_weighted_15nn
+pancreas,fluidigmc1,symphony_matched_pca40,40,endothelial,1.0,0.9285714285714286,0.9629629629629629,14,,common_distance_weighted_15nn
+pancreas,fluidigmc1,symphony_matched_pca40,40,epsilon,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,symphony_matched_pca40,40,gamma,0.9473684210526315,1.0,0.972972972972973,18,,common_distance_weighted_15nn
+pancreas,fluidigmc1,symphony_matched_pca40,40,macrophage,1.0,1.0,1.0,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,symphony_matched_pca40,40,mast,0.5,0.3333333333333333,0.4,3,,common_distance_weighted_15nn
+pancreas,fluidigmc1,symphony_matched_pca40,40,quiescent_stellate,0.3333333333333333,1.0,0.5,1,,common_distance_weighted_15nn
+pancreas,fluidigmc1,symphony_matched_pca40,40,schwann,1.0,0.2,0.3333333333333333,5,,common_distance_weighted_15nn
+pancreas,fluidigmc1,symphony_matched_pca40,40,t_cell,0.0,0.0,0.0,0,,common_distance_weighted_15nn
+pancreas,inDrop2,symphony_matched_pca40,40,acinar,0.031578947368421054,1.0,0.061224489795918366,3,,common_distance_weighted_15nn
+pancreas,inDrop2,symphony_matched_pca40,40,activated_stellate,1.0,0.9259259259259259,0.9615384615384616,81,,common_distance_weighted_15nn
+pancreas,inDrop2,symphony_matched_pca40,40,alpha,0.9970014992503748,0.9837278106508875,0.9903201787043932,676,,common_distance_weighted_15nn
+pancreas,inDrop2,symphony_matched_pca40,40,beta,0.9711286089238845,0.9973045822102425,0.9840425531914894,371,,common_distance_weighted_15nn
+pancreas,inDrop2,symphony_matched_pca40,40,delta,0.984251968503937,1.0,0.9920634920634921,125,,common_distance_weighted_15nn
+pancreas,inDrop2,symphony_matched_pca40,40,ductal,0.9952380952380953,0.6943521594684385,0.8180039138943248,301,,common_distance_weighted_15nn
+pancreas,inDrop2,symphony_matched_pca40,40,endothelial,1.0,1.0,1.0,23,,common_distance_weighted_15nn
+pancreas,inDrop2,symphony_matched_pca40,40,epsilon,1.0,0.5,0.6666666666666666,2,,common_distance_weighted_15nn
+pancreas,inDrop2,symphony_matched_pca40,40,gamma,0.9772727272727273,1.0,0.9885057471264368,86,,common_distance_weighted_15nn
+pancreas,inDrop2,symphony_matched_pca40,40,macrophage,1.0,0.8823529411764706,0.9375,17,,common_distance_weighted_15nn
+pancreas,inDrop2,symphony_matched_pca40,40,mast,0.6923076923076923,1.0,0.8181818181818182,9,,common_distance_weighted_15nn
+pancreas,inDrop2,symphony_matched_pca40,40,quiescent_stellate,0.8260869565217391,0.8636363636363636,0.8444444444444444,22,,common_distance_weighted_15nn
+pancreas,inDrop2,symphony_matched_pca40,40,schwann,0.8333333333333334,0.8333333333333334,0.8333333333333334,6,,common_distance_weighted_15nn
+pancreas,inDrop2,symphony_matched_pca40,40,t_cell,0.0,0.0,0.0,2,,common_distance_weighted_15nn
+pancreas,inDrop3,symphony_matched_pca40,40,acinar,0.9858323494687131,0.9905100830367735,0.9881656804733728,843,,common_distance_weighted_15nn
+pancreas,inDrop3,symphony_matched_pca40,40,activated_stellate,0.9326923076923077,0.97,0.9509803921568627,100,,common_distance_weighted_15nn
+pancreas,inDrop3,symphony_matched_pca40,40,alpha,0.996415770609319,0.984070796460177,0.9902048085485308,1130,,common_distance_weighted_15nn
+pancreas,inDrop3,symphony_matched_pca40,40,beta,0.9556650246305419,0.9860228716645489,0.9706066291432145,787,,common_distance_weighted_15nn
+pancreas,inDrop3,symphony_matched_pca40,40,delta,0.993103448275862,0.8944099378881988,0.9411764705882353,161,,common_distance_weighted_15nn
+pancreas,inDrop3,symphony_matched_pca40,40,ductal,0.9920424403183024,0.9946808510638298,0.9933598937583001,376,,common_distance_weighted_15nn
+pancreas,inDrop3,symphony_matched_pca40,40,endothelial,1.0,0.9782608695652174,0.989010989010989,92,,common_distance_weighted_15nn
+pancreas,inDrop3,symphony_matched_pca40,40,epsilon,1.0,0.5,0.6666666666666666,2,,common_distance_weighted_15nn
+pancreas,inDrop3,symphony_matched_pca40,40,gamma,0.96875,0.8611111111111112,0.9117647058823529,36,,common_distance_weighted_15nn
+pancreas,inDrop3,symphony_matched_pca40,40,macrophage,1.0,0.8571428571428571,0.9230769230769231,14,,common_distance_weighted_15nn
+pancreas,inDrop3,symphony_matched_pca40,40,mast,0.6363636363636364,1.0,0.7777777777777778,7,,common_distance_weighted_15nn
+pancreas,inDrop3,symphony_matched_pca40,40,quiescent_stellate,0.9090909090909091,0.9259259259259259,0.9174311926605505,54,,common_distance_weighted_15nn
+pancreas,inDrop3,symphony_matched_pca40,40,schwann,0.5,1.0,0.6666666666666666,1,,common_distance_weighted_15nn
+pancreas,inDrop3,symphony_matched_pca40,40,t_cell,0.0,0.0,0.0,2,,common_distance_weighted_15nn

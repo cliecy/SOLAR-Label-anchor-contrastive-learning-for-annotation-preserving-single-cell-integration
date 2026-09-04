@@ -1,0 +1,1067 @@
+{
+  "approved_fallback_contract": {
+    "23": {
+      "backend": "scib_metrics_python_0_5_10",
+      "interpretation": "declared non-equivalent fallback; compare with the without-kBET sensitivity table",
+      "metric": "kBET",
+      "policy": "on_legacy_failure"
+    }
+  },
+  "audited_jobs": 54,
+  "complete": true,
+  "config": "/home/gzou/scib_reproduce/configs/baseline_extension_v1_1.yaml",
+  "config_sha256": "7dff3a899c27108e8f572866a7dac2489cc00bd390c124a1b5a4e8ef8f8caba1",
+  "dataset_counts": {
+    "immune_cell_human": 18,
+    "lung_atlas": 18,
+    "pancreas": 18
+  },
+  "expected_jobs": 54,
+  "failed_jobs": 0,
+  "global_errors": [],
+  "job_matrix": "/home/gzou/scib_reproduce/outputs/benchmark/baseline_extension_v1_1/job_matrix.tsv",
+  "job_matrix_sha256": "e68167c223274b7473cb0aec0164bb675482e0d27930b928d21352f63abf6618",
+  "jobs": [
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "fec2f4d7be7bd7c011bef4170c6756d50f8a730c21ebd99d926da0ab1c5bf2e2",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "fluidigmc1",
+      "job_id": "v1_1__sclsc_refonly__pancreas__heldout_fluidigmc1__s40",
+      "job_index": 0,
+      "method": "sclsc_refonly",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "c276fac23593a1734473434089342805c5186cf53d59e9017c8e8526f95ea75b",
+      "spec_sha256": "f614b3f49f2d5dbfa3fae777e6c29af0f9db0f6a677182ebd94fced54cabdfe3"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "54f56015074eb7884b40b74caac10d596b54779479c4c2b376724748453494c9",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "fluidigmc1",
+      "job_id": "v1_1__sclsc_refonly__pancreas__heldout_fluidigmc1__s41",
+      "job_index": 1,
+      "method": "sclsc_refonly",
+      "model_seed": 41,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "69d5d85362a1e2b95c0e8580ec28599747866fd9b5ec485d2db9321d29982b4e",
+      "spec_sha256": "8ec6141d863e61e4f985cd5fea4cca5077ca37e6e2cff2a1b25d453374150dca"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "ae33b0edcc8de490e7f3c709af6c222eea616000b6b4c17fd1dc25ce67409ab6",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "fluidigmc1",
+      "job_id": "v1_1__sclsc_refonly__pancreas__heldout_fluidigmc1__s42",
+      "job_index": 2,
+      "method": "sclsc_refonly",
+      "model_seed": 42,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "4a6808f79d11fcc19e0962675025b76e8c87d6da7824cac7c492c1a770d844a8",
+      "spec_sha256": "854dea7d4470c5651c4a46e2dee0048a0bcecfb13ff575540459de7e21571a72"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "6266525885b495b396c5223c841cd5dce16da423f78849a723d206bf2b8e56dc",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "fluidigmc1",
+      "job_id": "v1_1__sclsc_refonly__pancreas__heldout_fluidigmc1__s43",
+      "job_index": 3,
+      "method": "sclsc_refonly",
+      "model_seed": 43,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "c0b4e3de7db741aff6922713d4c97c91e20490910efed16f75bc2bdab1431a5a",
+      "spec_sha256": "cd5cd667bed9e7eb2459999d2530cb4cf998d7ccca6070de42e383a67d83a0d8"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "59ea10a38cffb9f3377694697c8bf66836088f9f9e1147183e035450146a9456",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "fluidigmc1",
+      "job_id": "v1_1__sclsc_refonly__pancreas__heldout_fluidigmc1__s44",
+      "job_index": 4,
+      "method": "sclsc_refonly",
+      "model_seed": 44,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "1272269d53650a1d84bd909c6ca6b11c40a2ff2598d85fcc039de7400beae0d7",
+      "spec_sha256": "b242af05cef93b281f9b6639fc75537c806a5863641351011ca17ef8f7bd0743"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "721edca02f338ac6fd3653db632bb80f82a04240fa81b54963d1b63b0b13c5b8",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "inDrop2",
+      "job_id": "v1_1__sclsc_refonly__pancreas__heldout_inDrop2__s40",
+      "job_index": 5,
+      "method": "sclsc_refonly",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "5446357e0a974648bd4dc36f1f1beb7da34c2ac895e27cff2aa3479f5400b92b",
+      "spec_sha256": "761be1b80b5ddabc214ba9b7c5d9fc01391db0fc48cbabdeb734a3c5947c54b7"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "e217b7d94772611eefa5ca5f440c58a205328b6c5e43598f9a8b9697e2c79c4e",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "inDrop2",
+      "job_id": "v1_1__sclsc_refonly__pancreas__heldout_inDrop2__s41",
+      "job_index": 6,
+      "method": "sclsc_refonly",
+      "model_seed": 41,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "2abb2e31d944b5e71b0d63e5377843a36122f84e4b5f8ebc212307ccaa57a756",
+      "spec_sha256": "18802f564e19ded2942ad40e8b6226ffcd9e79be540b6d77b958e796c9cf5a9a"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "db63f723c380ecf10c9871e478c325f8a715f36b052ecd41b387e2d1cf754b5c",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "inDrop2",
+      "job_id": "v1_1__sclsc_refonly__pancreas__heldout_inDrop2__s42",
+      "job_index": 7,
+      "method": "sclsc_refonly",
+      "model_seed": 42,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "ac215a6414a6ed4204b5512f94f42d26960afafb9a3e1a8bad6155745a25d9f0",
+      "spec_sha256": "af33f286ea47e86c3dcd9d5d92fd7c1fc392894f98d09a96dff55f2679be51aa"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "d7e0078ebf44754518d58d59da21fb3665c6f7e56abd0178172b5934841d1a16",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "inDrop2",
+      "job_id": "v1_1__sclsc_refonly__pancreas__heldout_inDrop2__s43",
+      "job_index": 8,
+      "method": "sclsc_refonly",
+      "model_seed": 43,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "7ef80dc136b9a2abebb1a85beacd5f4ea44a0125f50569791e6d221dba1820fe",
+      "spec_sha256": "466c1151ed987905c0af9bdf007452fb009f52cb6101b3de3a6e38617cd9bbff"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "3b1e8f9cea75c7cb527c42bf45ab2d16752a9f0de2c05ec99d824b879bbb3aa4",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "inDrop2",
+      "job_id": "v1_1__sclsc_refonly__pancreas__heldout_inDrop2__s44",
+      "job_index": 9,
+      "method": "sclsc_refonly",
+      "model_seed": 44,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "fb31f22f1486b08a47220eb0ac3597c1e6c15cfa96828151a64e4834eddf72be",
+      "spec_sha256": "abd309649ee2dce792551ab55b2930acc31bbf95b32b850d1ba147117be54b53"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "ca7fb8bc049badf2f6f2b9e56b3a15d691578ed77d4337ec3d975e22acc862b7",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "inDrop3",
+      "job_id": "v1_1__sclsc_refonly__pancreas__heldout_inDrop3__s40",
+      "job_index": 10,
+      "method": "sclsc_refonly",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "f95af0819869814bb32c042d8b4d2f03b233f6662ccc9aa94964980ce5bf71af",
+      "spec_sha256": "88853a5a4c6a641f8cac85d9261b9f1896b9758e8ee5b3d2745e91bc17624192"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "ecd1e1c1a645bf077c87949a4e586f83c4b03d1af8a860326e47bfb58119b71a",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "inDrop3",
+      "job_id": "v1_1__sclsc_refonly__pancreas__heldout_inDrop3__s41",
+      "job_index": 11,
+      "method": "sclsc_refonly",
+      "model_seed": 41,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "fe8e1963917e42c9842ecf6fde5866d9e86047a979eced73c75c7c4671e188ba",
+      "spec_sha256": "146701c4e640dbf71e30f5555e39e926c647faadf53bd7e064c1eb142884ec98"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "e9f488880c903953b8492d45b67107dbd0dddf8f5f4aefa463e8dfa0394beaf7",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "inDrop3",
+      "job_id": "v1_1__sclsc_refonly__pancreas__heldout_inDrop3__s42",
+      "job_index": 12,
+      "method": "sclsc_refonly",
+      "model_seed": 42,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "01bd009c54feabdee36e6fec52103de56e3114c8001c32fa5aeb44dc3ceba27c",
+      "spec_sha256": "593a2228fc82fcc5e23d10bda8af59ac984598f2e63f3c64bf956a74b02b42ae"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "d5c60ea9dd0ce5b82b23dd9c97f890b73af2dab9574e5392349b965eb12773cd",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "inDrop3",
+      "job_id": "v1_1__sclsc_refonly__pancreas__heldout_inDrop3__s43",
+      "job_index": 13,
+      "method": "sclsc_refonly",
+      "model_seed": 43,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "b2b98a21ae4ddac37b3d4eb00044df0413e1716acc8062fc0bff6f1fdb9439d1",
+      "spec_sha256": "0b5fd78560af73d98afcfb32d77ce1d7f90ffc94ee2c692e73b6be93cc04dba5"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "9d4cded17b3bde5be7e44a86352eca4a615eda7b7c46bf680bf80b827ed15f53",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "inDrop3",
+      "job_id": "v1_1__sclsc_refonly__pancreas__heldout_inDrop3__s44",
+      "job_index": 14,
+      "method": "sclsc_refonly",
+      "model_seed": 44,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "5f6e9b95fe5cee431f59245a3271ac6f174285eefa142639d231fea382a111d6",
+      "spec_sha256": "8bb9f81f280033f915d63a6a437f6afac678431b678c43d7716da67076b9c148"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "f3ddb116863a80979ddbd36a848a619daca6a59ccc0318b7677b458f966e002f",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "10X",
+      "job_id": "v1_1__sclsc_refonly__immune_cell_human__heldout_10X__s40",
+      "job_index": 15,
+      "method": "sclsc_refonly",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "fc587281d62c3354aafa55a19eb7ccf8859953dc4314fa9ff900773855a277c0",
+      "spec_sha256": "5b0fae34b9501aaf5df2d06397866098f4d5ea3086c7b7be22c2dd2a4147a6eb"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "761fc01101d14ef4078f12ca43211326bc1f69086255cdf59b046377ad4b7f37",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "10X",
+      "job_id": "v1_1__sclsc_refonly__immune_cell_human__heldout_10X__s41",
+      "job_index": 16,
+      "method": "sclsc_refonly",
+      "model_seed": 41,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "d821217a2a92cd670614e190e8d7d39832f5129dafac3476510078742eaef9e2",
+      "spec_sha256": "04bc285659ca3ed9536fa2c3497f279621752abb3fc291109e79347772bdebe3"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "ef88eb20bc93ef7c4ccd08a58a49c886de8a3805be109645a2990f2fb600a7d0",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "10X",
+      "job_id": "v1_1__sclsc_refonly__immune_cell_human__heldout_10X__s42",
+      "job_index": 17,
+      "method": "sclsc_refonly",
+      "model_seed": 42,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "504cb09ee216df8343fd9ac25f5b4d9d1863e568a910a03344b4b78fe7eff285",
+      "spec_sha256": "3edbff8b6adf88af458f60483f91523afede47eda9a74ff111009708e3974554"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "3608d82c5acfb1893f0d35ece467aa824880f53b1bf0fdcefd7eb5040ebedb25",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "10X",
+      "job_id": "v1_1__sclsc_refonly__immune_cell_human__heldout_10X__s43",
+      "job_index": 18,
+      "method": "sclsc_refonly",
+      "model_seed": 43,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "8c603a87f20caa645e7512dfc2798acd101918aa79993a408142f18abe317279",
+      "spec_sha256": "81e19420b6a4f0b2950fd402c296cc16c39c411f8a9dfcd12d2bcefdd8106759"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "62fd53ef1a2198dd2a72d109263581034d0faa8dad5025f5acbf899aa5fcf684",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "10X",
+      "job_id": "v1_1__sclsc_refonly__immune_cell_human__heldout_10X__s44",
+      "job_index": 19,
+      "method": "sclsc_refonly",
+      "model_seed": 44,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "ff484306b15208f6ce036a733d201bc1c33ddcc5aa2053b79365e383ea5efdf7",
+      "spec_sha256": "9a74200e5b6e14725b219cbee639b2b2ee9395665a778df57f79974746e3d9aa"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "b53fa1c012b4a851efbeab9d044aa0bad330e2fbe7469e6579f16891d5053d83",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "Oetjen_A",
+      "job_id": "v1_1__sclsc_refonly__immune_cell_human__heldout_Oetjen_A__s40",
+      "job_index": 20,
+      "method": "sclsc_refonly",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "321a4875c0edbabcc2c47a5327d8bc870859ee96f9e1779bccf632e90c942133",
+      "spec_sha256": "90de678cdab0265a3bc30a0212e670ba7d594193e39c30963dafeb6fc2189943"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "5ad24ac17886f74b563c54d7f5ec0f0085466ebbe0edb2fac07046fafa376322",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "Oetjen_A",
+      "job_id": "v1_1__sclsc_refonly__immune_cell_human__heldout_Oetjen_A__s41",
+      "job_index": 21,
+      "method": "sclsc_refonly",
+      "model_seed": 41,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "12f7ec65e9ae3d845abeefc7919c351e21a72d02b4ac2f7bbd0d086338273b74",
+      "spec_sha256": "ba2c3431a0217eaeef456f75905232a50986164567b3edd4171087dee198dd5f"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "6a66f15ffac9fba1d32867d6990f1bdd44593198f3498a059e43a17e2c73e12c",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "Oetjen_A",
+      "job_id": "v1_1__sclsc_refonly__immune_cell_human__heldout_Oetjen_A__s42",
+      "job_index": 22,
+      "method": "sclsc_refonly",
+      "model_seed": 42,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "808a9dd6ff874517f0641297216bc18984cc4007701fbde144ab3902b9e74812",
+      "spec_sha256": "25022ba2438124ad0b7766c4563bca49dcd18ca21354d8ea7c53910267cdde23"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "573f16310ea2edfea9bd5c989496f3f286ae69bbe2208abb7379ac131e0035f6",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [
+        "kBET"
+      ],
+      "heldout_batch": "Oetjen_A",
+      "job_id": "v1_1__sclsc_refonly__immune_cell_human__heldout_Oetjen_A__s43",
+      "job_index": 23,
+      "method": "sclsc_refonly",
+      "model_seed": 43,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "045db12da3d157c519db519fc0eaa095715599a5fe837a96a3b385186c48066a",
+      "spec_sha256": "1f108ca8fef74cf2a4538a07b88881ba535bc312d1b88dcd3f8b30865eae96e4"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "7a76801d71e1e28b960db8f73db6ad626303358115741651b6f1c82610133b1b",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "Oetjen_A",
+      "job_id": "v1_1__sclsc_refonly__immune_cell_human__heldout_Oetjen_A__s44",
+      "job_index": 24,
+      "method": "sclsc_refonly",
+      "model_seed": 44,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "230363a25b01b62413ed4e55aa146ed694acff2672404afca8af78338846314b",
+      "spec_sha256": "19a41a5bdc0ab4d43caa798222593d506364825930589115ca3a49ed760030c3"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "686ec5bf04d13ef1e4672cabfa5c9e12d85915a5871ca36c5391dfc9668d2200",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "Villani",
+      "job_id": "v1_1__sclsc_refonly__immune_cell_human__heldout_Villani__s40",
+      "job_index": 25,
+      "method": "sclsc_refonly",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "1f2a15973ca74ed1d70ed83ccca24c781f9cdd29242f3542cd86c0250bf15e86",
+      "spec_sha256": "854a9d5fc4443decf19d961e6862fc8d3de1eb1fd3da25e54357eed51db60df7"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "276dc7bf1c1ecbd7587bc29ae75cd0613e28acb7a2768dccc5ba0c174a8d6d94",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "Villani",
+      "job_id": "v1_1__sclsc_refonly__immune_cell_human__heldout_Villani__s41",
+      "job_index": 26,
+      "method": "sclsc_refonly",
+      "model_seed": 41,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "76349336b7eac5e5b81bf19db4165dbd3e75c7d2cf432b5dd178e0cac0893ef6",
+      "spec_sha256": "ac9714c10864fd6afca5fece81e826055d9568d6ddfaa504f11b0a52be0bbb6d"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "eb7a64d3446ef72539a8fff5c23647217bda489f4a06cffd4d18c54b16ae1daf",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "Villani",
+      "job_id": "v1_1__sclsc_refonly__immune_cell_human__heldout_Villani__s42",
+      "job_index": 27,
+      "method": "sclsc_refonly",
+      "model_seed": 42,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "cb191c558d917f3e911c33362d2a8c2c00aa3a22047fa7042b597c861d95cd7f",
+      "spec_sha256": "bd7535154d04f0233e6fb0547925b05921e0b5c354afe68be044ebb99f3e7fe1"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "28b5f8edec7dff0c10172624d6899de9d7bfd5d6d39938799474b463bd597cc8",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "Villani",
+      "job_id": "v1_1__sclsc_refonly__immune_cell_human__heldout_Villani__s43",
+      "job_index": 28,
+      "method": "sclsc_refonly",
+      "model_seed": 43,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "7c0d0c463a257e2e526117c066497d946a104a431e169c4d2f94c81e4f8bb69d",
+      "spec_sha256": "dc98f7259c06be2f8fb595bbcc3a37c57782b4dc137b4d07c23727969cdde3cf"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "9c1e4b11d51955405a409f27467ae79b5c29f25ec35bf7755cec4a46852ff7d6",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "Villani",
+      "job_id": "v1_1__sclsc_refonly__immune_cell_human__heldout_Villani__s44",
+      "job_index": 29,
+      "method": "sclsc_refonly",
+      "model_seed": 44,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "c29531741be02a8f89ac75ec1891a5ec50fd846ef8f4df064d2b4ab190b45cb2",
+      "spec_sha256": "c5d5d8676f1d24e94bc24f1af26cfef618153a1ed370c4d54f7c288f7ca23080"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "ab731a6a7b44d2ed5f1a5280b18ec92cd0e38a79dd56a7972269b8e5cbd655fc",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "3",
+      "job_id": "v1_1__sclsc_refonly__lung_atlas__heldout_3__s40",
+      "job_index": 30,
+      "method": "sclsc_refonly",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "8b1111b403bf5cb83d4e602e46d320d15ca39ec7d130a06c06caf840f4cf8b2d",
+      "spec_sha256": "a6b8096f17017b68ae1b2d6405790adc96d9dc2cfde0ba5268fa29f3d2f9e927"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "6a5b65cb733f569bc8263f28e733d4a089334c11c80dc42032af9eb8a4788b5d",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "3",
+      "job_id": "v1_1__sclsc_refonly__lung_atlas__heldout_3__s41",
+      "job_index": 31,
+      "method": "sclsc_refonly",
+      "model_seed": 41,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "db9aed8ebae024cfeffbecfab985a1f82d60193248cf8de020b5d263996aee40",
+      "spec_sha256": "381c5c63d30d7a940fbaf049f9aae4d3b42c83e06a9d431358aba66c9e59b4da"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "02f87c0ee93b0cde932ff0ccee7d4e5478338abea28b28fbbbb7f2287486bf25",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "3",
+      "job_id": "v1_1__sclsc_refonly__lung_atlas__heldout_3__s42",
+      "job_index": 32,
+      "method": "sclsc_refonly",
+      "model_seed": 42,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "b7210eb51246a3658acc552fce3ea3b72da79b6c23b8669e5944ca03f0834d73",
+      "spec_sha256": "a5cbbb152b51d15b022fc1f23ab4988954cd9bd83365c7af844178b7d9ea8dc8"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "25f9d1d09058b1de3cd157f607ec4c033edcfbd8fed77b6f8cd7560923938897",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "3",
+      "job_id": "v1_1__sclsc_refonly__lung_atlas__heldout_3__s43",
+      "job_index": 33,
+      "method": "sclsc_refonly",
+      "model_seed": 43,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "9ad23df4dd757e22bf396e149f76fbd2014784817757d3f846a6af3da60da68c",
+      "spec_sha256": "df84bd6bcf8bc56d15e5898c36f9d6bd42800400721fecd8cb0f5f5b44339b44"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "a8ef8a777a0f096eeda04ef79fe0b211bd372d6e7a6f80c752095145b8cb9f02",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "3",
+      "job_id": "v1_1__sclsc_refonly__lung_atlas__heldout_3__s44",
+      "job_index": 34,
+      "method": "sclsc_refonly",
+      "model_seed": 44,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "73d26ebcf1dbbb7ec407411cc5912f7a045ba5042ef66f99ccea05697d0c5a1b",
+      "spec_sha256": "80f7440d19ad4ab689564767b3dbc9c3c9385dd60ab1d5b5b5d39a14c7a202b0"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "2dce0e8de23c7512bdb2887f1b5d93fc632fb0275b39ca0cf823eec05344a2fd",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "4",
+      "job_id": "v1_1__sclsc_refonly__lung_atlas__heldout_4__s40",
+      "job_index": 35,
+      "method": "sclsc_refonly",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "e86134dc5836e10dec71811c71323e3a548ae47a13b3d7e7c1ee465b1e569ca1",
+      "spec_sha256": "221da72487966795be293dea99d3e18cf6b756380309699a6aeaf93953754c9c"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "cc82d590bbfd72d5794673b294d39731875339f026bf11e23aa027fa995d78d5",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "4",
+      "job_id": "v1_1__sclsc_refonly__lung_atlas__heldout_4__s41",
+      "job_index": 36,
+      "method": "sclsc_refonly",
+      "model_seed": 41,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "daa736bcdd5ac19c36006c78149d35aed5b54dcd81b2dacc35e6155d8a3ec34f",
+      "spec_sha256": "d88dbf87bab630110e1d3a831ab77214ff07c8033ee33f16580fa865af2dd38c"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "991e8427d52a85e635d839f2973ccc4e2aa775581a8b310bfafa17e6a0a1a8cc",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "4",
+      "job_id": "v1_1__sclsc_refonly__lung_atlas__heldout_4__s42",
+      "job_index": 37,
+      "method": "sclsc_refonly",
+      "model_seed": 42,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "bff870d0fc7a89fc2b0e6bb7b2f9d494a4d125a02648b3768a53da933f870405",
+      "spec_sha256": "1343f7191c63c1e0a621c19361fa2a480e5de3629bc3be90e826902282969ad9"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "b6d59d7d831aeeb21a81db96e1f1fad129c18904f535fccddd3ddb8c10c2e857",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "4",
+      "job_id": "v1_1__sclsc_refonly__lung_atlas__heldout_4__s43",
+      "job_index": 38,
+      "method": "sclsc_refonly",
+      "model_seed": 43,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "c3da94142bd64ec5f1bc43d53bbca7976c3d6d811f5eb88e2314ef5a7bd836b8",
+      "spec_sha256": "4b8adb54a401f5b1a8550eb400c0a14e88d1745ec35b14f0efec5a908b112e16"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "a49e6644fac33634f3ff3b9b894075def3c24b1ddd0c6ba5ca4b20090f033bbd",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "4",
+      "job_id": "v1_1__sclsc_refonly__lung_atlas__heldout_4__s44",
+      "job_index": 39,
+      "method": "sclsc_refonly",
+      "model_seed": 44,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "07663f9e92399c9a93d544bc84f7e544d1de15d7681d38476451056720f33e9f",
+      "spec_sha256": "e0ba79c1fd763b6b6b0280ba9e3d54fa427ba9ee42f78eef500d30f9d54eb14a"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "9b7e33f379a8d606cab986bb84d9f3f8f007d1c4da7127fb8107d01bfe02365a",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "B1",
+      "job_id": "v1_1__sclsc_refonly__lung_atlas__heldout_B1__s40",
+      "job_index": 40,
+      "method": "sclsc_refonly",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "dc11a843c101eef016c0326e40e57c0e316eed4407bba0b5a5501b8a8e805d12",
+      "spec_sha256": "d2196918be7d4f7766a71087b2535542256b7a30297e52608f111744921c06a3"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "91fde3b9e8cdb5d4ef4f4e38f1cbc9c1650fb0a974b983df2ed75d873e68cb56",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "B1",
+      "job_id": "v1_1__sclsc_refonly__lung_atlas__heldout_B1__s41",
+      "job_index": 41,
+      "method": "sclsc_refonly",
+      "model_seed": 41,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "46d5ae7dc8bc905d7844f64d7b49a31964afe28057e75357fbcce90ce3bea668",
+      "spec_sha256": "6d4f0087b12ca574f7e82c75d8c77ce8a7814e3f0fe263624322eccc3d4b2555"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "4797270c7cf661110aa2dd1d5c2cf047278c8a486548e4f53232023bc503f0e8",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "B1",
+      "job_id": "v1_1__sclsc_refonly__lung_atlas__heldout_B1__s42",
+      "job_index": 42,
+      "method": "sclsc_refonly",
+      "model_seed": 42,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "8773c434b94453d70ef73f5b9f0d85cbca27dcd513d58be3a5899198e7969367",
+      "spec_sha256": "007ac15cb4d13c28c79674642f8b15945e5ba8d1ca2043e0853029e31a258234"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "ddfec87c69812cca1058c5f7c0382b8e5690ff16aafc3904c77fe13d12ef9595",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "B1",
+      "job_id": "v1_1__sclsc_refonly__lung_atlas__heldout_B1__s43",
+      "job_index": 43,
+      "method": "sclsc_refonly",
+      "model_seed": 43,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "64c20a3d6c6d4c5f8ee6dec16d7d50a954491e97de5ae5a0959b3563e40a7689",
+      "spec_sha256": "5803ab0eff0d75c1c914c9bc7dd62b805e2f90646083f280d2e74b2ee3c45384"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "d5659441f58acb8fd8a10a217621bfbbe16ad39ad29ce90db60ab43af06e956e",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "B1",
+      "job_id": "v1_1__sclsc_refonly__lung_atlas__heldout_B1__s44",
+      "job_index": 44,
+      "method": "sclsc_refonly",
+      "model_seed": 44,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "139c40cb1de4e1708e0ca358952241fd273dafcd25682709f1b4173c07115843",
+      "spec_sha256": "6cf011cbee97642dcad457c4aaf56906892b0c1ec2144bbe88c11506d15019b4"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "5a1d1612b0ad84cd3a6ed91b960a83791ea6f83dac12ae2f93307c15d8de5747",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "fluidigmc1",
+      "job_id": "v1_1__symphony_matched_pca40__pancreas__heldout_fluidigmc1__s40",
+      "job_index": 45,
+      "method": "symphony_matched_pca40",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "35903699604ef0eb5eb38e8fca2c34bd1ae31f5916e56db3a9f14db6f08c7789",
+      "spec_sha256": "e1614b99794ed3f51808824fccc5e4e0f808b2ced7dbfc9be94a2e0ce3b85933"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "e7c9599f58e2fbd30d410c47bbbee5a86ed401d500051d336953a7b20ddaad51",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "inDrop2",
+      "job_id": "v1_1__symphony_matched_pca40__pancreas__heldout_inDrop2__s40",
+      "job_index": 46,
+      "method": "symphony_matched_pca40",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "eece96e09aaf30768675d91804eea35067c8085fb896bae18e5de496799036e1",
+      "spec_sha256": "644f00defa33751fe564adff8be352edc6dca5629b90fa0828ff6a9996e73378"
+    },
+    {
+      "dataset_id": "pancreas",
+      "embedding_sha256": "5f546bb928612f25658e6e7c258ed558fe2aa1fa472fd5a4fc289882bfd0f864",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "inDrop3",
+      "job_id": "v1_1__symphony_matched_pca40__pancreas__heldout_inDrop3__s40",
+      "job_index": 47,
+      "method": "symphony_matched_pca40",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "2634dc16bb6618f17961cced50ea0a01628bb1f39133cf5f945babb52005056f",
+      "spec_sha256": "f3885aaa676d7286c24f102cc64e68755a04691278c9a442994ad08a48196e1f"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "ebc9697d2cbd7d38d55f2e21d2c5ea876909779e516787caf3baec9193cd7a28",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "10X",
+      "job_id": "v1_1__symphony_matched_pca40__immune_cell_human__heldout_10X__s40",
+      "job_index": 48,
+      "method": "symphony_matched_pca40",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "cb9b3b4c0f4ca7241daff17580ca98a38506a07e72db99be609dff6e2f7140e5",
+      "spec_sha256": "c451ee2007094b6a504980fa4f22296f393a6e5e14dcd9ac0eb0557640a958c1"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "260be9ebc60a18a54feca7bc38766bd04622f17663ebe8246e5711dc12c470db",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "Oetjen_A",
+      "job_id": "v1_1__symphony_matched_pca40__immune_cell_human__heldout_Oetjen_A__s40",
+      "job_index": 49,
+      "method": "symphony_matched_pca40",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "6abaaad4a113d735dcbe19fc3a414b16446f678206839e3eb4ecf69bf5767a7d",
+      "spec_sha256": "0b9b5c906f750602b2952594e8f668acf397cb496dd135ab5aee9aedb2992001"
+    },
+    {
+      "dataset_id": "immune_cell_human",
+      "embedding_sha256": "c3dbfc90e2b2b8a331600d9428aac2d58ade6b90b16bd77fa069c9148464c771",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "Villani",
+      "job_id": "v1_1__symphony_matched_pca40__immune_cell_human__heldout_Villani__s40",
+      "job_index": 50,
+      "method": "symphony_matched_pca40",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap"
+      ],
+      "passed": true,
+      "result_sha256": "bb0d6a4e800306f51f47c32818cc69814ca960b18e9fd1bcb0116297b5d9db5b",
+      "spec_sha256": "2d4be5aef7608e635aeb918dffc95fc00e1a793a6aab562722b0f5500afd103d"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "ac1ff2c75462edfab26672ca76d6d7c83645d8c72361da200d6cee7470be3373",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "3",
+      "job_id": "v1_1__symphony_matched_pca40__lung_atlas__heldout_3__s40",
+      "job_index": 51,
+      "method": "symphony_matched_pca40",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "0937e545ad1e148108dafc102d9e4d05afc77080168f9f6c5e6ef74a9a75b5fa",
+      "spec_sha256": "b7958ecc3802cff43d6921ab91f9b3fda74588deed0e1be092c506fc51a2c122"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "43e108fad6ff3c1a878172c12200e363c3f1a1b4247373d7eceacbeb04e8e33f",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "4",
+      "job_id": "v1_1__symphony_matched_pca40__lung_atlas__heldout_4__s40",
+      "job_index": 52,
+      "method": "symphony_matched_pca40",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "e8d026e5922e2aafeb3f8a67ee5daba00120bc2614070671243d4a8f4f3d9585",
+      "spec_sha256": "e973aa7200b534d1d7d9d2b481a919a3bf898355a16c088cd48e03ea3592b18c"
+    },
+    {
+      "dataset_id": "lung_atlas",
+      "embedding_sha256": "8713bc000994f4bd11a31d2ec0ed344e9421e8abdfd4b6187f4ecf70de2e87ee",
+      "errors": [],
+      "failed_metrics": [],
+      "fallback_metrics": [],
+      "heldout_batch": "B1",
+      "job_id": "v1_1__symphony_matched_pca40__lung_atlas__heldout_B1__s40",
+      "job_index": 53,
+      "method": "symphony_matched_pca40",
+      "model_seed": 40,
+      "not_applicable_metrics": [
+        "hvg_overlap",
+        "trajectory"
+      ],
+      "passed": true,
+      "result_sha256": "53ace844dbb88c74a5e0db0f25d92f58d96895694d398bfbe6873cc4d13e63b6",
+      "spec_sha256": "e7dde4b00f049b610d5355de25375cb73bd4a95b77485bda750ceb6bd8dfffc5"
+    }
+  ],
+  "method_counts": {
+    "sclsc_refonly": 45,
+    "symphony_matched_pca40": 9
+  },
+  "not_applicable_contract": {
+    "all_embedding_jobs": [
+      "hvg_overlap"
+    ],
+    "dynamic_job_exceptions": {
+      "18": [
+        "trajectory"
+      ]
+    },
+    "non_immune_jobs": [
+      "trajectory"
+    ],
+    "value_policy": "no imputation; matching table-normalization groups use equal metric coverage"
+  },
+  "paper_environment_lock_sha256": [
+    "9fbdc1dd3a9c39607163dc2dfd81f5fb7055d8adde5c485d7a092b85fa504e00"
+  ],
+  "passed_jobs": 54,
+  "release_table": "/home/gzou/scib_reproduce/outputs/baseline_extension_v1_1/scib_metrics.csv",
+  "release_table_sha256": "d8ebc2c7dfbbbb22069d5c336137c132c4fce7361d58afabc692b9f554051b07",
+  "result_rows": 54,
+  "run_id": "baseline_extension_v1_1",
+  "schema_version": 2,
+  "scoring_wrapper": "/home/gzou/scib_reproduce/scripts/score_baseline_extension_v1_1_scib.py",
+  "scoring_wrapper_sha256": "cc69c960391784d7c4b44659d009683372b80bb2d2b8746768098611a0ea883b",
+  "state": "passed"
+}

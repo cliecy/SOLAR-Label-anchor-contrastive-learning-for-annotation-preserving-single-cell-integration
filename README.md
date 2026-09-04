@@ -5,6 +5,44 @@ package: the core model implementation, exact benchmark configurations,
 final machine-readable results, integrity audits, and scripts that regenerate
 selected tables and figures without access to the raw single-cell datasets.
 
+## v1.1 audited external-baseline extension
+
+v1.1 adds a three-real-dataset, whole-batch-holdout comparison without
+changing any manuscript file:
+
+- **SCLSC (main table):** nine held-out batches, model seeds 40--44
+  (45 independently trained embeddings), reference-only internal
+  train/validation splitting, common distance-weighted 15-NN annotation, the
+  method-native unweighted 10-NN annotation readout, and official scib 0.2.0
+  scoring.
+- **Symphony (supplementary):** nine held-out batches at seed 40, official
+  Harmony reference construction and Symphony query mapping, common 15-NN
+  annotation, and official scib 0.2.0 scoring. This single-seed result does
+  not support a variability claim.
+- **scmap-cell (supplementary):** nine held-out batches at seed 40 using the
+  native projection and abstention semantics. It is annotation-only and is
+  not assigned embedding metrics.
+
+Adding a method changes dataset-wise min-max scaling. The v1.1 builder
+therefore recomputes the complete five-method main cohort and the separate
+six-method supplementary embedding cohort; it never appends a newly scaled
+row to a v1.0 table. See `configs/baseline_extension_v1_1.yaml`,
+`data/baseline_extension_artifact_audit.json`,
+`data/baseline_extension_scib_audit.json`, and
+`data/baseline_extension_table_audit.json`.
+
+Officially undefined metrics are retained as missing values, never imputed. If
+one row lacks a metric, the table builder excludes that metric for every method
+in the matching normalization group for aggregation A, B, or C. This preserves
+equal metric coverage and identical composite denominators within each
+comparison.
+
+One SCLSC kBET job uses the contract-approved `scib-metrics 0.5.10`
+Python fallback after the legacy implementation exhausted its diffusion
+neighbor search. The audit identifies that single non-equivalent fallback,
+and the package includes without-kBET sensitivity tables; SCLSC remains third
+under every A/B/C ordering with or without kBET.
+
 ## v1.0.1 dimension-sweep correction
 
 **Use v1.0.1 or later for every latent-dimension result.** In v1.0.0, the
@@ -86,6 +124,9 @@ settings:
   `solar_scib_rebuttal_dim30_v2`.
 - `benchmark_rebuttal_dim64.yaml`: corrected 64D run,
   `solar_scib_rebuttal_dim64_v2`.
+- `baseline_extension_v1_1.yaml`: external-baseline source identities,
+  preprocessing deviations, held-out batches, seed sets, readouts, and
+  separate main/supplementary aggregation cohorts.
 
 They are reference records, not direct entry points for this curated package.
 A specific job can be recreated through `run_inductive` or the
@@ -107,6 +148,19 @@ This recreates
 tables. Compare the result with
 `data/aggregation_sensitivity_3_real_datasets_with_kbet_REFERENCE.csv` to
 floating-point tolerance.
+
+### v1.1 external-baseline tables
+
+```bash
+python scripts/build_baseline_extension_tables.py
+```
+
+Writes `data/main_table_v1_1.csv`,
+`data/supplementary_table_v1_1.csv`, the with/without-kBET cohort
+aggregates, and `data/baseline_extension_table_audit.json`. The command
+rejects incomplete method/batch/seed coverage, changed source hashes,
+non-unique SCLSC seed embeddings, failed artifact or metric audits, and an
+official-scIB table that differs from its strict audit.
 
 ### Query-label-recovery figure
 
@@ -137,17 +191,28 @@ metrics. Its corrected dimension rows expose manifest-derived `dimension`,
 from `solar_scib_rebuttal_dim30_v2` and `solar_scib_rebuttal_dim64_v2`; the
 128D rows come from the valid primary run. `data/classifier_unified_summary.csv`
 contains reference-trained, query-scored kNN results.
+`data/baseline_extension_scib_metrics.csv` contains the 54 strict-audited
+SCLSC/Symphony official-scIB jobs. `data/baseline_extension_query_metrics.csv`
+contains the 108 external-baseline annotation rows, including separate common
+and method-native SCLSC readouts. The v1.1 classifier file restores the
+canonical local-final-evidence provenance columns; its 470 pre-existing metric
+rows are value-identical to v1.0.1.
 
 The corrected sweep does **not** support dimension invariance. Label ASW, graph
 connectivity, and PCR were similar across dimensions, whereas iLISI increased
 at lower dimension (mean 1.853 at 30D, 1.436 at 64D, and 1.071 at 128D across
 25 dataset-seed observations). Treat latent dimension as a tuning parameter
-that can alter the biological-preservation/batch-mixing profile. The held-out
-baseline comparison remains 128D SOLAR versus 30D frozen-reference baselines
-and is not dimension-matched.
+that can alter the biological-preservation/batch-mixing profile. The
+historical held-out comparison uses 128D SOLAR and 30D frozen-reference
+baselines; v1.1 additionally uses the published SCLSC 16D architecture and a
+40D Symphony reference. These are method comparisons, not
+latent-dimension-matched experiments.
 
-No raw single-cell expression matrices or per-cell embeddings are included.
-The public datasets used to generate the results are cited in the manuscript.
+No raw single-cell expression matrices, per-cell embeddings, checkpoints, or
+per-cell predictions are included. The three real normalized datasets are
+from the public scIB Figshare record
+[`10.6084/m9.figshare.12420968`](https://doi.org/10.6084/m9.figshare.12420968);
+exact file hashes are retained in the artifact audit.
 
 ## Integrity
 

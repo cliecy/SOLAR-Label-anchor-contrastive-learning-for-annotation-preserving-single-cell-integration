@@ -1,0 +1,183 @@
+{
+  "aggregation": "Dataset-wise method-cohort min-max scaling under orderings A/B/C; overall=0.4*batch_correction+0.6*bio_conservation. A metric missing for any row is excluded for every method in that ordering's matching normalization group; unavailable metrics never change method-specific composite denominators.",
+  "cohorts": {
+    "main": [
+      "solar_orthogonal",
+      "unintegrated_pca_matched",
+      "frozen_reference_scvi",
+      "frozen_reference_scanvi",
+      "sclsc_refonly"
+    ],
+    "supplementary_embedding": [
+      "solar_orthogonal",
+      "unintegrated_pca_matched",
+      "frozen_reference_scvi",
+      "frozen_reference_scanvi",
+      "sclsc_refonly",
+      "symphony_matched_pca40"
+    ],
+    "supplementary_single_seed_broadcast_for_ordering_A": [
+      "symphony_matched_pca40"
+    ]
+  },
+  "config": "configs/baseline_extension_v1_1.yaml",
+  "config_sha256": "7dff3a899c27108e8f572866a7dac2489cc00bd390c124a1b5a4e8ef8f8caba1",
+  "expected_query_counts": {
+    "frozen_reference_scanvi::common_distance_weighted_15nn": 45,
+    "frozen_reference_scvi::common_distance_weighted_15nn": 45,
+    "sclsc_refonly::common_distance_weighted_15nn": 45,
+    "sclsc_refonly::official_sclsc_unweighted_10nn_training_subset": 45,
+    "scmap_cell::official_scmap_cell": 9,
+    "solar_orthogonal::common_distance_weighted_15nn": 45,
+    "symphony_matched_pca40::common_distance_weighted_15nn": 9,
+    "unintegrated_pca_matched::common_distance_weighted_15nn": 9
+  },
+  "expected_scib_counts": {
+    "frozen_reference_scanvi": 45,
+    "frozen_reference_scvi": 45,
+    "sclsc_refonly": 45,
+    "solar_orthogonal": 45,
+    "symphony_matched_pca40": 9,
+    "unintegrated_pca_matched": 9
+  },
+  "missing_scib_metric_counts_by_method": {
+    "frozen_reference_scanvi": {
+      "hvg_overlap": 45,
+      "trajectory": 30
+    },
+    "frozen_reference_scvi": {
+      "hvg_overlap": 45,
+      "trajectory": 30
+    },
+    "sclsc_refonly": {
+      "hvg_overlap": 45,
+      "trajectory": 31
+    },
+    "solar_orthogonal": {
+      "hvg_overlap": 45,
+      "trajectory": 30
+    },
+    "symphony_matched_pca40": {
+      "hvg_overlap": 9,
+      "trajectory": 6
+    },
+    "unintegrated_pca_matched": {
+      "hvg_overlap": 9,
+      "trajectory": 6
+    }
+  },
+  "observed_query_rows": 252,
+  "observed_scib_rows": 198,
+  "outputs": {
+    "data/baseline_extension_annotation_summary.csv": "7c6ac61458309c027aab8b6579fc9bac7a9f3cdfeb9eb5085eddd6624ffc1a0a",
+    "data/baseline_extension_query_metrics_audited.csv": "7eb9bee2e8f15192e1ca93938ec5e5bf391fe7357ca13e3736745cd60204721e",
+    "data/main_scib_composite_v1_1_with_kbet.csv": "b856ac3c6fecd6b3e9c7af9fc937e33174c34e7ee02a042e267be7a89a169052",
+    "data/main_scib_composite_v1_1_without_kbet.csv": "455150f31e2bc460abbb6672f336f4df06c590466c7c0cd4cd3fdd6c052bc597",
+    "data/main_table_v1_1.csv": "2c4ff8f69448fd5f5b974550816c77af0221d311ea5a5392caa35061fa56abbe",
+    "data/supplementary_embedding_scib_composite_v1_1_with_kbet.csv": "4288f7dd13d57d54c3aea6737e7f841c4532fd5d29bad531a0f0b4b3ff9bd6ac",
+    "data/supplementary_embedding_scib_composite_v1_1_without_kbet.csv": "e49e600f7e7105639dfaa7cfead6ad0b649c34ef630d3298117c737519692bb2",
+    "data/supplementary_table_v1_1.csv": "4743dd69d1fada17bb7964e7ab4fcf8928a937dc369bbaea5038d79b65fd0428"
+  },
+  "schema_version": 1,
+  "sclsc_multiseed_independence": {
+    "immune_cell_human::10X": {
+      "seeds": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "unique_embedding_sha256": 5
+    },
+    "immune_cell_human::Oetjen_A": {
+      "seeds": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "unique_embedding_sha256": 5
+    },
+    "immune_cell_human::Villani": {
+      "seeds": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "unique_embedding_sha256": 5
+    },
+    "lung_atlas::3": {
+      "seeds": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "unique_embedding_sha256": 5
+    },
+    "lung_atlas::4": {
+      "seeds": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "unique_embedding_sha256": 5
+    },
+    "lung_atlas::B1": {
+      "seeds": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "unique_embedding_sha256": 5
+    },
+    "pancreas::fluidigmc1": {
+      "seeds": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "unique_embedding_sha256": 5
+    },
+    "pancreas::inDrop2": {
+      "seeds": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "unique_embedding_sha256": 5
+    },
+    "pancreas::inDrop3": {
+      "seeds": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "unique_embedding_sha256": 5
+    }
+  },
+  "source_files": {
+    "data/baseline_extension_artifact_audit.json": "02e40d74f40a16a7d65679853e9aeb6c93deda1b0ea506f865fe5994260c28ba",
+    "data/baseline_extension_query_metrics.csv": "38e5edee7cbb51041937fa0650c27cd729c94fa276d78205e2bc11197287e0e5",
+    "data/baseline_extension_scib_audit.json": "eec8feefd579e109adb18ec07010b7947f04b0c1c4228ff2c861fefb8e676c39",
+    "data/baseline_extension_scib_metrics.csv": "d8ebc2c7dfbbbb22069d5c336137c132c4fce7361d58afabc692b9f554051b07",
+    "data/classifier_unified_summary.csv": "9d297e8b6c09ecfb4d3045674df4a9fcdfec5c8bf096a9a571860ecd6a43153e",
+    "data/raw_scib_metrics_all_runs.csv": "d0e65f5b2a03f77525a54e82281e5ac69c05596a865cb518acfde07ccdeba97a"
+  },
+  "state": "passed"
+}

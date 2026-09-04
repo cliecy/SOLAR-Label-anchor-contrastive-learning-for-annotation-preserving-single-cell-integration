@@ -1,0 +1,6 @@
+method,A_per_replicate_scale,B_seedmean_then_scale,C_dataset_level_scale,rank_A,rank_B,rank_C,higher_is_better,kbet_included
+solar_orthogonal,0.7037336599592181,0.7134198464762628,0.7327874834347177,2.0,2.0,2.0,True,False
+unintegrated_pca_matched,0.2754543959651282,0.2710473666033901,0.25427986337095504,5.0,5.0,5.0,True,False
+frozen_reference_scvi,0.5683188889752679,0.5604241020028486,0.5413996850338664,4.0,4.0,4.0,True,False
+frozen_reference_scanvi,0.762338387434751,0.7681455743854082,0.7595224157664301,1.0,1.0,1.0,True,False
+sclsc_refonly,0.6302716154485819,0.6329628629983753,0.6507198552029597,3.0,3.0,3.0,True,False

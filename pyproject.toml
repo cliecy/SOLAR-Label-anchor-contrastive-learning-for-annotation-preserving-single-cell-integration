@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "solar-label-anchor"
-version = "1.0.1"
+version = "1.1.0"
 description = "SOLAR: label-anchor contrastive learning for annotation-preserving single-cell integration"
 readme = "README.md"
 license = "MIT"
@@ -21,7 +21,7 @@ dependencies = [
 [project.optional-dependencies]
 # Only needed to regenerate the results tables / figures in scripts/.
 # Not required to install and use SOLAR itself.
-scripts = ["pandas>=2", "matplotlib>=3.7", "pytest>=8"]
+scripts = ["pandas>=2", "matplotlib>=3.7", "pytest>=8", "pyyaml>=6"]
 
 [project.scripts]
 solar-benchmark = "SOLAR.benchmark.cli:main"
